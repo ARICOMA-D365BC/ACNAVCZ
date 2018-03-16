@@ -1,1 +1,2 @@
-HTML soubory nápovědy pro addony v CZ
+﻿HTML soubory nápovědy pro addony v CZ
+.
