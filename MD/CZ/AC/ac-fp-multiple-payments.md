@@ -20,7 +20,14 @@ ms.lasthandoff: 02/26/2018
 
 Add-on modul Více úhrad rozšiřuje standard prodejních dokladů, kdy namísto jednoho způsobu platby je možné definovat více způsobů např. část prodejního dokladu uhradit platební kartou a část hotově.
 
-Na primárních dokladech (faktura, objednávka, dobropis) je v rozpisu platby možné definovat jeden či více typů úhrad (kódů způsobu platby) a tyto následně zaúčtovat (tzn. zaplatit doklad). Obdobně lze provést zaúčtování rozpisu platby na vytvořeném resp. zaúčtovaném dokladu (faktura, dobropis, záloha). Modul tvoří základ pro podporu maloobchodního prodeje a lze jej využívat spolu s modulem Fiskální tiskárny.
+Na primárních dokladech (faktura, objednávka, dobropis) je v rozpisu platby možné definovat jeden či více typů úhrad (kódů způsobu platby) a tyto následně zaúčtovat (tzn. zaplatit doklad). Obdobně lze provést zaúčtování rozpisu platby na vytvořeném resp. zaúčtovaném dokladu (faktura, dobropis, záloha). Modul tvoří základ pro podporu maloobchodního prodeje formou Cash&Carry a lze jej využívat spolu s modulem Fiskální tiskárny.
+
+## Možnosti nastavení:
+
+- Možnost definování automatického generování Kódu způsobu polatby.
+- Kontrola přiřazení fiskální tiskárny k bankovnímu účtu.
+- Číslená řada pro doklady platby.
+
 
 ## <a name="see-also"></a>Viz také  
 [AC Financial Pack](ac-fp-financial-pack.md) 
