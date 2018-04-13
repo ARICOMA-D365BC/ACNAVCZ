@@ -142,4 +142,6 @@ Zdrojem dat je tabulka Prodejní hlavička a Položka zákazníka. V reportu je 
 * filtr dle údajů z položek zákazníka 
 * Včetně uzavřených řízení – pokud je zaškrtnuto, zobrazí se i doklady pro zákazníky, kteří mají uzavřené záznamy v IR.
 
+## <a name="see-also"></a>Viz také   
 
+[AC Financial Pack](ac-fp-financial-pack.md)

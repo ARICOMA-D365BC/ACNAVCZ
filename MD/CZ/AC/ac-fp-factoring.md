@@ -77,7 +77,9 @@ Pokud se jedná o regresní faktoring, faktor může pohledávku vrátit, musí 
 Pro vrácení pohledávky je nutné v Zaúčtovaném faktoringu zvolit akci **Vrátit pohledávku faktoringu**.
 Po tomto příkazu systém odúčtuje nově vzniklou faktoringovou položku a naúčtuje ji zpět k zákazníkovi / dodavateli.
 
+## <a name="see-also"></a>Viz také   
 
+[AC Financial Pack](ac-fp-financial-pack.md)
 
 
 
