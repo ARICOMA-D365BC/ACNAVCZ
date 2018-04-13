@@ -24,4 +24,4 @@ Odstavec 1.
 Odstavec 2.
 
 ## <a name="see-also"></a>Viz také  
-[AC NázevBalíčku](ac-NazevBalicku . md)
+[AC NázevBalíčku](ac-NazevBalicku.md)
