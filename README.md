@@ -1,6 +1,4 @@
-# ACNAVCZ
-
-## AC NAVCZ Repository - Help
+# AC NAVCZ Repository - Help
 
 Zde je repozitář pro nápovědu AutoCont Implementační Báze Dynamics NAV
 
