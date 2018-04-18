@@ -1,20 +1,24 @@
 # ACNAVCZ
-AC NAVCZ Repository - Help
 
-Zde je repozitář pro AutoCont Implementační Bázi Dynamics NAV
+## AC NAVCZ Repository - Help
+
+Zde je repozitář pro nápovědu AutoCont Implementační Báze Dynamics NAV
 
 Složky repozitáře mají tuto strukturu:
 
-MD - zdrojový obsah nápovědy v MarkDown formátu
-    CZ
-        ACFunctionality
-        LocalFunctionality
-    EN
-        ACFunctionality
-        LocalFunctionality
+**MD** - zdrojový obsah nápovědy v MarkDown formátu
 
-HTML - vygenerovaný obsah nápovědy z MD souborů do HTML souborů pro NAV HelpServer
+    CZ\
+    EN\
+    Help_MD_Templates\ - šablony pro MD soubory nápovědy
+   
+**HTML** - vygenerovaný obsah nápovědy z MD souborů do HTML souborů pro NAV HelpServer
 
-Obsah nápovědy je v souboru ToC.xml, který je nutné modifikovat ručně.
+    CZ\
+    EN\
+    Help_Html_Templates\ - šablony "N_" souborů stránek NAV (Pages)
+
+
+Obsah nápovědy je ve složce HTML\ v souboru **ToC.xml**, který je nutné modifikovat ručně.
 
 
