@@ -1,4 +1,14 @@
-﻿## Obecné popisy
+﻿---
+    title: "Lázeňské řešení"
+    author: AutoCont
+    ms.date: 04/30/2018
+    ms.topic: article
+    ms.prod: dynamics-nav-2017
+    ms.contentlocale: cs-cz
+    ms.lasthandoff: 04/30/2018
+---
+
+# Obecné popisy
 **Obecné popisy** jednak rozšířují standardní texty, které se používají v systému např. do fakturačních řádků, jednak se zde dají definovat jakékoli obecné texty, které lze pak využít k různým účelům, jako např. text do předmětu e-mailu, text do těla e-mailu, oslovení. 
 Obecné popisy se mohou a nemusí vztahovat ke konkrétní tabulce. Pole z tabulky je pak možno využít v syntaxi textu. Text si tak uživatel může vyskládat z:
 -	vlastního textu
@@ -11,4 +21,7 @@ Pomocí akce Test je možno pro vybraný záznam zkontrolovat podobu nadefinovan
 
 **Kódy užití obecných popisů** – jedná se o uživatelsky definovaný číselník, který slouží pro definici použití obecných popisů. 
 
-**Nastavení popisů** – tato struktura slouží k nastavení použití obecných popisů v různých částech lázeňského řešení. 
+**Nastavení popisů** – tato struktura slouží k nastavení použití obecných popisů v různých částech lázeňského řešení.
+
+## <a name="see-also"></a>Viz také
+[Lázeňské řešení](ac-spa-solution.md)
