@@ -12,4 +12,4 @@
 Kódy užití obecných popisů – jedná se o uživatelsky definovaný číselník, který slouží pro definici použití obecných popisů.
 
 ## <a name="see-also"></a>Viz také
-[Lázeňské řešení](ac-spa-solution.md)
+[AC Lázeňské řešení](ac-spa-solution.md)

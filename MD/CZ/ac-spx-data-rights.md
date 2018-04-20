@@ -24,4 +24,4 @@ Pole „Způsob vyhodnocení“ určuje, co se vyhodnocuje. Může nabývat hodn
 Identifikaci jednotlivých práv na data si může určit zákazník. Jaký „Kód“ se použije pro jakou funkčnost, se nastavuje v tabulce **Nastavení práv na data**. Tato tabulka slouží k přiřazení konkrétních kódů práv na data k jednotlivým účelům použití, podobně jako se nastavují Kódy původu.
 
 ## <a name="see-also"></a>Viz také
-[Lázeňské řešení](ac-spa-solution.md)
+[AC Lázeňské řešení](ac-spa-solution.md)

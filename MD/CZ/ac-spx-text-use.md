@@ -12,4 +12,4 @@
 Kódy užití umožňují škálovat texty, které se pak připojují k různým entitám.
 
 ## <a name="see-also"></a>Viz také
-[Lázeňské řešení](ac-spa-solution.md)
+[AC Lázeňské řešení](ac-spa-solution.md)

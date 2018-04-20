@@ -17,4 +17,4 @@ Tlačítko „Překlad“ můžeme najít např. u lázeňské služby, kde je m
 Kromě překladů standardních polí jsou v lázeňském řešení umožněny i překlady obecných i průvodních textů, obecných popisů.
 
 ## <a name="see-also"></a>Viz také
-[Lázeňské řešení](ac-spa-solution.md)
+[AC Lázeňské řešení](ac-spa-solution.md)

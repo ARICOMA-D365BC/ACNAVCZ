@@ -24,4 +24,4 @@ Pomocí akce Test je možno pro vybraný záznam zkontrolovat podobu nadefinovan
 **Nastavení popisů** – tato struktura slouží k nastavení použití obecných popisů v různých částech lázeňského řešení.
 
 ## <a name="see-also"></a>Viz také
-[Lázeňské řešení](ac-spa-solution.md)
+[AC Lázeňské řešení](ac-spa-solution.md)

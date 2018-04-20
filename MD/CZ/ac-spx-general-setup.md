@@ -16,4 +16,4 @@ Tato struktura obsahuje základní nastavení týkající se obecné podpůrné 
 -	Události – zde se nastavuje zpracování událostí, které jsou přístupné v info panelu Události v centru rolí
 
 ## <a name="see-also"></a>Viz také
-[Lázeňské řešení](ac-spa-solution.md)
+[AC Lázeňské řešení](ac-spa-solution.md)

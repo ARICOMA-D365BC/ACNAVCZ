@@ -20,4 +20,4 @@ Průvodní texty se zobrazují v Info panelu u dané entity, pokud je pro danou 
 Pokud je pro dané užití průvodního textu nastavena šablona obecného textu, může ji uživatel využít pomocí akce „Použij šablonu“. Tím se do obsahu průvodního textu zkopíruje text definovaný v obecných textech. Uživatel jej může dodatečně upravit. 
 
 ## <a name="see-also"></a>Viz také
-[Lázeňské řešení](ac-spa-solution.md)
+[AC Lázeňské řešení](ac-spa-solution.md)
