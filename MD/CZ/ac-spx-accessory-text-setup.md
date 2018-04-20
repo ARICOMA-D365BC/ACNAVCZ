@@ -1,4 +1,4 @@
-﻿## Nastavení průvodních textů
+# Nastavení průvodních textů
 Nastavení průvodních textů představuje uživatelsky definovaný číselník, který určuje, pro kterou entitu budou průvodní texty přístupné a s jakými kódy užití. Hodnota v poli „Pořadí pro výběr“ určuje, v jakém pořadí se budou kódy užití průvodních textů nabízet uživateli v rámci stejné entity.
 V poli „Použij skupinu textů jako šablonu“ je možno vybrat skupinu obecných textů, která bude sloužit jako šablona pro dané užití průvodního textu. Uživatel pak tuto šablonu může využít při za-dávání průvodního textu k dané entitě a případně ji jen upravit dle vlastností dané entity. 
 
