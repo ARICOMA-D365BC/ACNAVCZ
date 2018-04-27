@@ -10,7 +10,7 @@
 
 # Smluvní odbornosti ZP
 
-V číselníku smluvních odborností ZP se definuje název dávky a cesta k souboru s dávkami pro ambu-lantní  a ústavní péči pro každou pojišťovnu a smluvní odbornost. 
+V číselníku smluvních odborností ZP se definuje název dávky a cesta k souboru s dávkami pro ambulantní  a ústavní péči pro každou pojišťovnu a smluvní odbornost. 
 
 
 ## <a name="see-also"></a>Viz také
