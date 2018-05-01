@@ -1,0 +1,29 @@
+﻿---
+    title: "Spa solution"
+    author: AutoCont
+    ms.date: 04/30/2018
+    ms.topic: article
+    ms.prod: dynamics-nav-2017
+    ms.contentlocale: en
+    ms.lasthandoff: 04/30/2018
+---
+
+# Client Account Entry 
+
+Client account presents a detailed billing information for all of the services provided during the stay of the client. Every stay at the client, there is just one client account that are continuously replenished by items of a client account from multiple sources.
+The items the client account shall be divided into items of type:
+-	Calculation
+Calculation Type items represent a price proposal. Can arise even before the actual income of the client. In that case, the amount is calculated from the default settings. Items of type calculation arise only from the automatic acquisition by using the function, create a calculati-on to date and create a complete quote on the residence of the client. By running these functions with items of type calculation always deleted and created again. Calculation type items are always open.
+-	Consumption
+Consumption-type items are no longer the actual utilization of services. Are generated auto-matically ("Post consumption of the client account") or manual acquisition. 
+Manual acquisition services to the client account is done through the page Service items manually. It is mainly used for ancillary services for the services for which the items are pro-duced to automatically is a manual acquisition rather rare and is used mainly for the purposes of corrections.  
+Item type usage already prepared payment order. Item type usage are open until they are fully paid.
+-	Sale
+Sale type items represent reimbursement of services. Arise through an invoice, receipt or a credit memo. Individual item consumption and sales when you post sales offset each other completely or only partially.
+
+The individual items of the client's account may be subject to various payers (main, supplementary, and the client) and the amounts of the individual items on the client's account may be divided between the payer and alternative payer. Items of the client's account may be charged to the invoice or receipt. If the payer is in itself a spa items, then they are charged to the internal document. 
+
+
+
+## <a name="see-also"></a>See also
+[AC Spa solution](ac-spa-solution.md)
