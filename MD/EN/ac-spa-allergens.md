@@ -10,7 +10,7 @@
 
 # Allergens
 
-TThis spinner allows you to set the for a list of allergens. Allergens can then be assigned to a specific item in infopanelu allergens. 
+This spinner allows you to set the for a list of allergens. Allergens can then be assigned to a specific item in infopanelu allergens. 
 
 
 ## <a name="see-also"></a>See also
