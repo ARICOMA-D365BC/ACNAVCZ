@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Node Name="DynamicsHelp" DisplayName="Nápověda" Page="conGettingStarted.htm">
+  <Node Name="GettingStarted" DisplayName="Začínáme s Microsoft Dynamics NAV 2017" Page="conGettingStarted.htm">
+   <Node Name="AppChanges" DisplayName="Změny v aplikaci pro Microsoft Dynamics NAV 2017" Page="trbWhatsNewApplicationChangesForNAV.htm"/>
+   <Node Name="PlatformChanges" DisplayName="Změny platformy for Microsoft Dynamics NAV 2017" Page="conWhatsNewDeveloperITProChangesForNAV.htm"/>
+   <Node Name="LearnAboutRTC" DisplayName="Seznamte se s klientem na míru rolím" Page="conLearnAboutRoletailoredDesign.htm"/>
+   <Node Name="Roles" DisplayName="Role" Page="conRoles.htm" />
+   <Node Name="Accessibility" DisplayName="Usnadnění pro osoby se zdravotním postižením" Page="conAccessibilityForPeopleWithDisabilities.htm"/>
+   <Node Name="BusProcessWalk" DisplayName="Návod - obchodní procesy" Page="oriBusinessProcessWalkthroughs.htm"/>
+   <Node Name="CRONUSDemoDatabase" DisplayName="CRONUS CZ s.r.o. demo databáze" Page="conCRONUSInternationalLtdDemonstrationDatabase.htm" />
+   <Node Name="AboutHelp" DisplayName="Hledání informací" Page="conFindingInformationInHelp.htm"/>
+   <Node Name="CopyrightTrademarks" DisplayName="Copyright a ochranné známky" Page="oriCopyrightTrademarks.htm"/>
+   <Node Name="AppDesignDetails" DisplayName="Design aplikace" Page="conApplicationDesign.htm" />
+  </Node>  
+  <Node Name="WorkingWith" DisplayName="Práce s Microsoft Dynamics NAV 2017" Page="conWorkWithData.htm">
+   <Node Name="ChangeBasicSet" DisplayName="Změna základního nastavení" Page="conChangeBasicSettings.htm"/>
+   <Node Name="EnterCriteriainFilters" DisplayName="Zadávání kritérií do filtrů" Page="conEnteringCriteriaInFilters.htm"/>
+   <Node Name="WorkwithReportsinNAV" DisplayName="Práce se sestavami v Microsoft Dynamics NAV" Page="conWorkingWithReportsInNav.htm"/>
+   <Node Name="WriteNotes" DisplayName="Psaní poznámek" Page="S_NOTES.htm"/>
+   <Node Name="Search" DisplayName="Hledat" Page="S_SEARCH.htm"/>
+   <Node Name="UseFind" DisplayName="Jak: Používat Hledat/Jdi na" Page="tskUseFindGo.htm"/>
+   <Node Name="SearchingforData" DisplayName="Hledání dat" Page="conSearchingForData.htm"/>
+   <Node Name="EnterData" DisplayName="Jak: Zadat data" Page="tskEnterData.htm"/>
+   <Node Name="CreateNewLinesandNewCards" DisplayName="Jak: Vytvořit nové řádky a nové karty" Page="tskCreateNewLinesNewCards.htm"/>
+   <Node Name="CreateCardsbyUsingDataTemplates" DisplayName="Jak: Vytvořit karty použitím šablon dat" Page="tskCreateCardsByUsingDataTemplates.htm"/>
+   <Node Name="MakeWindowsEditable" DisplayName="Jak: Nastavit okna editovatelnými" Page="tskMakeWindowsEditable.htm"/>
+   <Node Name="MandatoryFields" DisplayName="Povinná pole" Page="conMandatoryFields.htm"/>
+   <Node Name="EnterDatesandTimes" DisplayName="Jak: Zadat datum a čas" Page="conEnterDatesTimes.htm"/>
+   <Node Name="EnterNegativeNumbers " DisplayName="Jak: Zadat záporná čísla " Page="conEnteringNegativeAmounts.htm"/>
+   <Node Name="HowthePostCodeandCityFieldsAreFilled" DisplayName="Jak jsou naplňována pole PSČ a město" Page="conPostCodeCityFieldsAreFilledIn.htm"/>
+   <Node Name="CopyandPasteRows" DisplayName="Jak: Kopírovat a vložit řádky" Page="tskCopyPasteRows.htm"/>
+   <Node Name="Keyboard Shortcuts" DisplayName="Klávesové zkratky" Page="conKeyboardShortcuts.htm"/>
+   <Node Name="Sorting" DisplayName="Třídění" Page="conSorting.htm"/>
+   <Node Name="SendEmailMessages" DisplayName="Jak: Zaslat hlášky emailem" Page="tskSendEmailMessages.htm"/>
+   <Node Name="Multilanguage Functionality" DisplayName="Vícejazyčná funkcionalita" Page="conMultilanguageFunctionality.htm"/>
+   <Node Name="RunBatchJobs" DisplayName="Jak: Spouštět dávkové úlohy" Page="tskRunBatchJobs.htm"/>
+   <Node Name="CreateComments" DisplayName="Jak: Vytvořit komentáře" Page="tskCreateComments.htm"/>
+   <Node Name="FindAnyEntrywithNavigate" DisplayName="Hledání jakékoli položky pomocí Navigace" Page="AboutNavigate.htm"/>
+   <Node Name="ViewTableDataforaPageorReport" DisplayName="Zobrazit data tabulky pro stránku nebo sestavu" Page="S_ZOOM.htm"/>
+   <Node Name="UseConnectOnline" DisplayName="Informace online" Page="N_9175_2.htm"/>
+   <Node Name="LinkfromRecordstoExternalInformationorPrograms" DisplayName="Jak: Vytvořit odkaz ze záznamu k externím informacím nebo programům" Page="tskLinkFromRecordsExternalInformationPrograms.htm"/>
+   <Node Name="CopyLinktoPage" DisplayName="Jak: Kopírovat odkaz ke stránce" Page="tskCopyLinkPage.htm"/>
+   <Node Name="InsertPictures" DisplayName="Jak: Vložit obrázek" Page="tskInsertPictures.htm"/>
+   <Node Name="UsetheSystemIndicator" DisplayName="Jak: Použít systémový indikátor" Page="tskUseSystemIndicator[2].htm"/>
+   </Node>    
+  <Node Name="Setup" DisplayName="Nastavení a správa" Page="conSetupAdministration.htm">
+   <Node Name="RapidStart" DisplayName="Nastavení společnosti pomocí RapidStart Services pro Microsoft Dynamics NAV" Page="conSetUpCompanyWithRapidstartServicesForNAV.htm" />
+   <Node Name="AdminInRTC" DisplayName="Správa v klientech" Page="conAdministrationInRoletailoredClients.htm" />
+   <Node Name="customizeUI" DisplayName="Přizpůsobit uživatelské rozhraní" Page="conSetUpUsersConfigureUserInterfaces.htm" />
+   <Node Name="SetupDataExchange" DisplayName="Nastavit Microsoft Dynamics NAV pro výměnu bankovních dat" Page="conDataExchangeSetup.htm" />
+   <Node Name="ManageDataEncryp" DisplayName="Šifrování" Page="ManageDataEncryption.htm" />
+   <Node Name="SetupBestPractices" DisplayName="Nastavení oblastí aplikace použitím Nejlepších postupů nastavení" Page="oriSetupBestPractices.htm" />
+   <Node Name="PublishWebService" DisplayName="Jak: Publikovat webové služby" Page="tskPublishWebService.htm" />
+   <Node Name="SetUpSMTPEMail" DisplayName="Jak: Nastavit SMTP Mail" Page="tskSetUpSMTPEMail.htm" />
+   <Node Name="CreateGenericCharts" DisplayName="Jak: Vytvořit obecné grafy" Page="tskCreateGenericCharts.htm"/>
+   <Node Name="EditSpecificCharts" DisplayName="Jak: Editovat specifické grafy" Page="tskEditSpecificCharts.htm"/>
+   <Node Name="ManageStyleSheets" DisplayName="Jak: Spravovat šablony stylů" Page="tskManageStyleSheets.htm"/>
+   <Node Name="SetUpColoredIndicatoronCuesforCompanyorIndividualUsers" DisplayName="Jak: Nastavit barevný indikátor pro hromádky pro společnost nebo konkrétního uživatele" Page="tskSetupPerformanceIndicationOnCuesForEntireCompanyIndividualUse.htm"/>
+   <Node Name="SetUpColoredIndicatoronCuesofYourRoleCenter" DisplayName="Jak: Nastavit barevný indikátor na hromádkách vašeho cetra rolí" Page="tskSetUpPerformanceIndicationOnCuesOfYourRoleCenter.htm"/>
+   
+   </Node>    
+  <Node Name="Finance" DisplayName="Finance" Page="conFinance.htm">
+   <Node Name="ConfigureFinanceProcesses" DisplayName="Konfigurace finančních procesů" Page="conConfigureFinanceProcesses.htm" />
+   <Node Name="WorkWithGeneralJournalse" DisplayName="Práce s finančním deníkem" Page="conWorkWithGeneralJournals.htm" />
+   <Node Name="ManageCash" DisplayName="Řízení hotovosti" Page="conManageCash.htm" />
+   <Node Name="ManageReceivables" DisplayName="Řízení pohleádvek" Page="conManageReceivables.htm" />
+   <Node Name="ManagePayables" DisplayName="Řízení závazků" Page="conManagePayables.htm" />
+   <Node Name="ManageCostAccounting" DisplayName="Řízení nákladového účetnictví" Page="conManageCostAccounting.htm" />
+   <Node Name="ManageCashFlowForecasts" DisplayName="Řízení cash flow" Page="conManageCashFlowForecasts.htm" />
+   <Node Name="ManageInventoryCosts" DisplayName="Řízení zásob" Page="conManageInventoryCosts.htm" />
+   <Node Name="ManageIntercompanyTransactions" DisplayName="Řízení vnitropodnikových transakcí" Page="conManageIntercompanyTransactions.htm" />
+   <Node Name="ManageFixedAssets" DisplayName="Řízení dlohodobého majetku" Page="conManageFixedAssets.htm" />
+   <Node Name="CloseYearsPeriods" DisplayName="Uzavření roku" Page="conCloseYearsPeriods.htm" />
+   </Node>
+  <Node Name="BusIntell" DisplayName="Business Intelligence" Page="conBusinessIntelligence.htm">
+   <Node Name="AnalyzeActualAmountsBudgetAmounts" DisplayName="Analýza aktuálních částek a částek rozpočtu" Page="conAnalyzeActualAmountsBudgetAmounts.htm" />
+   <Node Name="CreateSetUpAccountSchedules" DisplayName="Vytvoření a nastavení účetních schémat" Page="conCreateSetUpAccountSchedules.htm" />
+   <Node Name="SetupPublishKPI" DisplayName="Jak: Nastavit a publikovat KPI Web Services založené na účetních schématech" Page="tskSetUpPublishKPIWebServicesBasedOnAccountSchedules.htm" />
+   <Node Name="AnalyzeDataByDimensions" DisplayName="Analýza dat dle dimenzí" Page="conAnalyzeDataByDimensions.htm" />
+   <Node Name="CreateReportsWithXBRL" DisplayName="Vytvořit sestavy s XBRL" Page="conCreateReportsWithXBRL.htm" />
+   <Node Name="CreateAnalysisViewsReports" DisplayName="Vytváření pohledů analýz a sestav" Page="conCreateAnalysisViewsReports.htm" />
+   </Node>
+  <Node Name="Marketing" DisplayName="Marketing" Page="conMarketing.htm">
+   <Node Name="ConfigureMarketingProcesses" DisplayName="Konfigurace procesů marketingu" Page="conConfigureMarketingProcesses.htm" />
+   <Node Name="TablesMarketing" DisplayName="Tabulky marketingu" Page="conTables[21].htm" />
+   </Node>
+  <Node Name="Sales" DisplayName="Prodej" Page="conSales.htm">
+   <Node Name="ConfigureSalesProcesses" DisplayName="Konfigurace prodejních procesů" Page="conConfigureSalesProcesses.htm" />
+   <Node Name="EstablishSalesForecasts" DisplayName="Vytváření prodejních prognóz" Page="conEstablishSalesForecasts.htm" />
+   <Node Name="SellGoods" DisplayName="Prodej zboží" Page="conSellGoods.htm" />
+  </Node>
+  <Node Name="DesignEngineering" DisplayName="Návrh" Page="conDesignEngineering.htm">
+   <Node Name="DesignProducts" DisplayName="Návrh výrobku" Page="conDesignProducts.htm" />
+   <Node Name="DefineMaterialProcessStructure" DisplayName="Definice materiálu a procesů" Page="conDefineMaterialProcessStructure.htm" />      
+  </Node>
+  <Node Name="OpsPlanning" DisplayName="Plánování operací" Page="conOperationsPlanning.htm">
+   <Node Name="PlanResAvail" DisplayName="Plánování dostupnosti zdrojů" Page="conPlanForResourceAvailability.htm" />
+   <Node Name="PerformMasterPlan" DisplayName="Vytvoření hlavního plánu" Page="conPerformMasterPlanning.htm" />
+   <Node Name="PerformMatReqPlan" DisplayName="Zpracování plánovaných požadavků na materiál" Page="conPerformMaterialRequirementsPlanning.htm" />
+   <Node Name="ComProdOrders" DisplayName="Komunikace plánů výroby" Page="conCommunicateProductionPlans.htm" />
+   </Node>
+  <Node Name="Purchasing" DisplayName="Nákup" Page="conPurchasing.htm">
+   <Node Name="ConfigurePurchaseProcesses" DisplayName="Konfigurace nákupních procesů" Page="conConfigurePurchaseProcesses.htm" />
+   <Node Name="PurchaseGoods" DisplayName="Nákup zboží" Page="conPurchaseGoods.htm" />
+   </Node>
+  <Node Name="Receiving" DisplayName="Příjem" Page="conReceiving.htm">
+   <Node Name="ReceiveItems" DisplayName="Jak: Přijmout zboží" Page="tskReceiveItems.htm" />
+   <Node Name="ProcessPurchases" DisplayName="Zpracování nákupních objednávek" Page="conProcessingPurchaseOrders.htm" />
+   <Node Name="CrossDock" DisplayName="Jak: přeložit zboží" Page="tskCrossDockItems.htm" />
+   </Node>
+  <Node Name="WarehouseActivities" DisplayName="Aktivity skladu" Page="conWarehouseActivities.htm">
+   <Node Name="ConfigureWarehouseProcesses" DisplayName="Konfigurace procesů skladu" Page="conConfigureWarehouseProcesses.htm" />
+   <Node Name="PerformWarehouseActivities" DisplayName="Zpracování aktivit skladu" Page="conPerformWarehouseActivities.htm" />
+   </Node>
+  <Node Name="Production" DisplayName="Výroba" Page="conProduction[2].htm">
+   <Node Name="ConfigProdProcess" DisplayName="Konfigurace výrobních procesů" Page="conConfigureProductionProcesses.htm" />
+   <Node Name="SchedProdActivities" DisplayName="Plánování výrobních aktivit" Page="conScheduleProductionActivities.htm" />
+   <Node Name="IssueMaterials" DisplayName="Vydaní materiálů" Page="conIssueMaterials.htm" />
+   <Node Name="ExecuteProduction" DisplayName="Spustit výrobu" Page="conExecuteProduction.htm" />
+	</Node>
+  <Node Name="Shipping" DisplayName="Dodání" Page="conShipping.htm">
+   <Node Name="PrepareShipments" DisplayName="Jak: Připravit dodávku" Page="tskPrepareShipments.htm" />
+   <Node Name="ProcessSales" DisplayName="Zpracování prodejních objednávek" Page="conProcessingSalesOrders.htm" />
+   <Node Name="ShipTransfers" DisplayName="Jak: Dodat objednávku transferu" Page="tskShipTransferOrders.htm" />
+  </Node>
+  <Node Name="Service" DisplayName="Servis" Page="conService.htm">
+   <Node Name="ConfigServices" DisplayName="Konfigurace procesů servisu" Page="conConfigureServiceProcesses.htm" />
+   <Node Name="PlanService" DisplayName="Plánování servisu" Page="conPlanService.htm" />
+   <Node Name="FulfillServContract" DisplayName="Plnění servisních smluv" Page="conFulfillServiceContracts.htm" />
+   <Node Name="HandleCustInquir" DisplayName="Zpracovat poptávky zákazníka" Page="conHandleCustomerInquiries.htm" />
+   <Node Name="DeliverService" DisplayName="Doručit servis" Page="conDeliverService.htm" />
+	</Node>
+  <Node Name="ResourcePlanning" DisplayName="Plánování zdrojů" Page="conResourcePlanning.htm">
+   <Node Name="PriceScheduleManageRes" DisplayName="Řízení zdrojů" Page="conPriceScheduleManageResources.htm" />
+   <Node Name="UseTimeSheets" DisplayName="Použití pracovních výkazů" Page="conUseTimeSheets.htm" />
+  </Node>
+  <Node Name="Jobs" DisplayName="Projekty" Page="conJobs.htm">
+   <Node Name="SetUpJobs" DisplayName="Nastavení projektů" Page="conSetUpJobs.htm" />
+   <Node Name="ManageProjectBudgets" DisplayName="Řízení rozpočtů projektů" Page="conManageProjectBudgets.htm" />
+   <Node Name="MonProgressPerf" DisplayName="Monitorování pokroku a výkonu" Page="conMonitorProgressPerformance.htm" />
+   <Node Name="ManProjectSupp" DisplayName="Spravovat zásoby projektů" Page="conManageProjectSupplies.htm" />
+   <Node Name="InvoiceJobs" DisplayName="Fakturovat projekty" Page="conInvoiceJobs.htm" />
+   </Node>
+  <Node Name="HumanResources" DisplayName="Lidské zdroje" Page="conHumanResources[2].htm">
+   <Node Name="SetUpEmployees" DisplayName="Nastavení zaměstnanců" Page="conSetUpEmployees.htm" />
+   <Node Name="AssignCodes" DisplayName="Přiřazení kódů" Page="conAssignCodes.htm" />
+   <Node Name="RegisterAbsences" DisplayName="Evidence absence" Page="conRegisterAbsences.htm" />
+   </Node>
+  <Node Name="Workflow" DisplayName="Workflow" Page="conWorkflow.htm">
+   <Node Name="SetUpWorkflows" DisplayName="Nastavení Workflow" Page="conSetUpWorkflows.htm" />
+   <Node Name="UseWorkflows" DisplayName="Použití workflow" Page="conUseWorkflows.htm" />
+   </Node>
+  
+  <Node Name="DataExchange" DisplayName="Výměna dat" Page="conDataExchange.htm">
+   <Node Name="AboutDataExchangeFramework" DisplayName="Rámec výměny dat" Page="conAboutDataExchangeFramework.htm" />
+   <Node Name="SetUpDataExchange" DisplayName="Jak: Nastavit výměnu dat" Page="conSetUpDataExchange.htm" />
+   <Node Name="ExchangeData" DisplayName="Jak: Výměna dat" Page="conExchangeData.htm" />
+   </Node>
+  <Node Name="IncomingDocuments" DisplayName="Došlé doklady" Page="conIncomingDocuments.htm">
+   <Node Name="SetUpIncomingDocuments" DisplayName="Nastavení došlých dokladů" Page="conSetUpIncomingDocuments.htm" />
+   <Node Name="UseIncomingDocuments" DisplayName="Použijte došlé doklady" Page="conUseIncomingDocuments.htm" />
+   </Node>
+  <Node Name="IntegratingWithCRM" DisplayName="Integrace s Microsoft CRM" Page="conIntegratingWithCRM.htm">
+   <Node Name="SettingUpCRMIntegration" DisplayName="Nastavení integrace Microsoft CRM" Page="conSettingUpCRMIntegraltion.htm" />
+   <Node Name="WorkingwithCRMEntities" DisplayName="Working with Microsoft CRM Entities" Page="conWorkingwithCRMEntities.htm" />
+   <Node Name="IntegratingNAVWithCRMUsingConnector" DisplayName="Integrating with Microsoft CRM Using the Connector for Microsoft Dynamics NAV" Page="oriIntegratingNAVWithCRM.htm" />
+
+   </Node>
+  <Node Name="IntegratingWithOffice" DisplayName="Integrace s Microsoft Office" Page="oriIntegratingWithOffice.htm">
+   <Node Name="IntegratingwithOffice365andSharePointOnline" DisplayName="Integrace s Office 365 a SharePoint Online" Page="conIntegratingWithOffice365SharepointOnline.htm" />
+   <Node Name="SendingDatatoMicrosoftExcel" DisplayName="odesílání dat do Microsoft Excel" Page="conSendingDataExcel.htm" />
+   <Node Name="IntegratingwithMicrosoftOneNote" DisplayName="Integrace s Microsoft OneNote" Page="conIntegratingWithOnenote.htm" />
+   <Node Name="SendDatatoOtherPrograms" DisplayName="Jak: Odeslat data do jiných programů" Page="tskSendDataOtherPrograms.htm" />
+   <Node Name="DefaultBehaviorWhenSendingDocumentstoOffice" DisplayName="Výchozí chování pro odesílání dokladů do Office" Page="conDefaultBehaviorWhenSendingDocumentsOffice.htm" />
+   <Node Name="SupportedScenariosWhenSendingDocumentsfromtheWebClient" DisplayName="Podporované scénáře při odesílání dokladů z Web Client" Page="conSupportedScenariosWhenSendingDocumentsFromWebClient.htm" />
+   <Node Name="SendDocumentsasEmail" DisplayName="Jak: Odeslat dokument jako Email" Page="tskSendDocumentsAsEmail.htm" />
+   </Node>
+  <Node Name="SyncNAVWithOutlook" DisplayName="Synchronizace Microsoft Dynamics NAV s Outlookem" Page="conSynchronizingNAVWithOutlook.htm">
+   <Node Name="SettingUpOutlookSynchronization" DisplayName="Návod: Nastavení synchronizace Outlooku" Page="wlkSettingUpOutlookSynchronization.htm" />
+   <Node Name="TipsforSynchronizingwithOutlookItems" DisplayName="Tipy pro synchronizaci s položkami Outlooku" Page="conTipsForSynchronizingWithOutlookItems.htm" />
+   <Node Name="DefineSynchronizationwithOutlookItems" DisplayName="Definovat synchronizační entity" Page="conDefineSynchronizationWithOutlookItems.htm" />
+   <Node Name="DefineSynchronizationwithOutlookCollections" DisplayName="Definovat synchronizace s kolekcemi aplikace Outlook" Page="conDefineSynchronizationWithOutlookCollections.htm" />
+   <Node Name="DefineSynchronizationwithOutlookProperties" DisplayName="Definovat schéma mapování" Page="conDefineSynchronizationWithOutlookProperties.htm" />
+   <Node Name="DefineUserSettings" DisplayName="Definovat nastavení uživatele" Page="conDefineUserSettings.htm" />
+   <Node Name="UsetheMicrosoftDynamicsNAVSynchronizationToolbar" DisplayName="Použít synchronizační panel nástrojů Microsoft Dynamics NAV" Page="conUseNAVSynchronizationToolbar.htm" />
+   <Node Name="ResolveSynchronizationErrorsandConflicts" DisplayName="Řešit potíže a konflikty při synchronizaci" Page="conResolveSynchronizationErrorsConflicts.htm" />
+   <Node Name="SynchronizationConcepts" DisplayName="Koncepty synchronizace" Page="SynchronizationConcepts.htm" />
+   </Node>
+  <Node Name="LogTrackEmailInteract" DisplayName="Protokolování a sledování e-mailových interakcí" Page="conLoggingTrackingEmailInteractions.htm">
+   <Node Name="LoggingEmailInteractionsintheMicrosoftDynamicsNAVDatabase" DisplayName="Návod: Protokolování emailových interakcí v databázi Microsoft Dynamics NAV" Page="wlkLoggingEmailInteractionsInNAVDatabase.htm" />
+   <Node Name="SetUpEmailLogging" DisplayName="Jak: Nastavit protokolování emailu" Page="tskSetUpEmailLogging.htm" />
+   <Node Name="SetUpEmailLoggingforusewiththeJobQueue" DisplayName="Jak: Nastavit protokolování emailu s použitím fronty úloh" Page="tskSetUpEmailLoggingForUseWithJobQueue.htm" />
+   <Node Name="RunEmailLogging" DisplayName="Jak: Spustit protokolování emailu" Page="tskRunEmailLogging.htm" />
+   <Node Name="TroubleshootingEmailLogging" DisplayName="Řešení potíží: Protokolování emailu" Page="trbEmailLogging.htm" />
+   <Node Name="SecurityConsiderationsforEmailLogging" DisplayName="Předpoklady zabezpečení pro protokolování emailu" Page="conSecurityConsiderationsForEmailLogging.htm" />
+   </Node>
+  <Node Name="IntegratingNAVWithCRM" DisplayName="Integrace Microsoft Dynamics NAV s Microsoft Dynamics CRM" Page="oriIntegratingNAVWithCRM.htm">
+   <Node Name="InstalltheConnectorforMicrosoftDynamics" DisplayName="Jak: Instalovat Connector for Microsoft Dynamics" Page="tskInstallConnectorFor.htm" />
+   <Node Name="SetUpandEnabletheConnectorforMicrosoftDynamics" DisplayName="Jak: Nastavit a povolit Connector for Microsoft Dynamics" Page="tskSetUpEnableConnectorFor.htm" />
+   <Node Name="SettingUpMicrosoftDynamicsNAVandMicrosoftDynamicsCRMtoUseConnector" DisplayName="Návod: Nastavení Microsoft Dynamics NAV a Microsoft Dynamics CRM pro použití konektoru" Page="wlkSettingUpNAVCRMUseConnector.htm" />
+   <Node Name="Mapping Entities Between Microsoft Dynamics NAV and Microsoft Dynamics CRM" DisplayName="Mapování  entit mezi Microsoft Dynamics NAV a Microsoft Dynamics CRM" Page="conMappingEntitiesBetweenNAVCRM.htm" />
+   <Node Name="TroubleshootingIntegratingwiththeConnectorforMicrosoftDynamics" DisplayName="Řešení potíží: Integrace s Connector for Microsoft Dynamics" Page="trbIntegratingWithConnectorFor.htm" />
+   </Node>
+  <Node Name="PaymentServicesForERP" DisplayName="Payment Services pro Microsoft Dynamics ERP" Page="oriPaymentServicesForERP.htm">
+   <Node Name="CreditCardPaymentsSetup" DisplayName="Nastavení plateb platební kartou" Page="oriCreditCardPaymentsSetup[2].htm" />
+   <Node Name="CreditCardPaymentProcess" DisplayName="Zpracování plateb platební kartou" Page="conCreditCardPaymentProcess.htm" />
+   <Node Name="SecurityConsiderationsforPaymentServicesforMicrosoftDynamicsERP" DisplayName="Předpoklady zabezpečení  Payment Services for Microsoft Dynamics ERP" Page="conSecurityConsiderationsForOnlineServicesForERP.htm" />
+   </Node>
+  <Node Name="SocialListening" DisplayName="Social Listening" Page="conSocialListening.htm">
+   <Node Name="SettingUpSocialListening" DisplayName="Nastavení Social Listening" Page="conSettingUpSocialListening.htm" />
+   <Node Name="AddSocialListeningSearchTopics" DisplayName="Jak: Přidat téma k vyhledání v Social Listening" Page="tskAddSocialListeningSearchTopics.htm" />
+   </Node>
+  <Node Name="ResponsibilityCenters" DisplayName="Centra odpovědnosti" Page="conSetUpResponsibilityCenters.htm">
+   <Node Name="AboutUsingLocationsandResponsibilityCenters" DisplayName="O použití lokací a center odpovědnosti" Page="conAboutUsingLocationsResponsibilityCenters.htm" />
+   <Node Name="SetUpResponsibilityCentersinInventory" DisplayName="Jak: Nastavit centra odpovědnosti v zásobách" Page="tskSetUpResponsibilityCentersInInventory.htm" />
+   <Node Name="ViewDocumentsfromOneResponsibilityCenter" DisplayName="Jak: Zobrazit doklady z centra odpovědnosti" Page="tskViewDocumentsFromOneResponsibilityCenter.htm" />
+   </Node>
+  <Node Name="NumberSeries" DisplayName="Číselné řady" Page="conCreateNumberSeries.htm">
+   <Node Name="CreateRelationshipsBetweenNumberSeries" DisplayName="Jak: Vytvořit vazbu mezi číselnými řadami" Page="tskCreateRelationshipsBetweenNumberSeries.htm" />
+   <Node Name="UseNumberSeriesRelationships" DisplayName="Jak: Použít vazby mezi číselnými řadami" Page="tskUseNumberSeriesRelationships.htm" />
+   </Node>
+  <Node Name="OnlineMaps" DisplayName="Online Mapy" Page="conOnlineMaps.htm">
+   <Node Name="SetUpOnlineMap" DisplayName="Jak: Nastavit aplikaci Online Map" Page="tskSetUpOnlineMap.htm" />
+   <Node Name="UseOnlineMaptoFindLocations" DisplayName="Jak: Použít aplikaci Online Map pro nalezení lokace" Page="tskUseOnlineMapFindLocations.htm" />
+   <Node Name="UseOnlineMaptoFindDirections" DisplayName="Jak: Použít aplikaci Online Map pro nalezení navigačních pokynů" Page="tskUseOnlineMapFindDirections.htm" />
+   </Node>
+  <Node Name="Troubleshooting" DisplayName="Řešení potíží při použití Microsoft Dynamics NAV" Page="conUsingNAV[1].htm">
+   <Node Name="TRBRecordLocked" DisplayName="Řešení potíží: Záznam uzamčený jiným uživatelem" Page="trbRecordLockedByAnotherUser.htm" />
+   <Node Name="TRBSortingActions" DisplayName="Řešení potíží: Řazení akcí v systémových skupinách" Page="trbSortingActionsInSystemGroups.htm" />
+   <Node Name="TRBRemovingPromotedActions" DisplayName="Řešení potíží: Odebírání akcí zobrazených v domovské záložce" Page="trbRemovingPromotedActionsInHomeTab.htm" />
+   <Node Name="TRBCompressOptions" DisplayName="Řešení potíží: Možnosti komprese ve službě IIS" Page="trbCompressionOptionInIIS.htm" />
+   <Node Name="TRBFileTooLarge" DisplayName="Řešení potíží: Soubor, který se pokoušíte použít je příliš velký" Page="trbFileThatYouAreTryingUseIsTooLarge.htm" />
+   </Node>
+   
+  <Node Name="LocalFuncCZ" DisplayName="Česká lokální funkčnost" Page="oriCzechRepublicLocalFunctionality.htm">
+	<Node Name="LocalFuncCZ" DisplayName="Česká lokální funkčnost" Page="oriCzechRepublicLocalFunctionality.htm"></Node>
+  </Node>
+ 
+  <Node Name="ACSolutions" DisplayName="AutoCont řešení" Page="ac-addons.html">
+    <Node Name="SPASol" DisplayName="AutoCont Lázeňské řešení" Page="ac-spa-solution.html"></Node>	
+  </Node>
+
+ 
+  <Node Name="DevItPro" DisplayName="Help pro vývojáře a IT profesionály pro Microsoft Dynamics NAV 2017" Page="conGettingStarted[1].htm">
+   <Node Name="ProductArch" DisplayName="Architektura produktu" Page="conProductArchitecture.htm" />
+   <Node Name="Deployment" DisplayName="Nasazení" Page="conDeployment[1].htm">
+    <Node Name="SysReq" DisplayName="Systémové požadavky pro for Microsoft Dynamics NAV 2017" Page="oriNAVRequirements.htm" />
+    <Node Name="InstallationOptions" DisplayName="Volby instalace" Page="oriInstallationOptions.htm" />
+   </Node>
+  <Node Name="Development" DisplayName="Vývoj" Page="conDevelopment.htm">
+   <Node Name="CALProgramming" DisplayName="Programování v C/AL" Page="conProgrammingInCAL.htm" />
+   <Node Name="Objects" DisplayName="Objekty" Page="conObjects.htm" />
+   <Node Name="WebServices" DisplayName="Webové služby" Page="conWebServices[1].htm" />
+   <Node Name="ExtendingNAV" DisplayName="Rozšiřování Microsoft Dynamics NAV" Page="conExtendingNAV.htm" />
+   <Node Name="DevelopingForTablet" DisplayName="Vývoj pro Microsoft Dynamics NAV Tablet Client" Page="conDevelopingForNAVTabletClient.htm" />
+   <Node Name="Multilanguage" DisplayName="Vícejazyčný vývoj" Page="conMultilanguageDevelopment.htm" /> 
+   <Node Name="Accessibility" DisplayName="Usnadnění" Page="conAccessibility.htm" />
+   <Node Name="TestingApp" DisplayName="Testování aplikace" Page="conTestingApplication.htm" />
+   <Node Name="Debugging" DisplayName="Ladění" Page="conDebugging.htm" />
+   </Node>
+  <Node Name="Admin" DisplayName="Správa" Page="conAdministration.htm">
+   <Node Name="ConfiguringNAV" DisplayName="Konfigurace Microsoft Dynamics NAV" Page="conConfiguringNAV.htm" />
+   <Node Name="SrvAdminTool" DisplayName="Nástroj pro správu serveru" Page="conNAVServerAdministrationTool.htm" />
+   <Node Name="NAVPowerShellCmdlets" DisplayName="Windows PowerShell Cmdlets" Page="conNAVWindowsPowershellAPI.htm" />
+   <Node Name="DeployingNAVonAzure" DisplayName="Nasazení a řízení Microsoft Dynamics NAV na Windows Azure" Page="conDeployingNAVOnWindowsAzure.htm" />
+   </Node>
+  <Node Name="Security" DisplayName="Bezpečnost a ochrana" Page="conSecurityProtection.htm">
+   <Node Name="SecurityOverview" DisplayName="Přehled bezpečnosti" Page="conOverviewSettingUpSecurity.htm" />
+   </Node>
+  <Node Name="TechRef" DisplayName="Technické reference" Page="conTechnicalReference.htm">
+   <Node Name="CSIDERef" DisplayName="C/SIDE Reference Guide" Page="conCSIDEReferenceGuide.htm" />
+   <Node Name="DevEnvCmds" DisplayName="Příkazy Development Environment" Page="conDevelopmentEnvironmentCommands.htm" />
+   <Node Name="CSIDEwindows" DisplayName="Přehled Windows" Page="conWindowOverviews.htm" />
+   </Node>
+  <Node Name="Upgrade" DisplayName="Upgrade do Microsoft Dynamics NAV 2017" Page="oriUpgradingToNAVCorfu.htm">
+   <Node Name="MigratingToMultitenancy" DisplayName="Migrace do víceklientské architektury" Page="conMigratingTenantDatabases.htm" />
+   </Node>
+  </Node>
+  </Node>
