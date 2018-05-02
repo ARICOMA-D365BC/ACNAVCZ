@@ -1,0 +1,108 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="save" content="history"><title>L&#225;ze&#328;sk&#233; &#345;e&#353;en&#237;</title>
+<link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
+<body><h1>L&#225;ze&#328;sk&#233; &#345;e&#353;en&#237;</h1>
+<p>Pobyty klientů jsou evidovány na <strong>Kartě pobytu klienta</strong>, která představuje klíčovou evidenci v systému. Informace, které jsou důležité pro evidenci pobytu, jsou rozčleněny do několika záložek dle obsahu. Klíčové informace jsou zobrazeny i při zavřené záložce.</p>
+<p><strong>Karta pobytu klienta</strong> prochází několika stavy v závislosti na průběhu klientova pobytu:</p>
+<ul>
+<li>Požadavek<ul>
+<li>Jedná se o výchozí stav. Je automaticky přidělen při zadávání nového pobytu. </li>
+<li>Do tohoto stavu je možné pobyt dostat také ze stavu:<ul>
+<li>„Rezervace“ - pomocí funkce „Zruš rezervaci“</li>
+<li>„Příjezd“ - pomocí funkce „Zruš příjezd“</li>
+<li>„Storno“ – pomocí funkce „Vrať storno pobytu“</li>
+</ul>
+</li>
+<li>V tomto stavu lze u individuálních pobytů měnit většinu údajů, pokud to dovolí omezení definovaná v nastavení. Pobyt je pouze zaznamenán, nejsou rezervovány žádné ubytovací kapacity.</li>
+</ul>
+</li>
+<li>Rezervace<ul>
+<li>Stav Rezervace indikuje, že klient má v daném lázeňském domě zarezervovány ubytovací kapacity. Změnou počátečního nebo koncového data v řádku pobytu se automaticky mění i rezervace dané ubytovací kapacity.</li>
+<li>Do tohoto stavu je možné pobyt dostat ze stavu:<ul>
+<li>„Požadavek“ - pomocí funkce „Rezervace“</li>
+<li>„Příjezd“ - pomocí funkce „Vrať příjezd na rezervaci“</li>
+</ul>
+</li>
+<li>Rezervace může být:<ul>
+<li>Pevná – rezervuje se přímo konkrétní pokoj uvedený v řádku pobytu typu ubytování</li>
+<li>Volná – rezervuje se kategorie ubytování uvedená v řádku pobytu typu ubytování. Systém interně pobytu přidělí pokoj v dané kategorii, ten se však může měnit, pokud daný pokoj bude vyžadovat jiný klient. Systém automaticky přesune tuto volnou rezervaci na jiný volný pokoj v dané kategorii.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Příjezd<ul>
+<li>Tento stav umožňuje všechny operace spojené s fyzickým příjezdem klienta</li>
+<li>Bydlící klient obdrží klíče od pokoje, obsadí se mu ubytovací kapacity, může k lékaři a na rozpis procedur. </li>
+<li>Do tohoto stavu je možné pobyt dostat ze stavu:<ul>
+<li>„Požadavek“ - pomocí funkce „Příjezd“</li>
+<li>„Rezervace“ - pomocí funkce „Příjezd“</li>
+<li>„Příjem“ – pomocí funkce „Zruš příjem“</li>
+<li>„Převedení“  - pomocí funkce „Zruš převod“</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Příjem<ul>
+<li>Tento stav slouží k provedení administrativních úkonů, které jsou s příjmem spojené, jako např. kontrola osobních údajů klienta, zda odpovídají údajům zadaných v systému a případná jejich aktualizace, vyplnění víza, hlášení cizinecké policii. </li>
+<li>Do tohoto stavu je možné pobyt dostat ze stavu:<ul>
+<li>„Příjezd“ – pomocí funkce „Příjem“</li>
+<li>„Převedení“  - pomocí funkce „Zruš převod“</li>
+<li>„Odjezd“ – pomocí funkce „Zruš odjezd“</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Přerušení<ul>
+<li>Stav Přerušení na Kartě pobytu klienta indikuje, že pobyt klienta je z nějakého důvodu přerušen. Do tohoto stavu se pobyt dostane pomocí wizardu, ve kterém se určí, které služby se přerušují, na jak dlouho a z jakého důvodu.</li>
+</ul>
+</li>
+<li>Převedení<ul>
+<li>Tento stav indikuje, že pobyt klienta byl během svého trvání převeden na jiný typ pobytu pomocí wizardu „Průvodce převodu pobytu“. </li>
+<li>Do tohoto stavu je možné pobyt dostat ze stavu:<ul>
+<li>„Příjezd“ – pomocí funkce „Převod na nový typ“</li>
+<li>„Příjem“ – pomocí funkce „Převod na nový typ“</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Odjezd<ul>
+<li>Tento stav umožňuje operace spojené s fyzickým odjezdem klienta. </li>
+<li>Provádí se kontroly spojené s odjezdem, pokud jsou na plátci nastaveny.</li>
+<li>V tomto stavu již klient nemůže čerpat služby. Končí platnost telefonního účtu, nelze načasovat proceduru Nelze vkládat položky na klientský účet pocházející z jiných zdrojů (např. z restaurace, rozpisu procedur).</li>
+<li>Do tohoto stavu je možné pobyt dostat ze stavu:<ul>
+<li>„Příjem“ – pomocí funkce „Odjezd“</li>
+<li>„Ukončení“ – pomocí funkce „Zruš ukončení“</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Ukončení<ul>
+<li>Tento stav slouží k administrativním úkonům, které jsou spojené s ukončením pobytu, jako např. úprava položek klientského účtu, jejichž plátcem není klient.</li>
+<li>Do tohoto stavu je možné pobyt dostat ze stavu:<ul>
+<li>„Odjezd“ – pomocí funkce „Ukončení“</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Storno<ul>
+<li>Do totoho stavu je možno převézt pobyt pouze ze stavu „Požadavek“ (pomocí funkce „Stornuj pobyt“) v případě, že klient nepřijel. Jedině v tomto stavu je možno přidat na klientský účet storno poplatky.
+Činnosti a funkce, které lze s pobytem provádět, jsou přístupné v pásu karet v závislosti na stavu pobytu. </li>
+</ul>
+</li>
+</ul>
+<h2 id="see-also">Viz také</h2>
+<p><a href="ac-spa-solution.html">AC Lázeňské řešení</a></p>
+
+<hr>
+<div>
+<span id="fb"></span>
+<span id="fbb">
+<p><!-- <a href="http://go.microsoft.com/fwlink/?LinkID=724015" target="_blank">Provide feedback.</a>--></p>
+<script type="text/javascript">FeedBackLink();</script>
+</span><br>
+</div>
+          
+            <p> © 2018 Microsoft. All rights reserved.</p>
+          <p><p><br xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+
+</body></html>

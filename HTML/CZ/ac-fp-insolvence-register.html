@@ -1,10 +1,127 @@
-<html xmlns:xlink="http://www.w3.org/1999/xlink"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="save" content="history"><title>Insolven&#269;n&#237; rejst&#345;&#237;k</title>
 <link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
 <body><h1>Insolven&#269;n&#237; rejst&#345;&#237;k</h1>
-<p>Add-on Insolvenční rejstřík slouží k evidenci záznamů stahovaných z  <a href="https://isir.justice.cz">https://isir.justice.cz</a> o insolvenčním řízení společností. </p>
-<p>Je nástrojem pro další akce s kontakty společnosti, které jsou v insolvenčním řízení, např. při zadávání prodejních dokladů, jejich účtování (dodání, fakturace). Poskytuje vybraným osobám společnosti aktuální informace o nových záznamech v insolvenčním rejstříku.</p>
-<h2 id="a-namesee-alsoaviz-také"><a name="see-also"></a>Viz také</h2>
+<p>Add-on Insolvenční rejstřík slouží k evidenci záznamů z  <a href="https://isir.justice.cz">https://isir.justice.cz</a> o insolvenčním řízení společností. Je nástrojem pro další akce s kontakty společnosti, které jsou v insolvenčním řízení, např. při zadávání prodejních dokladů, jejich účtování (dodání, fakturace). Poskytuje vybraným osobám společnosti aktuální informace o nových záznamech v insolvenčním rejstříku.</p>
+<h2 id="nastavení">Nastavení</h2>
+<h3 id="nastavení-spooleru">Nastavení Spooleru</h3>
+<p> Pro import záznamů z webového portálu Insolvenčního rejstříku je potřeba nastavit:</p>
+<ul>
+<li>Agenta - agent pro příjem záznamů z IR do databáze NAV</li>
+<li>Úlohu spooleru
+Nastavení se provede v menu Správa &gt; Nastavení aplikace &gt; Spooler &gt; Agenti.
+Komunikace s veřejnou databází IR probíhá prostřednictvím veřejné webové služby na adrese:
+<a href="https://isir.justice.cz:8443/isir_ws/services/IsirPub001">https://isir.justice.cz:8443/isir_ws/services/IsirPub001</a>
+Tato adresa je zadána jako parametr komunikace agenta pro příjem záznamu IR.
+Správa &gt;  Nastavení aplikace &gt; Spooler &gt; Úlohy spooleru</li>
+</ul>
+<h3 id="nastavení-insolvenčního-rejstříku">Nastavení insolvenčního rejstříku</h3>
+<p>V Nastavení insolvenčního rejstříku jsou k dispozici tyto položky:
+<strong>Číslo poslední akce</strong> – poslední použité ID z tabulky Akce insolvenčního rejstříku.
+<strong>Aktualizovat Stav řízení ins.rejstříku</strong> – definuje, zda workagent bude automaticky doplňovat tabulku (číselník) „Stav řízení insolvenčního rejstříku“ při příjmu akcí IR.
+<strong>Aktualizovat Typ události insolventního rejstříku</strong> - definuje, zda workagent bude automaticky doplňovat tabulku (číselník) „Typ události insolvenčního rejstříku“ při příjmu akcí IR.</p>
+<h2 id="práce-s-insolvenčním-rejstříkem">Práce s Insolvenčním rejstříkem</h2>
+<h3 id="obecné">Obecné</h3>
+<p>Funkcionalita Insolvenčního rejstříku je k dispozici v hlavní nabídce modulu Prodej a marketing.
+Evidence o probíhajících IR je v systému k dispozici na:</p>
+<ul>
+<li>Kartě věci insolvenčního rejstříku</li>
+<li>Kartě kontaktu</li>
+<li>Kartě dodavatele</li>
+<li>Kartě zákazníka</li>
+<li>Kartě nastavení společnosti</li>
+</ul>
+<h3 id="karta-věci-insolvenčního-rejstříku">Karta věci insolvenčního rejstříku</h3>
+<p>Karta věci insolvenčního rejstříku poskytuje uživateli přehled o všech probíhajících událostech jednoho insolvenčního řízení. Součástí údajů jsou také informace o jménech dlužníků, správců, stavu řízení, datumech a časech zveřejnění, apod. 
+Záložka <strong>Obecné</strong> obsahuje ručně editovatelnou položku <strong>„Stav věci“</strong> [option = Otevřeno, Uzavřeno]. Odpovědná osoba ve společnosti tedy bude moci po vlastním uvážení rozhodnout, zda některá insolvenční řízení uzavře prostřednictvím nastavení pole Stav Věci = Uzavřeno.
+Kromě toho karta obsahuje pole <strong>Zkontrolováno</strong>, kde uživatel ručně zaškrtne, že provedl kontrolu. 
+Záložka <strong>Správce</strong> obsahuje informace o správci IR (jako jméno, adresu, IČO, DIČ, rodné číslo).
+Řádky Karty věci insolvenčního rejstříku zobrazují data z tabulky 4003802 Událost insolvenčního rejstříku. Hodnoty v řádcích jsou seskupeny do záložek dle hodnoty oddílu (A,B,C,D,P) v tabulce Událost insolvenčního rejstříku. Číselné pořadí řádku znamená pořadí v konkrétní záložce.
+Na kartě věci IR lze z <strong>tlačítka Věc</strong> zobrazit následující údaje:</p>
+<ul>
+<li>Přehled F5 </li>
+<li><strong>Osoby</strong> – obsahuje informace o osobách zainteresovaných v řízení konkrétní věci insolvenčního řízení. Pro osoby je možné zobrazit jejich adresy. 
+Rozeznáváme 2 druhy role v řízení: </li>
+<li>Správce</li>
+<li>Dlužník
+<strong>Tlačítko Řádek</strong> obsahuje možnost <strong>„Zobrazit dokument“</strong> připojený ke konkrétnímu řádku. Jeho umístnění je definováno ve sloupci ID dokumentu. Dokumenty nejsou uloženy v systému. V řádcích je pouze odkaz na soubor ve veřejné databázi IR. </li>
+</ul>
+<h3 id="evidence-insolventního-řízení-u-kontaktu">Evidence insolventního řízení u kontaktu</h3>
+<p>Karta kontaktu je na tlačítku Kontakt &gt; Insolvenční rejstřík doplněna o možnost zobrazit evidenci insolvenčních řízení týkající se dané firmy nebo osoby. Identifikace probíhá na základě údaje IČO nebo rodného čísla. 
+Karta kontaktu dále obsahuje indikátor počtu záznamů v tabulce Věc IR. Indikátor je umístěn vedle ikony poznámek (tužka) a umožňuje zobrazení evidence IR daného kontaktu. 
+Indikátor zobrazuje 3 možné stavy:</p>
+<ul>
+<li>Bez záznamu (nezobrazuje se nic)</li>
+<li>Existují uzavřené záznamy v IR (zobrazuje se „(0)“)</li>
+<li>Existují aktivní (neuzavřené) záznamy v IR (zobrazí se např. „(2)“ – číslo představuje počet otevřených záznamů IR)</li>
+</ul>
+<h3 id="evidence-insolvenčních-řízení-u-karty-zákazníka">Evidence insolvenčních řízení u karty zákazníka</h3>
+<p>Karta zákazníka je na tlačítku Zákazník &gt; Insolvenční rejstřík doplněna o možnost zobrazit evidenci insolvenčních řízení. Identifikace probíhá na základě údaje IČO nebo rodného čísla. 
+Karta dále obsahuje stejný indikátor počtu záznamů v tabulce Věc IR jako je na kartě kontaktu.</p>
+<h3 id="evidence-insolvenčních-řízení-u-karty-dodavatele">Evidence insolvenčních řízení u karty dodavatele</h3>
+<p>Karta dodavatele je na tlačítku Zákazník &gt; Insolvenční rejstřík doplněna o možnost zobrazit evidenci insolvenčních řízení. Identifikace probíhá na základě údaje IČO nebo rodného čísla. 
+Karta dále obsahuje stejný indikátor počtu záznamů v tabulce Věc IR jako je na kartě kontaktu.</p>
+<h3 id="evidence-insolvenčních-řízení-u-informací-o-společnosti">Evidence insolvenčních řízení u informací o společnosti</h3>
+<p>Karta informace o společnosti je na tlačítku Společnost &gt; Insolvenční rejstřík doplněna o možnost zobrazit evidenci insolvenčních řízení týkající se vlastní společnosti. Identifikace probíhá na základě údaje IČO.
+Karta dále obsahuje stejný indikátor počtu záznamů v tabulce Věc IR jako je na kartě kontaktu.</p>
+<h3 id="možnost-vypnout-test-na-insolvenci">Možnost vypnout test na insolvenci</h3>
+<p>Z výkonnostních důvodů je možno kontrolu insolvenčního rejstříku u vybraných kontaktů (např. zahraničních) vypnout. Pro tyto účely slouží boolean „Vypnout test na insolvenci“.
+Boolean je umístněn na záložce Zahraniční obchod na Kartě kontaktu, Kartě zákazníka a Kartě dodavatele.
+Hodnota booleanu se validuje z Karty kontaktu na Kartu zákazníka a/nebo na Kartu dodavatele a naopak. 
+V procesu kontroly insolvenčního rejstříku u Karet kontaktů nebude NAV procházet ty karty, které mají boolean „Vypnout test na insolvenci“ – ANO. V tom případě dochází k ignoraci karty věci insolvenčního řízení, nezobrazí se indikátor počtu insolvenčních řízení, účtování probíhá běžně. </p>
+<h2 id="práce-s-ir-v-prodejních-dokladech">Práce s IR v prodejních dokladech</h2>
+<h3 id="nastavení-prodeje-a-pohledávek">Nastavení Prodeje a pohledávek</h3>
+<p>V Nastavení prodeje a pohledávek je možné definovat chování systému s ohledem na záznamy v insolvenčním rejstříku.
+Pole <strong>„Kontrola při insolvenci“</strong> [option = „prázdný“, Upozornění, Blokace] spolu s polem „Blokování účtování při insolvenci“ určuje chování systému takto:
+<strong>„prázdný“</strong> – kontrola je vypnuta 
+<strong>Upozornění</strong> – při účtování je zobrazen formulář s upozorněním, že „Zákazník má záznam v IR, s dotazem zda chce uživatel pokračovat ANO/NE“. Formulář zobrazuje počet otevřených/uzavřených záznamů IR.
+<strong>Blokace</strong> – není možné zaúčtovat dodání, fakturu, nebo oboje dle nastavení pole <strong>„Blokovat účtování při insolvenci</strong>. 
+Pole <strong>„Blokovat účtování při insolvenci“</strong> [option = „prázdný“, Dodat, Fakturovat, Vše] – spojené s vybraným option v poli „Kontrola při insolvenci“
+<strong>„prázdný“</strong> – blokace je vypnuta 
+<strong>Dodat</strong> – na prodejním dokladu není možné zaúčtovat dodání pokud má zákazník otevřený záznam v IR. 
+<strong>Fakturovat</strong> – na prodejním dokladu není možné zaúčtovat fakturu pokud má zákazník otevřený záznam v IR. 
+<strong>Vše</strong> – na prodejním dokladu není možné zaúčtovat dodání ni fakturu pokud má zákazník otevřený záznam v IR. </p>
+<h3 id="upozornění-na-prodejních-dokladech">Upozornění na prodejních dokladech</h3>
+<p>Při vložení zákazníka na prodejní doklad (objednávka, faktura, nabídka) bude v případě, že má Zákazník záznam v insolvenčním rejstříku zobrazen formulář s informacemi o počtu otevřených a uzavřených záznamů v IR. 
+Upozornění je zobrazeno pro zákazníky se stavem IR Otevřeno i Uzavřeno. </p>
+<h3 id="účtování-prodejních-dokladů">Účtování prodejních dokladů</h3>
+<p>Dle Nastavení prodeje a pohledávek bude systém v případě existence otevřených záznamů daného zákazníka v insolvenčním rejstříku upozorňovat nebo zcela blokovat účtování dodání a fakturace.
+Blokaci je možné na prodejním dokladu uvolnit prostřednictvím pole  „Povolit účtování při insolvenci“. Pole se nachází ve formuláři Prodejní objednávka na záložce Dodávky a ve formuláři Prodejní faktura na záložce Obecné.
+Pole „Povolit účtování při insolvenci“ může zaškrtnout pouze uživatel, který má v uživatelských kontrolách nastaveno pole <strong>„Povolit uvolnění blokace při insolvenci“</strong>. </p>
+<h2 id="reporty-pro-upozornění-na-insolvenční-řízení">Reporty pro upozornění na Insolvenční řízení</h2>
+<h3 id="obecné-1">Obecné</h3>
+<p>V souvislosti s IR jsou k dispozici 2 základní reporty pro upozornění uživatelů na existenci IR u partnerů v databázi NAV a současně také pro případ podání IR na vlastní společnost.</p>
+<ul>
+<li>Kontrola insolvenčního rejstříku </li>
+<li>Přehled prodejních dokladů v insolvenci</li>
+</ul>
+<h3 id="nastavení-shareplanu">Nastavení SharePlanu</h3>
+<p>Oba reporty je možné spouštět prostřednictvím Plánovače úloh na aplikačním serveru a automaticky je zasílat odpovědným osobám emailem. K tomu je potřebné vytvořit Kartu úlohy SharePlanu, intervaly v záložce Plánování a nastavit Parametry reportu. 
+Na tlačítku <strong>Úloha &gt; Akce</strong> lze definovat údaje pro zasílání reportu emailem. </p>
+<h3 id="report-kontrola-insolvenčního-rejstříku">Report Kontrola insolvenčního rejstříku</h3>
+<p>Report automaticky upozorňuje na vstup obchodního partnera (kontaktu/zákazníka/dodavatele) do insolvenčního řízení nebo na podání návrhu na insolvenční řízení vůči vlastní společnosti
+Zdrojem dat je tabulka Věc insolvenčního rejstříku. V reportu je možné nastavit tyto parametry:</p>
+<ul>
+<li>Zpětně o – pole slouží pro zadání časového/datového intervalu, od kdy zpětně uživatel požaduje report zpustit. (je možné zadat datum, nebo hodnotu v podobě příznaku, např. 3D 5H = 3 dny 5 hodiny. Pro potřeby detailnějšího sledování insolvenčních řízení taky M=minuta, S=sekunda)</li>
+<li>Netisknout vlastní společnost – report nebude obsahovat záznam z IR, které bylo započato na vlastní společnost.</li>
+<li>Netisknout kontakt – report nebude obsahovat řádky kontaktu</li>
+<li>Netisknout zákazníka – report nebude obsahovat řádky zákazníka.</li>
+<li>Netisknout dodavatele - report nebude obsahovat řádky dodavatele.</li>
+</ul>
+<h3 id="report-přehled-prodejních-dokladů-v-insolvenci">Report Přehled prodejních dokladů v insolvenci</h3>
+<p>Report automaticky upozorňuje na existenci prodejních dokladů v systému, u kterých má zákazník záznam v insolvenčním rejstříku a to:</p>
+<ul>
+<li>Nezaúčtovaných objednávek</li>
+<li>Otevřených položek zákazníka všech typů (faktura, platba, dobropis, upomínka, penále)</li>
+<li>Upomínek</li>
+<li>Penále
+Zdrojem dat je tabulka Prodejní hlavička a Položka zákazníka. V reportu je možné nastavit tyto parametry:</li>
+<li>filtr dle údajů z karty zákazníka</li>
+<li>filtr dle údajů z hlavičky prodejních dokladů</li>
+<li>filtr dle údajů z položek zákazníka </li>
+<li>Včetně uzavřených řízení – pokud je zaškrtnuto, zobrazí se i doklady pro zákazníky, kteří mají uzavřené záznamy v IR.</li>
+</ul>
+<h2 id="see-also">Viz také</h2>
 <p><a href="ac-fp-financial-pack.html">AC Financial Pack</a></p>
 
 <hr>

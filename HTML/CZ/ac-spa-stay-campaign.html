@@ -1,0 +1,61 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="save" content="history"><title>L&#225;ze&#328;sk&#233; &#345;e&#353;en&#237;</title>
+<link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
+<body><h1>L&#225;ze&#328;sk&#233; &#345;e&#353;en&#237;</h1>
+<p>Pobytové akce patří mezi marketingové nástroje lázeňského řešení. Je možno je nastavit ve formuláři Pobytové akce. Dle zadaných podmínek může jednomu pobytu vyhovovat i několik pobytových akcí najednou, systém pak vybere tu nejvýhodnější pro klienta.</p>
+<p>Pobytová akce je založena na definovaném počtu pobytových dní zdarma (např. 7 za 5, 14 za 12 apod.), které se uplatní v případě, že dosažené množství služeb pro uplatnění akce je &gt;= základu pro výpočet. Uplatnění se spojí se službou s největším počtem dní.
+Dny zdarma se v položce klientského účtu projeví jako nové položky se záporným množstvím a číslem pobytové akce.</p>
+<p>Význam polí:</p>
+<ul>
+<li>Pole Kód typu klienta, Kód typu pobytu, Číslo plátce, Kód lázeňského domu, Kód dependen-ce a Den nástupu – slouží jako podmínka pro výběr dané akce pro pobyt. </li>
+<li>Den nástupu se vztahuje k počátečnímu datu pobytu.</li>
+<li>Počáteční a koncové datum – ohraničuje platnost akce</li>
+<li>Způsob kontroly<ul>
+<li>Kód služby – kontrola nezbytného počtu služeb pro uplatnění akce se provádí přes kódy služeb</li>
+<li>Kategorie služby - kontrola nezbytného počtu služeb pro uplatnění akce se provádí přes kategorie služeb, které je možno definovat ke konkrétním službám v poli Kód kategorie (v číselníku Lázeňská služba). Pro výpočty se pak služby sčítají dle stejné kategorie.</li>
+</ul>
+</li>
+<li>Typ položek pro kontrolu – určuje, z jakých položek se bude kontrolovat jejich množství ve vztahu k poli Základ pro výpočet. Akce se uplatní pouze v případě, kdy kontrolní množství je &gt;= Základu pro výpočet.  <ul>
+<li>Vše – pro uplatnění akce se bude brát v úvahu Kontrolní množství všech služeb zařazených do kontroly akcí, z nich se vybere minimální množství a to se zkontroluje na hodnotu základu pro výpočet. Jestliže bude větší nebo rovno, akce se uplatní.</li>
+<li>Léčebný pobyt – pro uplatnění akce se bude brát v úvahu pouze Kontrolní množství služeb léčení zařazených do kontroly akcí, z nich se vybere minimální množství a to se zkontroluje na hodnotu základu pro výpočet. V případě, že bude shodné či větší, akce se uplatní. A to i v případě, že kontrolní množství služeb ubytování či stravování bude menší.</li>
+<li>Ubytování – pro uplatnění akce se bude brát v úvahu pouze Kontrolní množství služeb ubytování zařazených do kontroly akcí, z nich se vybere minimální množství a to se zkontroluje na hodnotu základu pro výpočet. V případě, že bude shodné či větší, akce se uplatní.</li>
+<li>Stravování – pro uplatnění akce se bude brát v úvahu pouze Kontrolní množství služeb stravování zařazených do kontroly akcí, z nich se vybere minimální množství a to se zkontroluje na hodnotu základu pro výpočet. V případě, že bude shodné či větší, akce se uplatní.</li>
+</ul>
+</li>
+<li>Základ pro výpočet – definuje množství, které musí být u kontrolovaných služeb dosaženo, aby došlo k uplatnění akce</li>
+<li>Účtované množství – toto pole určuje počet účtovaných dnů. Rozdíl účtovaných dnů a základu pro výpočet pak tvoří dny zdarma.</li>
+<li>Uplatni na ubytování, stravování, léčení – pomocí těchto polí se dá definovat, na jaké typy služeb bude akce uplatněna v případě splnění definovaných podmínek.</li>
+</ul>
+<p><strong>Lázeňská služba</strong><br>S pobytovými akcemi souvisí 3 pole:</p>
+<ul>
+<li>Kód kategorie – umožňuje kontrolovat počet služeb pro uplatnění akce na základě nějaké společné vlastnosti a sloučit tak několik kódů služeb</li>
+<li>Zařadit do kontroly pobytových akcí – umožňuje zařadit službu do kontrolního mechanismu pro zjištění, zda pobyt s danými službami vyhovuje podmínkám definované akce</li>
+<li>Zařadit do uplatnění slev pobytových akcí – umožňuje na službu uplatnit slevu dle definova-ných podmínek pobytové akce</li>
+</ul>
+<p><strong>Nastavení lázeňských financí</strong><br>S pobytovými akcemi souvisí 3 pole:</p>
+<ul>
+<li>Zpracuj pobytové akce k poslednímu dni – pokud je pole zaškrtnuto, akce se počítají až při účtování konce pobytu</li>
+<li>Zahrň doplňkového plátce do pobytových akcí - pokud je pole zaškrtnuto, akce se budou po-čítat i pro doplňkového plátce (standardně je do pobytových akcí zahrnut hlavní plátce)</li>
+<li>Zahrň klienta do pobytových akcí - pokud je pole zaškrtnuto, akce se budou počítat i pro po-ložky hrazené klientem</li>
+</ul>
+<p><strong>Nastavení typu pobytu</strong><br>S pobytovými akcemi souvisí 2 pole:</p>
+<ul>
+<li>Povol pobytové akce – zaškrtnutí v tomto poli povoluje využití pobytových akcí pro danou kombinaci typu klienta a pobytu</li>
+<li>Zpřístupnit povolení pobytových akcí – zaškrtnutí v tomto poli umožňuje nastavit povolení na pobytové akce na konkrétní kartě pobytu klienta, která vychází z dané kombinace typu klienta a pobytu </li>
+</ul>
+<h2 id="see-also">Viz také</h2>
+<p><a href="ac-spa-solution.html">AC Lázeňské řešení</a></p>
+
+<hr>
+<div>
+<span id="fb"></span>
+<span id="fbb">
+<p><!-- <a href="http://go.microsoft.com/fwlink/?LinkID=724015" target="_blank">Provide feedback.</a>--></p>
+<script type="text/javascript">FeedBackLink();</script>
+</span><br>
+</div>
+          
+            <p> © 2018 Microsoft. All rights reserved.</p>
+          <p><p><br xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+
+</body></html>

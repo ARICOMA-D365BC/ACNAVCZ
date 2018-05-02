@@ -1,0 +1,66 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="save" content="history"><title>Spa solution</title>
+<link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
+<body><h1>Spa solution</h1>
+<p>Billing takes place at the standard spa services sales documents (Sales invoice, sales credit memo) and also on the sales of cash documents (Till Document, Till credit memo) that have been created in the framework of the Spa solution. For these documents are created and customized reports. For fast and convenience of users uses the functionality that allows you to preset certain information. </p>
+<h2 id="setup">SETUP</h2>
+<h3 id="standard-sale-codes">Standard sale codes</h3>
+<p>For invoicing spa services on sales documents it is necessary to establish <strong>Standard sales codes</strong>. This is a standard functionality that was within the Spa solution extended with the ability to work with spa services. 
+For the use of sales spa services should be in the standard sales lines fill in the fields:</p>
+<ul>
+<li>Type = Account</li>
+<li>The type of spa services = selection of the following values<ul>
+<li>Add-on service</li>
+<li>Curative stay</li>
+<li>Accommodation</li>
+<li>Catering</li>
+<li>Service in the restaurant</li>
+<li>Procedure</li>
+<li>Laboratory</li>
+<li>Nursing care</li>
+<li>Fee</li>
+<li>Phone</li>
+<li>Wellness service</li>
+</ul>
+</li>
+<li>Sales code – this field can be filled in two ways:<ul>
+<li>A specific value depending on the type of service--then gets to the sales document. By selecting a specific service will also make up the number, description and product posting group.</li>
+<li>An empty value – a specific service will pick up on the receipt, depending on the type of spa services</li>
+</ul>
+</li>
+</ul>
+<h3 id="sale-cash-desk-documents">Sale cash desk documents</h3>
+<p><strong>Checkout</strong><br>Depending on the currencies should be based standard cash register in the management of Finance – Treasury.</p>
+<p><strong>The cashier for sales documents</strong><br>This code list is used to link number series with sales cash desk in different currencies. The number serie should have set the default numbering, and filled with the appropriate group documentsto make up for the sales documents and cash cash sales credit memos have given preset some values (see default values documents). At the same time the number serie must have a defined context and relationships.</p>
+<p><strong>The codes from the computer</strong><br>This code list is used to link number series for sales cash orders and sales cash credit with a specific computerEMthat is represented by the name of the computer. It allows the user to establish the sales receipt in a defined number serie based on his computer and do not need to select a number serie manually.</p>
+<p><strong>The rights to the data, The permission settings on the data</strong><br>The relevanthis user or user group, which will be responsible for the the cashier, you need to assign the rights to datathat are defined in the permission settings on the data:</p>
+<ul>
+<li>No. – new items</li>
+<li>Bank account/cashier-reading</li>
+<li>Bank account/checkout-billing</li>
+<li>The journal batch-posting of an item</li>
+<li>Location – the posting of an item</li>
+</ul>
+<p><strong>The default value of the documents</strong><br>This functionality allows for sales documents, represented by the number serie or group documents predefine some value, so the user is not required each time you create a sales receipt to issue manually.
+Based on the number series are usually allows you to predefine the document header and the location dimension, based on the Group documents then the default customer posting date (workdate), document date (workdate), VAT date (workdate), the default payment terms code, the default code for the shipment method, default currency code, the default price level code, etc.
+These values are set when you create a sales receipt header, where the user can change if necessary.</p>
+<h2 id="usage">USAGE</h2>
+<p>The sale of spa services is done through <strong>the Till document</strong>. The user establishes a new till document. If a number series set up by the computer, the default value of the documents and register for sales documents, then for a new till document automatically assigns a number from the number series, the cash register on the basis of the customer&#39;s default currency, default and the location, dimensions, dates.
+Spa Service, a user selects with the function &quot;copy of the standard sales lines&quot; in the lines of cash voucher. In the standard sales lines form the user can select one or more predefined rows. The selected rows are copied to the cash voucher, where the user or changes the quantity or selects a particular service in the field &quot;code&quot;, if the Sale has been prestaged only &quot;type of spa services&quot;, without a specific &quot;Sales&quot;.
+Further work with the till document is enabled by default, you can post the document creates cash entry in the g/l entries, customer ledger entries, detailed customer ledger entries, VAT entries, bank account ledger entries, etc. Depending on the composition of cash voucher. </p>
+<h2 id="see-also">See also</h2>
+<p><a href="ac-spa-solution.html">AC Spa solution</a></p>
+
+<hr>
+<div>
+<span id="fb"></span>
+<span id="fbb">
+<p><!-- <a href="http://go.microsoft.com/fwlink/?LinkID=724015" target="_blank">Provide feedback.</a>--></p>
+<script type="text/javascript">FeedBackLink();</script>
+</span><br>
+</div>
+          
+            <p> © 2018 Microsoft. All rights reserved.</p>
+          <p><p><br xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+
+</body></html>

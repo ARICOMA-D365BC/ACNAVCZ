@@ -1,0 +1,61 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="save" content="history"><title>L&#225;ze&#328;sk&#233; &#345;e&#353;en&#237;</title>
+<link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
+<body><h1>L&#225;ze&#328;sk&#233; &#345;e&#353;en&#237;</h1>
+<p>Funkčnost obchodního rejstříku umožňuje sdružovat kontakty se stejným IČ. Využívá napojení na ARES, kontrolu DIČ a kontrolu nespolehlivosti plátce, které jsou součástí funkčnosti Lokalizace CZ. 
+Obchodní rejstřík má samostatnou evidenci, která je vedena na Kartě obchodního rejstříku a také své nastavení. Již na úrovni obchodního rejstříku lze provádět řadu kontrol spojených s IČ a vytvářet kontakty, zákazníky a dodavatele.  </p>
+<p><strong>Nastavení obchodního rejstříku</strong></p>
+<ul>
+<li>Výchozí šablona zákazníka/dodavatele</li>
+<li>Číslování kontaktů, zákazníků, dodavatelů</li>
+<li>Odkaz na registr ARES</li>
+<li>Nastavení synchronizace bankovních účtů</li>
+<li>Nastavení synchronizace zákazníků a dodavatelů při mazání kontaktů</li>
+</ul>
+<p><strong>Klasifikace obchodního rejstříku</strong></p>
+<ul>
+<li>Pro zobrazení popisů klasifikací je nutno naplnit číselník kódů klasifikace OR, jinak z aktualizace ARES se naplňují pouze kódy (popis není součástí xml souboru).</li>
+</ul>
+<p><strong>Karta obchodního rejstříku</strong></p>
+<ul>
+<li><p>Aktualizace ARES</p>
+<ul>
+<li>probíhá přes Protokol ověření IČ. Lze ji spustit pomocí tlačítka Aktualizace ARES v pásu karet nebo přes tlačítko AssistButton vedle pole IČ</li>
+<li>Pokud systém nalezne pro dané IČ záznam v databázi registrace ek. subjektů, v protokolu se vytvoří záznam se stavem Platné a pokud jde o první ověřování, otevře se zároveň formulář pro aktualizaci údajů, jinak lze formulář otevřít přes tlačítko Aktualizovat kartu. Při otvírání formuláře se automaticky porovnávají údaje z Karty obchodního rejstříku oproti zjištěným údajům z databáze registru. V případě, že jsou údaje shodné, formulář pro aktualizaci se neotevře a uživateli se objeví hláška, že údaje jsou shodné a není co aktualizovat. V opačném případě se otevře formulář Aktualizace Ares s údaji, které se neshodují s automatickým zaškrtnutím aktualizace. Aktualizace se standardně automaticky nezaškrtne v případě, že záznam v Pramenu obsahuje údaj, který v registru není. Uživatel může rozhodnout, co se má z registru aktualizovat pomocí zaškrtnutí u příslušného pole. Aktualizace se provede tlačítkem OK.</li>
+<li>U neplatných záznamů se automaticky nastavuje důvod neplatnosti v poli Výsledek ověření</li>
+<li>Zobrazení ARES na webu je umožněno přes tlačítko v Protokolu ověření IČ </li>
+<li>Při každém spuštění funkce Ověřit IČ se založí nový záznam do Protokolu ověření IČ</li>
+</ul>
+</li>
+<li><p>Kontrola DIČ</p>
+<ul>
+<li>Probíhá přes tlačítko Kontrola DIČ v pásu karet nebo přes tlačítko AssistButton vedle pole DIČ, které spustí Protokol ověření DIČ. V protokolu jsou uvedeny jednotlivé stavy ověřování a nové ověření se pak provede pomocí funkce Ověřit DIČ.</li>
+</ul>
+</li>
+<li><p>Kontrola nespolehlivosti plátce DPH</p>
+<ul>
+<li>Probíhá přes tlačítko Kontrola nespolehlivosti plátce DPH v pásu karet. Funkce kontroluje jak plátce, tak i jeho registrované bankovní účty. Po ukončení kontroly uživateli oznámí počet zkontrolovaných položek, které si uživatel může otevřít pod tlačítkem Stav nespolehlivosti z pásu karet.</li>
+<li>Výsledek a datum kontroly nespolehlivosti funkce zároveň zapíše do příslušných polí v záložce Detaily na kartě obchodního rejstříku</li>
+</ul>
+</li>
+<li>Vytvořit kontakt – tato funkce vytvoří nový kontakt s údaji z OR, ale bez adresy</li>
+<li>Vytvořit kontakt s adresou – tato funkce vytvoří nový kontakt s údaji z OR</li>
+<li>Vytvořit zákazníka – tato funkce vytvoří nového zákazníka přes šablonu zákazníka</li>
+<li>Vytvořit dodavatele – tato funkce vytvoří nového dodavatele přes šablonu dodavatele </li>
+</ul>
+<h2 id="see-also">Viz také</h2>
+<p><a href="ac-spa-solution.html">AC Lázeňské řešení</a></p>
+
+<hr>
+<div>
+<span id="fb"></span>
+<span id="fbb">
+<p><!-- <a href="http://go.microsoft.com/fwlink/?LinkID=724015" target="_blank">Provide feedback.</a>--></p>
+<script type="text/javascript">FeedBackLink();</script>
+</span><br>
+</div>
+          
+            <p> © 2018 Microsoft. All rights reserved.</p>
+          <p><p><br xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+
+</body></html>

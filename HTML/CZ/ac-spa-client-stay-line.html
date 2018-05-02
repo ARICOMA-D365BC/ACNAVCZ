@@ -1,0 +1,61 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="save" content="history"><title>L&#225;ze&#328;sk&#233; &#345;e&#353;en&#237;</title>
+<link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
+<body><h1>L&#225;ze&#328;sk&#233; &#345;e&#353;en&#237;</h1>
+<p>V různých stavech pobytu klienta lze přidávat nové řádky pobytu, s kterými lze pak samostatně manipulovat pomocí funkcí v pásu karet u řádků:</p>
+<ul>
+<li>Navrhni standardní řádky</li>
+<li>Proveď rezervaci vybraných řádků</li>
+<li>Zruš rezervaci vybraných řádků</li>
+<li>Zruš příjezd vybraných řádků</li>
+</ul>
+<p>Aby mohl systém reflektovat na různorodé požadavky klientů na ubytování, využívá k tomu řadu polí z řádku ubytování:</p>
+<ul>
+<li>Počáteční datum – představuje počáteční datum rezervace či obsazení ubytovací kapacity</li>
+<li>Koncové datum - představuje koncové datum rezervace či obsazení ubytovací kapacity</li>
+<li>Počáteční datum účt. ubytování – představuje počáteční datum ubytování, které je klientovi účtováno</li>
+<li>Koncové datum účt. ubytování – představuje koncové datum ubytování, které je klientovi účtováno</li>
+<li>Předčasný příjezd – toto pole má význam pro řádky typu ubytování. Může nabývat hodnot:<ul>
+<li>Ne – výchozí hodnota. </li>
+<li>Za příplatek – pro daný požadavek ubytování je požadován předčasný příjezd, který se bude plátci účtovat v hodnotě příplatku</li>
+<li>Bez příplatku – pro daný požadavek ubytování je požadován předčasný příjezd, který nebude účtován</li>
+</ul>
+</li>
+<li>Obsaď kapacitu pro předčasný příjezd – zaškrtnutí provede obsazení ubytovací kapacity pro noc před příjezdem a zároveň nastaví hodnoty do polí: Počáteční datum účtování ubytování a Ubytovací kapacity rezervovány od data</li>
+<li>Ubytovací kapacity rezervovány od data – hodnota v tomto poli určuje obsazení ubytovacích kapacit</li>
+<li>Očekávaný čas příjezdu – zde může uživatel zadat očekávaný čas příjezdu klienta. Pole je nepovinné, jeho hodnota se zobrazuje v Obsazení ubytovacích kapacit.</li>
+<li>Pozdní odjezd – toto pole má význam pro řádky typu ubytování. Může nabývat hodnot:<ul>
+<li>Ne – výchozí hodnota. </li>
+<li>Za příplatek – pro daný požadavek ubytování je požadován pozdní odjezd, který se bude plátci účtovat v hodnotě příplatku</li>
+<li>Bez příplatku – pro daný požadavek ubytování je požadován pozdní odjezd, který nebude účtován</li>
+</ul>
+</li>
+<li>Obsaď kapacitu pro pozdní odjezd – zaškrtnutí provede obsazení ubytovací kapacity pro další noc po koncovém datu a zároveň nastaví hodnoty do polí: Koncové datum účtování ubytování a Ubytovací kapacity rezervovány do data</li>
+<li>Ubytovací kapacity rezervovány do data – hodnota v tomto poli určuje obsazení ubytovacích kapacit</li>
+<li>Očekávaný čas odjezdu – zde může uživatel zadat očekávaný čas odjezdu klienta. Pole je nepovinné, jeho hodnota se zobrazuje v Obsazení ubytovacích kapacit.</li>
+<li>Typ vztahu dat ubytování – nově toto pole určuje vztah mezi účtovanými daty (Počáteční, Koncové datum účtování ubytování) a rezervovanými kapacitami (Ubytovací kapacity rezervovány od, do data). Může nabývat hodnot:<ul>
+<li>Shodné – účtovaná data jsou shodná s rezervovanými kapacitami</li>
+<li>Posun počátečního data – umožňuje posun „Počátečního data účt. ubytování“ zpět oproti „Ubytovací kapacitě rezervované od“ o hodnotu v poli „Úprava počtu účtovaných dní ubytování“</li>
+<li>Posun koncového data – umožňuje posun „Koncového data účt. ubytování“ dopředu oproti „Ubytovací kapacitě rezervované do“ o hodnotu v poli „Úprava počtu účtovaných dní ubytování“</li>
+<li>Posun všech dat - umožňuje posun „Počátečního data účt. ubytování“ zpět oproti „Ubytovací kapacitě rezervované od“ a zároveň posun „Koncového data účt. ubytování“ dopředu oproti „Ubytovací kapacitě rezervované do“ o hodnotu v poli „Úprava počtu účtovaných dní ubytování“</li>
+<li>Ruční vstup – umožňuje ručně zadat „Počáteční či Koncové datum účt. ubytování“. Zadané datumy však musí být vně původního intervalu.</li>
+</ul>
+</li>
+<li>Úprava počtu účtovaných dní ubytování – vždy se zadává kladná hodnota. Posun zpět či dopředu určuje hodnota v poli „Typ vztahu dat ubytování“. </li>
+</ul>
+<h2 id="see-also">Viz také</h2>
+<p><a href="ac-spa-solution.html">AC Lázeňské řešení</a></p>
+
+<hr>
+<div>
+<span id="fb"></span>
+<span id="fbb">
+<p><!-- <a href="http://go.microsoft.com/fwlink/?LinkID=724015" target="_blank">Provide feedback.</a>--></p>
+<script type="text/javascript">FeedBackLink();</script>
+</span><br>
+</div>
+          
+            <p> © 2018 Microsoft. All rights reserved.</p>
+          <p><p><br xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+
+</body></html>

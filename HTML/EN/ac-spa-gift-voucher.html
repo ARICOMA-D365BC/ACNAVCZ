@@ -1,0 +1,123 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="save" content="history"><title>Spa solution</title>
+<link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
+<body><h1>Spa solution</h1>
+<h2 id="recording">RECORDING</h2>
+<p>Gift vouchers are recorded in the system on the Tab gift vouchers. The individual cards are numbered automatically based on the number series as defined in the type of gift certificates. Depending on the type are also accessible to the respective functions that can be used with the order of the given type to perform.
+Important fields:</p>
+<ul>
+<li>The amount of the vouchers including VAT – this is the amount to which the certificate relates and for which products will be drawn</li>
+<li>The sales amount including VAT vouchers – this is the amount for which the DP will be sold. Automatically position the amount from the amount field of the voucher, including VAT, but it can be altered in this field. If will be defined the lower amount, the difference is nominal and the sales value in the sale of the voucher is posted on the new line to the account defined in the Financial discount account sales discount. Konto is defined in the type of discounts, gift certificates, and when a gift certificate is transmitted to the card, gift certificates, and from there to a sales document, if the amount of the voucher is different from the sales amount of the voucher.</li>
+<li>The base of VAT and the VAT base to be used – show the amount without VAT. In the conclusion of the gift certificate is checked to see whether it is the VAT base to use zero.</li>
+<li>The amount of services including VAT – this field is filled by the Bills with the posting type = &quot;sales services&quot; as the sum of the prices of services vouchers. The resulting value depends on the value in the date field of the award and the price level defined in gift vouchers.</li>
+<li>Tax business posting group – is added automatically when the sale of the voucher and to this value is then checks the VAT business posting group in the use of the voucher.</li>
+<li>Number of employees – is to be filled in for voucher with the posting type = &quot;the gift of the company&quot;</li>
+<li>The Client/Payer Tab</li>
+</ul>
+<p>Each feature on the gift certificates will be made available in the Ribbon or znepřístupňují based on the type of posting.</p>
+<h3 id="creation-of-a-gift-voucher">Creation of a gift voucher</h3>
+<p>Gift certificates can be created in several ways, using:</p>
+<ul>
+<li>Create a new voucher – this function spawns a new gift certificate of the same type as the DP that is the insertion point when creating a new DP</li>
+<li>Create a new voucher type – allows you to before the establishment of the new DP select the type of the new DP</li>
+<li>Automatic establishment of a set of vouchers – each DP will establish the formation of automatically</li>
+</ul>
+<p>By creating a new voucher voucher number shall be assigned from the number serie defined for that type and make up some of the information from the type of the voucher. For more information, the user fills in the DP.</p>
+<h3 id="creation-of-a-set-of-gift-vouchers">Creation of a set of gift vouchers</h3>
+<p>A set of gift certificates, you can create with the function &quot;Create new set&quot;. Nthe memory the number shall be assigned from the number serie defined for that type of information and make up of the type of set. At the same time the individual is set up automatically defined for a set of gift cards. </p>
+<h3 id="issuereturn-of-the-gift-voucher">ISSUE/RETURN OF THE GIFT VOUCHER</h3>
+<p>Issue and return of the function can be accessed from the tab only for DP gift certificates with the posting type = &quot;the gift of the company&quot;. Requires the completed employee number on the DP.</p>
+<ul>
+<li><strong>Issue</strong> – establish an entry type sales and allow DP DP use (filled the amount to use, including VAT).</li>
+<li><strong>Return</strong> -item type Return spawns a DP and DP.</li>
+</ul>
+<h2 id="sale">SALE</h2>
+<h3 id="sale-of-a-gift-vouchers">Sale of a gift vouchers</h3>
+<p>The sale of gift vouchers with the posting type = value, the sale of services is carried out on the sales document, by using the function &quot;Design sale of gift vouchers&quot;. On the sales document, only offers outstanding gift certificates with the posting type Value and sale services, that are not yet sold. The sale will take place at the sales amount including sales tax. If it is different from the nominal value of the vouchers shall be additional sales line discount account defined in the type of the voucher with the differential amount.
+Posting a sales document</p>
+<ul>
+<li>a DP item type sale on the nominal amount of the voucher that appears on credit vouchers. If you are selling discount was applied, the discount amount goes to the discount.  </li>
+<li>The value in the Sale to DP changes to Yes</li>
+<li>Populates the amount to use, including VAT and DP can be used for pumping products</li>
+</ul>
+<h3 id="cancellation-of-a-gift-voucher-sale">Cancellation of a gift voucher sale</h3>
+<p>Cancel the sale of DP is done on a sales credit memo or sales credit memo with the function &quot;saleDesign sale of gift vouchers&quot;. On the sales credit memo is only offers outstanding gift certificates with the posting type Value and sale services with non-zero amount for use including VAT.
+You post a sales credit memo</p>
+<ul>
+<li>a DP item type Return on the nominal amount of the voucher that appears on credit vouchers. If you are selling discount was applied, the discount amount is returned to the account of discounts.  </li>
+<li>The amount to use, including VAT is reset</li>
+<li>DP is closed</li>
+</ul>
+<h3 id="sale-of-a-sets-of-gift-vouchers-sale">Sale of a sets of gift vouchers sale</h3>
+<p>Sale of gift certificates is carried out on the sales document, by using the function &quot;Design sale sets of gift vouchers&quot;. It is the only place where he works with as a whole. On the sales document, offers only unclosed and unsold sets of gift vouchers. 
+Posting a sales document</p>
+<ul>
+<li>DP type sale items arise on the face amount of the vouchers </li>
+<li>The value in the sales field on each of the DP and DP in the set changes to Yes</li>
+<li>Populates the amounts to be used, including VAT and individual DP can be used for pumping products</li>
+</ul>
+<h2 id="usage">USAGE</h2>
+<h3 id="the-usage-of-gift-voucher-on-the-sales-document">The usage of gift voucher on the sales document</h3>
+<p>On the sales document, you can use the open a valid DP with non-zero amount for use including VAT. To use the function:</p>
+<ul>
+<li><p><strong>Connect your gift certificate</strong>  </p>
+<ul>
+<li>The function appends the selected DP in the sales document max. to the amount to use, including VAT</li>
+<li>Used amount of DP is displayed in the drawn amount of gift certificates (the General tab on the sales document). In detail the amounts of the individual DP used attached to the document, it is possible to get a click of this amount, or by using the Assigned gift certificates (Navigation tab in the Ribbon, the sales document).</li>
+</ul>
+</li>
+<li><p><strong>Cancel the connection gift vouchers</strong>  </p>
+<ul>
+<li>This function cancels all assignments of the DP to the sales document, therefore the field is reset due amount of gift vouchers</li>
+</ul>
+</li>
+<li><p><strong>Test the connected gift vouchers</strong>  </p>
+<ul>
+<li>This function tests the connection of gift vouchers on the sales document and test result shall be notified to the user. </li>
+</ul>
+</li>
+</ul>
+<p>Posting a sales document followed by the DP:</p>
+<ul>
+<li>a DP item type to use for the amount that was used on the document and will be reduced by this amount account DP </li>
+<li>The value in the use of the DP is changed to Yes</li>
+<li>Change the amount to use, including VAT</li>
+<li>If it&#39;s the entire amount, close the gift certificate</li>
+</ul>
+<h2 id="forfeiture">FORFEITURE</h2>
+<p>Once the gift certificate is no longer valid and has a non-zero balance, it is possible to charge a forfeiture, which will take up the remaining amount from the account to the account of the confiscation of the proceeds of the DP, which is defined in gift vouchers. Confiscation is possible to post from the card or gift certificates by using the features overview:</p>
+<ul>
+<li><p><strong>Post forfeiture</strong>  </p>
+<ul>
+<li>will feature a specific balance of foreclosed from DP to DP account proceeds confiscation</li>
+<li>creates an item type of confiscation of the DP</li>
+<li>Resets the amount to use, including VAT</li>
+<li>closes the DP</li>
+</ul>
+</li>
+<li><p><strong>Post forfeiture of all expired vouchers</strong> – posts a forfeiture for any expired voucher</p>
+</li>
+<li><strong>Post the cancellation of forfeiture</strong>  <ul>
+<li>will feature a specific balance account of the proceeds of the forfeited DP confiscation on account of the DP</li>
+<li>creates an item type of confiscation of the DP with the opposite sign</li>
+<li>populates the amount to use, including VAT</li>
+<li>Open the DP </li>
+</ul>
+</li>
+</ul>
+<h2 id="see-also">See also</h2>
+<p><a href="ac-spa-solution.html">AC Spa solution</a></p>
+
+<hr>
+<div>
+<span id="fb"></span>
+<span id="fbb">
+<p><!-- <a href="http://go.microsoft.com/fwlink/?LinkID=724015" target="_blank">Provide feedback.</a>--></p>
+<script type="text/javascript">FeedBackLink();</script>
+</span><br>
+</div>
+          
+            <p> © 2018 Microsoft. All rights reserved.</p>
+          <p><p><br xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+
+</body></html>
