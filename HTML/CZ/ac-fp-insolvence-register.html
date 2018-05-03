@@ -3,6 +3,20 @@
 <link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
 <body><h1>Insolven&#269;n&#237; rejst&#345;&#237;k</h1>
 <p>Add-on Insolvenční rejstřík slouží k evidenci záznamů z  <a href="https://isir.justice.cz">https://isir.justice.cz</a> o insolvenčním řízení společností. Je nástrojem pro další akce s kontakty společnosti, které jsou v insolvenčním řízení, např. při zadávání prodejních dokladů, jejich účtování (dodání, fakturace). Poskytuje vybraným osobám společnosti aktuální informace o nových záznamech v insolvenčním rejstříku.</p>
+<h2 id="instalace">Instalace</h2>
+<p><strong>Objekty modulu</strong>
+Objekty add-on modulu Insolvenční rejstřík jsou označeny verzí IR4.10 resp. pouze IR. Seznam konkrétních objektů modulu je uveden v dokumentaci k aktuálnímu buildu add-on modulů.
+<strong>Další součásti instalace</strong>
+Add-on modul vyžaduje pro instalaci tyto další add-on moduly: </p>
+<ul>
+<li>AC4005390 Spooler – komunikace s veřejnou databází IR</li>
+<li>Komunikace s veřejnou databází IR probíhá prostřednictvím veřejné webové služby na adrese: <a href="https://isir.justice.cz:8443/isir_ws/services/IsirPub001">https://isir.justice.cz:8443/isir_ws/services/IsirPub001</a></li>
+<li>V rámci infrastruktury musí být proto povolena komunikace na portu 8443. </li>
+<li>Pro automatizované zpracování je potřebná instalace aplikačního serveru Microsoft Dynamics NAV.
+<strong>Provázanost s dalšími moduly</strong>
+Pro automatické upozorňování formou reportů zasílaných emailem je potřeba aplikační server a add-on modul:</li>
+<li>AC4003720 Plánovač SharePoint</li>
+</ul>
 <h2 id="nastavení">Nastavení</h2>
 <h3 id="nastavení-spooleru">Nastavení Spooleru</h3>
 <p> Pro import záznamů z webového portálu Insolvenčního rejstříku je potřeba nastavit:</p>

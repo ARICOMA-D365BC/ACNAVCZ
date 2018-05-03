@@ -2,7 +2,78 @@
         <meta name="save" content="history"><title>Obecn&#233; parametry</title>
 <link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
 <body><h1>Obecn&#233; parametry</h1>
-<p>Add-on modul Obecné parametry umožňuje přidat ke kartám v systému Microsoft Dynamics NAV neomezené množství nových parametrů pro účely podrobného třídění a filtrování. Parametry lze dle účelu seskupovat do šablon. Modul obsahuje průvodce pro snadné zadávání hodnot parametrů ručním zadáním nebo výběrem z připravených číselníků.</p>
+<p>Modul Obecné parametry umožňuje pro kartu zboží, kartu majetku a kartu zaměstnance či obecně pro jakoukoliv jinou kartu definovat další „obecné parametry“. Jsou to parametrizovatelné vlastnosti a jejich hodnoty, které rozšiřují možnosti evidence zboží, dlouhodobého majetku, zaměstnanců příp. jiných entit systému Microsoft Dynamics NAV.
+Parametry lze nastavit uživatelsky, lze jim nastavit předdefinované hodnoty anebo je možné hodnoty parametrů zadávat ručně. Parametry lze seskupovat do šablon.
+K dané kartě se přiřazují parametry přes šablony parametrů. Lze tak nadefinovat určitou strukturu (např. šablony „Parametry nemovitosti“, „Parametry automobilů“ apod.). Jedna karta (zboží, majetku apod.) může mít přiřazeno více šablon.
+Parametry mohou být povinné a nepovinné a lze jim nastavit prioritu.</p>
+<h2 id="instalace">Instalace</h2>
+<p><strong>Objekty modulu</strong>
+Objekty modulu Obecné parametry jsou označeny verzí
+<strong>GP7.00</strong> resp. pouze <strong>GP</strong>.
+Seznam konkrétních objektů modulu je uveden v dokumentaci k aktuálnímu buildu add-on modulů.
+<strong>Další součásti instalace</strong>
+Modul nevyžaduje pro instalaci žádné další součásti.</p>
+<h2 id="nastavení">Nastavení</h2>
+<h3 id="parametry">Parametry</h3>
+<h4 id="nastavení-parametrů">Nastavení parametrů</h4>
+<p>U parametrů lze nastavit tyto vlastnosti:</p>
+<ul>
+<li>Datový typ hodnot parametru (viz. níže).</li>
+<li>Metoda zadávání hodnot.
+Obojí se nastavuje na stránce Obecné parametry. Dále se nastavuje:</li>
+<li>Výchozí hodnota parametru.</li>
+<li>Nastavení, zda je parametr povinný.</li>
+<li>Priorita parametru.
+Tyto 3 vlastnosti se nastavují na page Obecné parametry šablony.
+#### Obecné parametry
+V Oblasti/proPRODUKTIVITU/Obecné parametry - Obecné parametry se definuje seznam parametrů (<strong>Kód, Popis</strong>) a dále <strong>Datový typ hodnot</strong> a <strong>Metoda zadávání</strong> hodnot.
+<strong>Datové typy</strong>
+Program nabízí více možností, ale pro obecné parametry jsou vhodné následující datové typy:</li>
+<li>Text</li>
+<li>Code</li>
+<li>Integer</li>
+<li>Decimal</li>
+<li>Boolean</li>
+<li>Datetime</li>
+<li>DateFormula</li>
+<li>Date</li>
+<li>Time</li>
+<li>Duration</li>
+<li>RecordID</li>
+</ul>
+<h3 id="hodnoty-parametrů">Hodnoty parametrů</h3>
+<h4 id="hodnoty">Hodnoty</h4>
+<p>V Oblasti/proPRODUKTIVITU/Obecné parametry - Obecné parametry v okně Navigace pod tlačítkem Hodnoty se zadávají hodnoty obecného parametru (<strong>Kód hodnoty</strong>, <strong>Popis hodnoty</strong> a samotná <strong>Hodnota</strong>).
+Nastavení hodnot parametru je nezbytné zejména u parametrů s <strong>Metodou zadávání</strong> – Výběr. Je však možné hodnoty definovat i u parametrů zadávaných Ručním vstupem. Zde je kromě takto zadaných hodnot možné při vložení obecných parametrů zadat i libovolné jiné hodnoty. Hodnoty zadané v nastavení pak slouží pro zjednodušení zadávání.</p>
+<h3 id="šablony-parametrů">Šablony parametrů</h3>
+<p>Šablony parametrů usnadňují orientaci v parametrech, fungují jako filtry parametrů při zadávání.
+Šablony najdete v Oblasti/proPRODUKTIVITU/Obecné parametry – Šablony obecných parametrů. Nastavuje se <strong>Název šablony</strong>, její <strong>Popis</strong> a <strong>ID tabulky</strong>, pro kterou se daná šablona bude používat. Standardně lze zvolit tabulky 27 (zboží) a 5600 (dlouhodobý majetek). </p>
+<h4 id="obecné-parametry-šablony">Obecné parametry šablony</h4>
+<p>Z Šablony obecných parametrů pomocí tlačítka <strong>Parametry</strong> lze otevřít Obecné parametry šablony a zde nastavit obecné parametry, které budou figurovat pod danou šablonou.
+Nastavuje se:</p>
+<ul>
+<li><strong>Výchozí hodnota</strong> parametru,</li>
+<li><strong>Povinný</strong> – povinnost zadání parametru,</li>
+<li><strong>Priorita</strong> – určuje posloupnost řazení parametrů podle důležitosti.</li>
+</ul>
+<h2 id="použití">Použití</h2>
+<h3 id="vložení-a-změna-obecných-parametrů">Vložení a změna obecných parametrů</h3>
+<h4 id="vložení-a-změna-obecných-parametrů-ke-kartě">Vložení a změna obecných parametrů ke kartě</h4>
+<p>Pro vložení se na všech kartách používá tlačítko <strong>Vložit obecné parametry</strong> na kartě Akce. Objeví se průvodce Vložení obecných parametrů, pomocí kterého se ke konkrétní kartě (zboží, majetku aj.) vybere šablona, parametry a nastaví se hodnoty těchto parametrů.
+Kroky průvodce vložením parametrů jsou:</p>
+<ul>
+<li>volba šablony v poli <strong>Název šablony</strong>,</li>
+<li>nastavení hodnot povinných parametrů dané šablony</li>
+<li>nastavení hodnot nepovinných parametrů dané šablony.
+Stejný postup se použije při změně parametrů nebo hodnot obecných parametrů dané karty.</li>
+</ul>
+<h3 id="náhled-obecných-parametrů-karty">Náhled obecných parametrů karty</h3>
+<h4 id="prohlížení-obecných-parametrů-karty">Prohlížení obecných parametrů karty</h4>
+<p>Na kartě zboží (resp. dlouhodobého majetku atd.) je tlačítko <strong>Obecné parametry</strong>, které zobrazí parametry dané karty pro jednu šablonu parametrů.
+Náhled všech parametrů dané karty lze zobrazit na stránce <strong>Přehled obecných parametrů karty</strong>.</p>
+<h3 id="vyhledávání-podle-obecných-parametrů">Vyhledávání podle obecných parametrů</h3>
+<p>Funkcionalitu obecných parametrů lze využít k vyhledání „podobných“ karet. Jinými slovy vyhledání těch karet, které mají například přiřazeny stejné parametry nebo mají stejné hodnoty některých parametrů.
+Přehled je na stránce <strong>Přehled DM dle parametrů</strong>.</p>
 <h2 id="see-also">Viz také</h2>
 <p><a href="ac-pp-productivity-pack.html">AC Productivity pack</a>  </p>
 
