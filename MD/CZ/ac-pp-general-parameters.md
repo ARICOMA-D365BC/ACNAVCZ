@@ -44,7 +44,7 @@ Obojí se nastavuje na stránce Obecné parametry. Dále se nastavuje:
 * Priorita parametru.
 Tyto 3 vlastnosti se nastavují na page Obecné parametry šablony.
 #### Obecné parametry
-V Oblasti/proPRODUKTIVITU/Obecné parametry - Obecné parametry se definuje seznam parametrů (**Kód, Popis**) a dále **Datový typ** hodnot a **Metoda zadávání** hodnot.
+V Oblasti/proPRODUKTIVITU/Obecné parametry - Obecné parametry se definuje seznam parametrů (**Kód, Popis**) a dále **Datový typ hodnot** a **Metoda zadávání** hodnot.
 **Datové typy**
 Program nabízí více možností, ale pro obecné parametry jsou vhodné následující datové typy:
 * Text
