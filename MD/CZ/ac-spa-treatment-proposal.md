@@ -1,5 +1,5 @@
 ﻿---
-    title: "Lázeňské řešení"
+    title: "Evidence návrhů na lázeňskou péči"
     author: AutoCont
     ms.date: 04/30/2018
     ms.topic: article

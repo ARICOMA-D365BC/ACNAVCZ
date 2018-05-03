@@ -1,5 +1,5 @@
 ﻿---
-    title: "Lázeňské řešení"
+    title: "Nastavení šablon pohybů pro šablony deníku zboží"
     author: AutoCont
     ms.date: 04/30/2018
     ms.topic: article

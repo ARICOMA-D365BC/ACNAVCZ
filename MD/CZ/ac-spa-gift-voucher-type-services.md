@@ -1,5 +1,5 @@
 ﻿---
-    title: "Lázeňské řešení"
+    title: "Služby pro typ dárkové poukázky"
     author: AutoCont
     ms.date: 04/30/2018
     ms.topic: article

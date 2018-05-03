@@ -1,5 +1,5 @@
 ﻿---
-    title: "Lázeňské řešení"
+    title: "Obecné popisy"
     author: AutoCont
     ms.date: 04/30/2018
     ms.topic: article

@@ -1,5 +1,5 @@
 ﻿---
-    title: "Lázeňské řešení"
+    title: "Položky slevy klientského účtu"
     author: AutoCont
     ms.date: 04/30/2018
     ms.topic: article
