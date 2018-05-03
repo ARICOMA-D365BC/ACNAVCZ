@@ -1,4 +1,5 @@
 ---
+title: "AutoCont řešení"
 author: Autocont
 ms.custom: na
 ms.date: 03/27/2018
@@ -15,6 +16,7 @@ ms.lasthandoff: 03/27/2018
 
 ---
 
+# <a name="ac-addons"></a>AutoCont řešení
 
 | Viz               | Také                                               |
 |-------------------|----------------------------------------------------|
@@ -22,3 +24,4 @@ ms.lasthandoff: 03/27/2018
 | Productivity Pack | [AC Productivity Pack](ac-pp-data-boxes.md)        |
 | SK Addon          | SK Addon                                           |
 | ProMIS            | AC ProMIS                                          |
+| SPA               | [AC Pramen - řešení pro lázně a wellness](ac-spa-solution.md)|
