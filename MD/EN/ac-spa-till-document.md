@@ -1,5 +1,5 @@
 ﻿---
-    title: "Spa solution"
+    title: "Spa Services invoicing"
     author: AutoCont
     ms.date: 04/30/2018
     ms.topic: article

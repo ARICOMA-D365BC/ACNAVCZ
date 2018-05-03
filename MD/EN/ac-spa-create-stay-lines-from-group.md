@@ -1,5 +1,5 @@
 ﻿---
-    title: "Spa solution"
+    title: "Create Stay Lines From Group"
     author: AutoCont
     ms.date: 04/30/2018
     ms.topic: article

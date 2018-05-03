@@ -1,5 +1,5 @@
 ﻿---
-    title: "Spa solution"
+    title: "Codes According to Computer"
     author: AutoCont
     ms.date: 04/30/2018
     ms.topic: article

@@ -1,5 +1,5 @@
 ﻿---
-    title: "Spa solution"
+    title: "Commission Setup"
     author: AutoCont
     ms.date: 04/30/2018
     ms.topic: article

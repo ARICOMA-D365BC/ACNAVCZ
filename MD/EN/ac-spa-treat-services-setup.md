@@ -1,5 +1,5 @@
 ﻿---
-    title: "Spa solution"
+    title: "Treatment Services Setup"
     author: AutoCont
     ms.date: 04/30/2018
     ms.topic: article
