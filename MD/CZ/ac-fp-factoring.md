@@ -13,10 +13,18 @@ ms.sourcegitcommit:
 ms.openlocfilehash:
 ms.contentlocale: cs-cz
 ms.lasthandoff: 03/27/2018
+
 ---
 
 # <a name="ac-fp-faktoring"></a>Faktoring
+
 Modul Faktoring rozšiřuje oblast Správy financí systému Microsoft Dynamics NAV o možnost evidence a účtování postoupení pohledávek a vytváření faktoringových smluv.
+
+## Instalace
+**Objekty modulu**
+Objekty modulu faktoring jsou označeny verzí **FC7.10** resp. pouze **FC**.
+**Další součásti instalace**
+Modul Faktoring nevyžaduje další součásti instalace.
 
 ## Nastavení
 
@@ -78,7 +86,6 @@ Pro vrácení pohledávky je nutné v Zaúčtovaném faktoringu zvolit akci **Vr
 Po tomto příkazu systém odúčtuje nově vzniklou faktoringovou položku a naúčtuje ji zpět k zákazníkovi / dodavateli.
 
 ## <a name="see-also"></a>Viz také   
-
 [AC Financial Pack](ac-fp-financial-pack.md)
 
 

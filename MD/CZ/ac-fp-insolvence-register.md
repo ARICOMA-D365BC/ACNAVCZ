@@ -13,10 +13,25 @@ ms.sourcegitcommit:
 ms.openlocfilehash:
 ms.contentlocale: cs-cz
 ms.lasthandoff: 03/27/2018
+
 ---
 
 # <a name="ac-fp-insolvenční-rejstřík"></a>Insolvenční rejstřík
+
 Add-on Insolvenční rejstřík slouží k evidenci záznamů z  https://isir.justice.cz o insolvenčním řízení společností. Je nástrojem pro další akce s kontakty společnosti, které jsou v insolvenčním řízení, např. při zadávání prodejních dokladů, jejich účtování (dodání, fakturace). Poskytuje vybraným osobám společnosti aktuální informace o nových záznamech v insolvenčním rejstříku.
+
+## Instalace
+**Objekty modulu**
+Objekty add-on modulu Insolvenční rejstřík jsou označeny verzí IR4.10 resp. pouze IR. Seznam konkrétních objektů modulu je uveden v dokumentaci k aktuálnímu buildu add-on modulů.
+**Další součásti instalace**
+Add-on modul vyžaduje pro instalaci tyto další add-on moduly: 
+* AC4005390	Spooler – komunikace s veřejnou databází IR
+* Komunikace s veřejnou databází IR probíhá prostřednictvím veřejné webové služby na adrese: https://isir.justice.cz:8443/isir_ws/services/IsirPub001
+* V rámci infrastruktury musí být proto povolena komunikace na portu 8443. 
+* Pro automatizované zpracování je potřebná instalace aplikačního serveru Microsoft Dynamics NAV.
+**Provázanost s dalšími moduly**
+Pro automatické upozorňování formou reportů zasílaných emailem je potřeba aplikační server a add-on modul:
+* AC4003720	Plánovač SharePoint
 
 ## Nastavení
 
@@ -143,5 +158,4 @@ Zdrojem dat je tabulka Prodejní hlavička a Položka zákazníka. V reportu je 
 * Včetně uzavřených řízení – pokud je zaškrtnuto, zobrazí se i doklady pro zákazníky, kteří mají uzavřené záznamy v IR.
 
 ## <a name="see-also"></a>Viz také   
-
 [AC Financial Pack](ac-fp-financial-pack.md)
