@@ -25,7 +25,7 @@ Rovněž všechny vklady a výběry hotovosti do registrační pokladny jsou evi
 ## Instalace
 **Objekty modulu**
 Objekty modulu Více úhrad jsou označeny verzí 
-**FP7.20 resp. pouze FP**. 
+**FP7.20 resp. pouze FP**.
 **Další součásti instalace**
 Podmínkou provozování je minimálně edice Starte Pack a **modul 4050120 (Více úhrad)**.
 
