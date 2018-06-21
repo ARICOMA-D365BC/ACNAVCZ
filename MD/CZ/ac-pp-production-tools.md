@@ -58,6 +58,7 @@ V deníku je možno volit mezi 4 typy pohybů:
 * Výdej – slouží k vyřazení nářadí z evidence
 * Půjčení
 * Vrácení
+
 Při účtování deníků lze evidovat množství, číslo pracovníka, který si nářadí půjčuje či vrací. Dále je obvykle požadováno sledovat kód poškození, kterým lze vyjádřit stav vraceného nářadí a následně je možné řešit nápravu či výměnu nákupem či výrobou nové položky. Pole Evidenční číslo slouží ke sledování půjčování kusových položek s unikátním evidenčním číslem pro přesnější rozlišení evidovaných pomůcek. Tato evidence vyžaduje účtovat množství pouze po 1 kusu.
 
 ### Údržba

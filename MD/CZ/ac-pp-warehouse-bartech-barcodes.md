@@ -184,6 +184,7 @@ Standardní proces inventury se skládá z následujících kroků:
 3.	Provedení fyzické inventury ve skladu
 4.	Zadání dat ze skladů do Deníku fyzické inventury
 5.	Zaúčtování Deníku fyzické inventury
+
 Mezi body 1 až 3 nesmí dojít k účtování přírůstků ani úbytků na inventarizované sklady.
 Při použití terminálu je proces zpracování v Microsoft Dynamics NAV obdobný, pouze odpadá bod 2 a bod 4 není prováděn manuálně, nýbrž importem z terminálu.
 Ve funkci Vypočítat množství zásob je na záložce Možnosti doplněn parametr pro vynulování pole množství fyzické inventury, který je potřeba zvolit při zpracování inventury pomocí terminálů. 
