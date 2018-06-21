@@ -35,6 +35,7 @@ Podmínkou provozování je minimálně edice Starte Pack a **modul 4050120 (Ví
 ## Nastavení
 ### Nastavení více úhrad
 **Seznam platebních míst**
+
 Nastavení je v Oblasti/proFINANCE/Fiskální tiskárny – Platební místa.
 Zde je možné definovat seznam používaných platebních míst, přičemž jedno platební místo může zahrnovat více fiskálních tiskáren: 
 **Seznam fiskálních tiskáren**
