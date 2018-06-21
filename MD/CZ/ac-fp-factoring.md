@@ -21,14 +21,19 @@ ms.lasthandoff: 03/27/2018
 Modul Faktoring rozšiřuje oblast Správy financí systému Microsoft Dynamics NAV o možnost evidence a účtování postoupení pohledávek a vytváření faktoringových smluv.
 
 ## Instalace
+
 **Objekty modulu**
+
 Objekty modulu faktoring jsou označeny verzí **FC7.10** resp. pouze **FC**.
+
 **Další součásti instalace**
+
 Modul Faktoring nevyžaduje další součásti instalace.
 
 ## Nastavení
 
 ### Obecné
+
 Po importu objektů je třeba provést nastavení modulu faktoring. Základní nastavení se provede v Oblasti/proFINACE/Faktoring.
 Pro správnou funkci modulu Faktoring je nutné provést následující kroky:
 * V účtové osnově založit finanční účty pro sledování postoupených pohledávek a nákladové a výnosové účty pro přeúčtování faktoringu (volitelně)
@@ -38,17 +43,21 @@ Pro správnou funkci modulu Faktoring je nutné provést následující kroky:
 * Vytvořit šablonu pro faktoringové smlouvy
 
 ### Založení účtů v účtové osnově
+
 Aktualizace účtové osnovy se provádí v Oblasti/Správa financí/Finance/Účetní osnova. Ve formuláři Účetní osnova lze zadat finanční účty potřebné pro účtování faktoringu.
 
 ### Založení účto skupiny pro faktoring
+
 Účto skupiny se nastavují v Oblasti/Správa/Nastavení aplikace/Správa financí/Účto skupiny – Účto skupiny zákazníků. 
 Ve formuláři Účto skupiny zákazníků lze zadat účto skupiny, které se použijí pro zaúčtování faktoringu.
 
 ### Nastavení náhradních účto skupin zákazníka
+
 Formulář Náhrady účto skupin zákazníka se nachází na formuláři Účto skupiny zákazníka na záložce Navigace, volba Náhrady.
 Nastavením kombinace hodnot polí Náhradní účto skupina zákazníka a Účto skupiny zákazníka definujeme Číslo účtu, na které se bude účtovat v souvislosti s faktoringem.
 
 ### Nastavení faktoringu
+
 Formulář Nastavení faktoringu je v Oblasti/proFINANCE/Faktoring – Nastavení faktoringu.
 Na formuláři Nastavení faktoringu je potřeba provést následující nastavení:
 * Účto skupina faktoringů: účto skupina, která je použita při účtování faktoringové pohledávky
@@ -60,6 +69,7 @@ Na formuláři Nastavení faktoringu je potřeba provést následující nastave
 * Čísla faktoringů: číselná řada, kterou budou faktoringy číslovány
 
 ### Tvorba dokumentu faktoringu
+
 Je možné definovat šablony pro převod faktoringových smluv do dokumentů Microsoft Word.
 Dokument vytvoříme na kartě faktoringu pomocí funkce **Vytvořit dokument faktoringu** na kartě **Navigace**.
 Na záložce **Možnosti** vybereme potom v poli **Šablona Word** příslušnou šablonu, podle které chceme dokument vygenerovat.
@@ -67,10 +77,12 @@ Na záložce **Možnosti** vybereme potom v poli **Šablona Word** příslušnou
 ## Použití
 
 ### Pořízení dokladu faktoringu
+
 Formulář dokladu faktoringu je umístěn v Oblasti/proFINANCE/Faktoring/Přehled faktoringů. Do hlavičky dokladu je nutné vyplnit pole **Zákazník-číslo** (Číslo faktora) a **Zúčtovací datum**.
 Konkrétní pohledávky / závazky, které mají být postoupeny, lze vybrat pomocí polí **Typ položky** a **Číslo položky**. Pokud se jedná o regresní faktoring, faktor může pohledávku/závazek vrátit, musí být zaškrtnuto pole **Regresní faktoring** na řádku dokladu.
 
 ### Zaúčtování faktoringu
+
 Před zaúčtováním dokladu faktoringu je třeba doklad vydat – tlačítko **Vydat** na záložce Akce. (Ctrl + F9). Účtování dokladu se prování přes tlačítko **Účto** (F9). Po zaúčtování vznikne doklad **Zaúčtovaný faktoring**, ten lze najít v Oblasti/proFINANCE/Faktoring/Přehled zaúčtovaných faktoringů.
 Řádky dokladu Zaúčtovaný faktoring jsou rozděleny do třech záložek:
 * Pohledávky – postoupené položky
@@ -81,6 +93,7 @@ Pokud je v Nastavení faktoringu zapnuté **Přeúčtovat původní položku**, 
 Finanční účtování v závislosti na nastavení systému může mít následující dopad do účetní osnovy (příklad postoupení jedné položky s přeúčtováním na podrozvahový účet).
 
 ### Vrácení faktoringové pohledávky
+
 Pokud se jedná o regresní faktoring, faktor může pohledávku vrátit, musí být doklad zaúčtován se zaškrtnutým pole **Regresní faktoring** na řádku dokladu.
 Pro vrácení pohledávky je nutné v Zaúčtovaném faktoringu zvolit akci **Vrátit pohledávku faktoringu**.
 Po tomto příkazu systém odúčtuje nově vzniklou faktoringovou položku a naúčtuje ji zpět k zákazníkovi / dodavateli.

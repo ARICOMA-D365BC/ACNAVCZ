@@ -26,8 +26,7 @@ Rovněž všechny vklady a výběry hotovosti do registrační pokladny jsou evi
 
 **Objekty modulu**
 
-Objekty modulu Více úhrad jsou označeny verzí 
-**FP7.20 resp. pouze FP**.
+Objekty modulu Více úhrad jsou označeny verzí **FP7.20 resp. pouze FP**.
 
 **Další součásti instalace**
 
