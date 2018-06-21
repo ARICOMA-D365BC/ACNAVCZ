@@ -81,7 +81,7 @@ Nastavuje se:
 Pro vložení se na všech kartách používá tlačítko **Vložit obecné parametry** na kartě Akce. Objeví se průvodce Vložení obecných parametrů, pomocí kterého se ke konkrétní kartě (zboží, majetku aj.) vybere šablona, parametry a nastaví se hodnoty těchto parametrů.
 Kroky průvodce vložením parametrů jsou:
 * volba šablony v poli **Název šablony**,
-* nastavení hodnot povinných parametrů dané šablony
+* nastavení hodnot povinných parametrů dané šablony,
 * nastavení hodnot nepovinných parametrů dané šablony.
 Stejný postup se použije při změně parametrů nebo hodnot obecných parametrů dané karty.
 
