@@ -23,6 +23,7 @@ K tisku na fiskální tiskárně dochází také při zaúčtování rozpisu pla
 Rovněž všechny vklady a výběry hotovosti do registrační pokladny jsou evidovány a vytištěny na fiskální tiskárně.
 
 ## Instalace
+
 **Objekty modulu**
 
 Objekty modulu Více úhrad jsou označeny verzí 
@@ -33,12 +34,16 @@ Objekty modulu Více úhrad jsou označeny verzí
 Podmínkou provozování je minimálně edice Starte Pack a **modul 4050120 (Více úhrad)**.
 
 ## Nastavení
+
 ### Nastavení více úhrad
+
 **Seznam platebních míst**
 
 Nastavení je v Oblasti/proFINANCE/Fiskální tiskárny – Platební místa.
 Zde je možné definovat seznam používaných platebních míst, přičemž jedno platební místo může zahrnovat více fiskálních tiskáren: 
+
 **Seznam fiskálních tiskáren**
+
 Nastavení je v Oblasti/proFINANCE/Fiskální tiskárny – Fiskální tiskárny
 Zde je možné definovat používané fiskální tiskárny včetně jejich parametrů: 
 Většina uvedených parametrů musí být shodně nastavena také v konfiguraci fiskální tiskárny. Jedná se o:
@@ -49,8 +54,11 @@ Většina uvedených parametrů musí být shodně nastavena také v konfiguraci
 * Kód platebního místa
 * Kód způsobu platby (hotovost) – tento kód je použit pro zadanou částku hotovosti v lokální měně na formuláři Rozpis platby.
 * Čísla dokladů platby – není-li zadáno, použije se číselná řada z Nastavení více způsobů platby.
+
 **Protiúčet pro vyrovnání**
-Pro evidenci veškerých fiskalizovaných transakcí slouží Položky bankovních účtů. Nastavením takového účtu pro každou fiskální tiskárnu a typ platidla je pak možné provádět vzájemné odsouhlasení evidence z NAV a přímo z fiskálního modulu.
+
+Pro evidenci veškerých fiskalizovaných transakcí slouží Položky bankovních účtů. Nastavením takového účtu 
+pro každou fiskální tiskárnu a typ platidla je pak možné provádět vzájemné odsouhlasení evidence z NAV a přímo z fiskálního modulu.
 Nastavení je v Oblasti/Správa financí/Bankovní správa – Bankovní účty.
 Zde je třeba vytvořit karty „bankovních účtů“ přináležející k fiskální tiskárně:
 Vyplněním kódu fiskální tiskárny uživatel provede propojení, díky kterému částky.
@@ -60,20 +68,29 @@ Definice hodnot Typů platidel pro fiskální tisk:
 3.	Stravenky
 4.	Šeky
 5.	Slovenská koruna
+
 **Nastavení více způsobů platby**
+
 Nastavení je v Oblasti/proFINANCE/Více úhrad – Nastavení více způsobů platby.
 
 ## Použití
+
 ### Operace podláhající fiskalizaci
+
 Prodej
 Při prodeji z prodejní faktury 
 Prodej
 Vklad/Výběr
+
 ### Tisk
+
 **Daňový doklad**
+
 Bloček vytištění fiskální tiskárnou je sám o sobě daňovým dokladem, popř. dokladem o úhradě faktury.
 Modul neřeší případné úpravy standardních tiskových výstupů daňových dokladů (např. účtovaná prodejní faktura).
+
 **Registrace platby**
+
 Při účtování dokladu s rozpisem plateb , nebo při zaúčtování rozpisu platby na vytvořeném resp. zaúčtovaném dokladu, případně při účtování vkladu nebo výběru hotovosti do registrační pokladny je vytvořen soubor s registrační dávkou a uložen do definovaného adresáře.
 Po zpracování souboru fiskální tiskárnou FT4000 je zpět vrácen soubor s potvrzením (bloček). 
 Během zpracování jsou k fiskální položce doplněny tyto atributy:
