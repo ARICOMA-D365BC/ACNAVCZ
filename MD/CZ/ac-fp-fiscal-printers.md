@@ -1,18 +1,18 @@
---- 
-title: "Fiskální tiskárny"
+---
+title: "Fiscal Printers - VAROS"
 author: Autocont
 ms.custom: na
-ms.date: 04/13/2018
+ms.date: 02/26/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: dynamics-nav-2018
 ms.translationtype: Human Translation
-ms.sourcegitcommit:
-ms.openlocfilehash:
+ms.sourcegitcommit: 
+ms.openlocfilehash: 
 ms.contentlocale: cs-cz
-ms.lasthandoff: 03/27/2018
+ms.lasthandoff: 02/26/2018
 
 ---
 
@@ -22,15 +22,15 @@ Při účtování primárních dokladů (faktura, objednávka, dobropis) s rozpi
 K tisku na fiskální tiskárně dochází také při zaúčtování rozpisu platby na vytvořeném resp. zaúčtovaném dokladu (faktura, dobropis, záloha).
 Rovněž všechny vklady a výběry hotovosti do registrační pokladny jsou evidovány a vytištěny na fiskální tiskárně.
 
-##Instalace
+## Instalace
 **Objekty modulu**
 Objekty modulu Více úhrad jsou označeny verzí 
 **FP7.20 resp. pouze FP**. 
 **Další součásti instalace**
 Podmínkou provozování je minimálně edice Starte Pack a **modul 4050120 (Více úhrad)**.
 
-##Nastavení
-###Nastavení více úhrad
+## Nastavení
+### Nastavení více úhrad
 **Seznam platebních míst**
 Nastavení je v Oblasti/proFINANCE/Fiskální tiskárny – Platební místa.
 Zde je možné definovat seznam používaných platebních míst, přičemž jedno platební místo může zahrnovat více fiskálních tiskáren: 
@@ -59,15 +59,13 @@ Definice hodnot Typů platidel pro fiskální tisk:
 **Nastavení více způsobů platby**
 Nastavení je v Oblasti/proFINANCE/Více úhrad – Nastavení více způsobů platby.
 
-##Použití
-
-###Operace podláhající fiskalizaci
+## Použití
+### Operace podláhající fiskalizaci
 Prodej
 Při prodeji z prodejní faktury 
 Prodej
 Vklad/Výběr
-
-###Tisk
+### Tisk
 **Daňový doklad**
 Bloček vytištění fiskální tiskárnou je sám o sobě daňovým dokladem, popř. dokladem o úhradě faktury.
 Modul neřeší případné úpravy standardních tiskových výstupů daňových dokladů (např. účtovaná prodejní faktura).
@@ -80,5 +78,6 @@ Během zpracování jsou k fiskální položce doplněny tyto atributy:
 * Číslo bločku	
 * Bloček
 
-## <a name="see-also"></a>Viz také   
-[AC Financial Pack](ac-fp-financial-pack.md)
+
+## <a name="see-also"></a>Viz také  
+[AC Financial Pack](ac-fp-financial-pack.md)  

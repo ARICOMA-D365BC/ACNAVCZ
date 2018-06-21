@@ -21,14 +21,14 @@ ms.lasthandoff: 02/26/2018
 Modul Doprava – základ řeší problematiku evidence vozidel, plánování údržby vozidel. Evidence řidičů, evidence knih jízd a evidenci spotřeby pohonných hmot (včetně možnosti importu souborů o nákupech na palivové karty, např. CCS). 
 Tento modul je nutnou podmínkou pro používání rozšiřujícího modulu Doprava – plánování.
 
-##Instalace
+## Instalace
 **Objekty modulu**
 Objekty modulu Doprava – základ jsou označeny verzí DO7.10 resp. pouze DO.
 **Další součásti instalace**
 Modul nevyžaduje pro instalaci žádné další součásti.
 
-##Nastavení
-###Nastavení dopravy
+## Nastavení
+### Nastavení dopravy
 **Obecné**
 Základní nastavení se provede v Oblasti/proPRODUKTIVITU/Doprava – Nastavení dopravy.
 Na záložce **Obecné** zadáte volby:
@@ -104,8 +104,8 @@ Kartu řidiče je možné prostřednictvím pole **Číslo zdroje** napojit řid
 Pomocí tlačítka **Odborná způsobilost** lze zadat či upravit přiřazení odborností k řidičům. Zadáním počátečního, resp. koncového data je možné hlídat vypršení platnosti určité odbornosti.
 **Katalog zboží dodavatele**
 Katalog zboží dodavatele slouží k napárování kódu zboží dodavatele s interním kódem PHM definujícím zaúčtování (viz výše). 
-##Použití
-###Použití dopravy
+## Použití
+### Použití dopravy
 **Evidence údržby vozidla**
 Na Kartě vozidla pomocí tlačítka **Evidence údržby** se zobrazí evidence údržby provedené na určitém vozidle.
 **Práce s výpisy čerpání PHM**
