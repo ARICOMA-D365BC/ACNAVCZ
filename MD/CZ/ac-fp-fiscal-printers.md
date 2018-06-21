@@ -1,18 +1,18 @@
----
-title: "Fiscal Printers - VAROS"
+--- 
+title: "Fiskální tiskárny"
 author: Autocont
 ms.custom: na
-ms.date: 02/26/2018
+ms.date: 04/13/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: dynamics-nav-2018
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 
-ms.openlocfilehash: 
+ms.sourcegitcommit:
+ms.openlocfilehash:
 ms.contentlocale: cs-cz
-ms.lasthandoff: 02/26/2018
+ms.lasthandoff: 03/27/2018
 
 ---
 
@@ -60,11 +60,13 @@ Definice hodnot Typů platidel pro fiskální tisk:
 Nastavení je v Oblasti/proFINANCE/Více úhrad – Nastavení více způsobů platby.
 
 ##Použití
+
 ###Operace podláhající fiskalizaci
 Prodej
 Při prodeji z prodejní faktury 
 Prodej
 Vklad/Výběr
+
 ###Tisk
 **Daňový doklad**
 Bloček vytištění fiskální tiskárnou je sám o sobě daňovým dokladem, popř. dokladem o úhradě faktury.
@@ -78,6 +80,5 @@ Během zpracování jsou k fiskální položce doplněny tyto atributy:
 * Číslo bločku	
 * Bloček
 
-
-## <a name="see-also"></a>Viz také  
-[AC Financial Pack](ac-fp-financial-pack.md)  
+## <a name="see-also"></a>Viz také   
+[AC Financial Pack](ac-fp-financial-pack.md)
