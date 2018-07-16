@@ -80,10 +80,12 @@ Záložka **Správce** obsahuje informace o správci IR (jako jméno, adresu, I�
 Řádky Karty věci insolvenčního rejstříku zobrazují data z tabulky 4003802 Událost insolvenčního rejstříku. Hodnoty v řádcích jsou seskupeny do záložek dle hodnoty oddílu (A,B,C,D,P) v tabulce Událost insolvenčního rejstříku. Číselné pořadí řádku znamená pořadí v konkrétní záložce.
 Na kartě věci IR lze z **tlačítka Věc** zobrazit následující údaje:
 * Přehled F5 
-* **Osoby** – obsahuje informace o osobách zainteresovaných v řízení konkrétní věci insolvenčního řízení. Pro osoby je možné zobrazit jejich adresy. 
+* **Osoby** – obsahuje informace o osobách zainteresovaných v řízení konkrétní věci insolvenčního řízení. Pro osoby je možné zobrazit jejich adresy.
+
 Rozeznáváme 2 druhy role v řízení: 
 * Správce
 * Dlužník
+
 **Tlačítko Řádek** obsahuje možnost **„Zobrazit dokument“** připojený ke konkrétnímu řádku. Jeho umístnění je definováno ve sloupci ID dokumentu. Dokumenty nejsou uloženy v systému. V řádcích je pouze odkaz na soubor ve veřejné databázi IR. 
 
 ### Evidence insolventního řízení u kontaktu
@@ -123,11 +125,11 @@ V procesu kontroly insolvenčního rejstříku u Karet kontaktů nebude NAV proc
 
 V Nastavení prodeje a pohledávek je možné definovat chování systému s ohledem na záznamy v insolvenčním rejstříku.
 Pole **„Kontrola při insolvenci“** [option = „prázdný“, Upozornění, Blokace] spolu s polem „Blokování účtování při insolvenci“ určuje chování systému takto:
-**„prázdný“** – kontrola je vypnuta 
+**„prázdný“** – kontrola je vypnuta. 
 **Upozornění** – při účtování je zobrazen formulář s upozorněním, že „Zákazník má záznam v IR, s dotazem zda chce uživatel pokračovat ANO/NE“. Formulář zobrazuje počet otevřených/uzavřených záznamů IR.
 **Blokace** – není možné zaúčtovat dodání, fakturu, nebo oboje dle nastavení pole **„Blokovat účtování při insolvenci**. 
 Pole **„Blokovat účtování při insolvenci“** [option = „prázdný“, Dodat, Fakturovat, Vše] – spojené s vybraným option v poli „Kontrola při insolvenci“
-**„prázdný“** – blokace je vypnuta 
+**„prázdný“** – blokace je vypnuta.
 **Dodat** – na prodejním dokladu není možné zaúčtovat dodání pokud má zákazník otevřený záznam v IR. 
 **Fakturovat** – na prodejním dokladu není možné zaúčtovat fakturu pokud má zákazník otevřený záznam v IR. 
 **Vše** – na prodejním dokladu není možné zaúčtovat dodání ni fakturu pokud má zákazník otevřený záznam v IR. 
@@ -158,11 +160,11 @@ Na tlačítku **Úloha > Akce** lze definovat údaje pro zasílání reportu ema
 
 ### Report Kontrola insolvenčního rejstříku
 
-Report automaticky upozorňuje na vstup obchodního partnera (kontaktu/zákazníka/dodavatele) do insolvenčního řízení nebo na podání návrhu na insolvenční řízení vůči vlastní společnosti
+Report automaticky upozorňuje na vstup obchodního partnera (kontaktu/zákazníka/dodavatele) do insolvenčního řízení nebo na podání návrhu na insolvenční řízení vůči vlastní společnosti.
 Zdrojem dat je tabulka Věc insolvenčního rejstříku. V reportu je možné nastavit tyto parametry:
 * Zpětně o – pole slouží pro zadání časového/datového intervalu, od kdy zpětně uživatel požaduje report zpustit. (je možné zadat datum, nebo hodnotu v podobě příznaku, např. 3D 5H = 3 dny 5 hodiny. Pro potřeby detailnějšího sledování insolvenčních řízení taky M=minuta, S=sekunda)
 * Netisknout vlastní společnost – report nebude obsahovat záznam z IR, které bylo započato na vlastní společnost.
-* Netisknout kontakt – report nebude obsahovat řádky kontaktu
+* Netisknout kontakt – report nebude obsahovat řádky kontaktu.
 * Netisknout zákazníka – report nebude obsahovat řádky zákazníka.
 * Netisknout dodavatele - report nebude obsahovat řádky dodavatele.
 
@@ -173,6 +175,7 @@ Report automaticky upozorňuje na existenci prodejních dokladů v systému, u k
 * Otevřených položek zákazníka všech typů (faktura, platba, dobropis, upomínka, penále)
 * Upomínek
 * Penále
+
 Zdrojem dat je tabulka Prodejní hlavička a Položka zákazníka. V reportu je možné nastavit tyto parametry:
 * filtr dle údajů z karty zákazníka
 * filtr dle údajů z hlavičky prodejních dokladů

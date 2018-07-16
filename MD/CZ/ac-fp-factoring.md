@@ -34,7 +34,7 @@ Modul Faktoring nevyžaduje další součásti instalace.
 
 ### Obecné
 
-Po importu objektů je třeba provést nastavení modulu faktoring. Základní nastavení se provede v Oblasti/proFINACE/Faktoring.
+Po importu objektů je třeba provést nastavení modulu faktoring. Základní nastavení se provede v Oblasti/proFINANCE/Faktoring.
 Pro správnou funkci modulu Faktoring je nutné provést následující kroky:
 * V účtové osnově založit finanční účty pro sledování postoupených pohledávek a nákladové a výnosové účty pro přeúčtování faktoringu (volitelně)
 * Založit účto skupiny pro faktoring

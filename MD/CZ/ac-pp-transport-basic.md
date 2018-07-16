@@ -39,12 +39,15 @@ Modul nevyžaduje pro instalaci žádné další součásti.
 
 Základní nastavení se provede v Oblasti/proPRODUKTIVITU/Doprava – Nastavení dopravy.
 Na záložce **Obecné** zadáte volby:
+
 **Nutné ID původu požadavku** – viz popis modul Doprava – plánování
+
 **Nutné ID PSČ požadavků** – viz popis modul Doprava plánování
 
 Na záložce **Číslování** musíte zadat číselné řady:
 **Čísla vozidel** – číselná řada pro karty vozidel,
 **Čísla řidičů** – číselná řada pro karty řidičů.
+
 Ostatní pole jsou připravena pro modul Doprava – plánování a není nutné je pro potřeby základního modulu vyplňovat.
 
 **Typ vozidel**
@@ -112,18 +115,20 @@ Okno Šablony deníku PHM obsahuje jeden řádek pro každou šablonu. Význam j
 
 Šablony výpisu čerpání slouží k vytváření a sledování jednotlivých šablon výpisů. Nastavení šablon se provede v Oblasti/proPRODUKTIVITU/Doprava/Šablony výpisů čerpání PHM.
 V Šabloně výpisu čerpání PHM se definují:
-* Název a Popis,
+* Název a Popis
 * Čísla výpisů – číselná řada pro výpisy čerpání PHM
 * Čísla vydaných výpisů – číselná řada pro vydané výpisy čerpání PHM
-* parametry pro elektronické zpracování vyúčtování Cesta pro import, Typ souboru pro import, Typ objektu pro import, ID objektu pro import, Název objektu pro import
+* Parametry pro elektronické zpracování vyúčtování Cesta pro import, Typ souboru pro import, Typ objektu pro import, ID objektu pro import, Název objektu pro import
 * Číslo dodavatele – je nutné vyplnit, budou-li z výpisů generovány nákupní faktury
 * Číslo dodavatele PHM – needitovatelné, je zkopírováno ze stejného pole na kartě dodavatele (jedná se o číslo dodavatele PHM, které uvádí v elektronických výpisech, a které je kontrolováno při jejich importu).
 * Šablona deníku PHM – je nutné vyplnit, budou-li z výpisů generovány deníky PHM
 * List deníku PHM – je nutné vyplnit, budou-li z výpisů generovány deníky PHM
+
 Dále je možné určit Šablonu a List deníku PHM kam budou položky vydaného výpisu exportovány po konečném zaúčtování a Číslo dodavatele pro automatické vytváření nákupních faktur.
 Šablony výpisů čerpání PHM lze zobrazit ve dvou rozdílných oknech:
 * Přehled šablon výpisů čerpání PHM zobrazuje veškeré šablony, každá na jednom řádku.
 * Karta šablony výpisů čerpání PHM má pro každý řádek v přehledu šablon výpisů čerpání PHM k dispozici kartu s podrobnějším zobrazením polí pro zadání.
+
 Obě tato okna zobrazují stejná pole a obě okna také poskytují stejné možnosti pro úpravy obsahů polí.
 
 **Karta vozidla**
@@ -152,7 +157,8 @@ Na Kartě vozidla pomocí tlačítka **Evidence údržby** se zobrazí evidence 
 
 **Práce s výpisy čerpání PHM**
 
-Přehled výpisů čerpání najdeme v Oblasti/proPRODUKTIVITU/Doprava – Výpisy čerpání PHM. Zvolíme Přehled výpisů čerpání a zvolíme Nový. Po zadání dodavatele je možné importovat soubor od dodavatele pohonných hmot pomocí tlačítka Import výpisu. Následně je nutné doklad Vydat, čímž se doklad přesune do Vydaných výpisů čerpání PHM. (Oblasti/proPRODUKTIVITU/Doprava – Výpisy vydaných čerpání PHM)
+Přehled výpisů čerpání najdeme v Oblasti/proPRODUKTIVITU/Doprava – Výpisy čerpání PHM. Zvolíme Přehled výpisů čerpání a zvolíme Nový. Po zadání dodavatele je možné importovat soubor od dodavatele pohonných hmot pomocí tlačítka Import výpisu. Následně je nutné doklad Vydat, čímž se doklad přesune do Vydaných výpisů čerpání PHM. (Oblasti/proPRODUKTIVITU/Doprava – Výpisy vydaných čerpání PHM).
+
 Pro vytvoření nákupní faktury spustí uživatel na Vydaném výpisu čerpání PHM funkci **Vytvoření nák. faktury**. Funkce po skončení zobrazí číslo právě vytvořené nákupní faktury.
 Pro návrh deníku PHM slouží funkce **Vytvoření deníku PHM**.
 

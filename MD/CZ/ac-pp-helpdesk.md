@@ -32,7 +32,7 @@ V případě požadavku na řízení procesu zpracování HelpDesk požadavků p
 
 **Publikování dokumentů SharePoint k helpdesk požadavkům**
 
-Pokud je požadováno publikování elektronických dokumentů k Helpdesk požadavkům, je nutné mít zakoupen a anastaven modul Publikování SharePoint.
+Pokud je požadováno publikování elektronických dokumentů k Helpdesk požadavkům, je nutné mít zakoupen a nastaven modul Publikování SharePoint.
 
 ## Nastavení
 
@@ -64,7 +64,7 @@ Kategorie uživatele obsahuje pole Kód, Popis a Váha. Kategorie uživatelů p�
 
 V dalším kroku se nastaví seznam oprávněných osob, které budou s HelpDeskem pracovat. Pro každou oprávněnou osobu se zvolí příslušná Kategorie uživatele, podle které program automaticky předvyplní Váhu požadavku pro danou osobu. Předvyplněnou hodnotu pole Váha lze pro každou osobu individuálně upravit. Pro výpočet celkové priority požadavku, pak program použije tuto hodnotu. 
 Údaje k oprávněným osobám se zadávají přímo do karty. Na záložce Spojení lze doplnit podrobnější kontaktní údaje k dané osobě (Adresa, Telefon, Fax, Mobil, E-mail).
-Když se do pole ID Uživatele vyplní odpovídající přihlašovací jméno dané oprávněné osoby, bude se při pořizování požadavku do HelpDesku automaticky nabízet kód oprávněné osoby, která požadavek zadává. Povolena změna uživatele opravňuje  ke změně Oprávněné osoby (poIe Identifikace helpdesk) při zadávání nového požadavku do HelpDesku. Zvolená Výchozí priorita se bude automaticky nabízet v nově pořizovaném požadavku.
+Když se do pole ID Uživatele vyplní odpovídající přihlašovací jméno dané oprávněné osoby, bude se při pořizování požadavku do HelpDesku automaticky nabízet kód oprávněné osoby, která požadavek zadává. Povolená změna uživatele opravňuje  ke změně Oprávněné osoby (poIe Identifikace helpdesk) při zadávání nového požadavku do HelpDesku. Zvolená Výchozí priorita se bude automaticky nabízet v nově pořizovaném požadavku.
 
 #### Priority požadavků
 

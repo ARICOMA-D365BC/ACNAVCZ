@@ -17,18 +17,20 @@ ms.lasthandoff: 02/26/2018
 ---
 
 # <a name="ac-pp-warehouse-bartech-barcodes.md"></a>Řízení čárových kódů
-Add-on v Microsoft Dynamics NAV byl zpracován pro zvýšení produktivity práce skladníka, který provádí skladové operace ať už na základě existují-cích objednávek, nebo vytváří jednoduché doklady dle aktuální potřeby. 
-Předpokladem použití funkčnosti je definice čísel čárových kódů v křížo-vých odkazech pro karty zboží.
+Add-on v Microsoft Dynamics NAV byl zpracován pro zvýšení produktivity práce skladníka, který provádí skladové operace ať už na základě existujících objednávek, nebo vytváří jednoduché doklady dle aktuální potřeby. 
+Předpokladem použití funkčnosti je definice čísel čárových kódů v křížových odkazech pro karty zboží.
 Add-on podporuje sledování zboží dle sériových čísel nebo sledování čísel šarží.
 Celé řešení se skládá z:
 * Add-on Warehouse Bartech Barcodes, který zajišťuje funkčnost zpracování dokladů a operací v Microsoft Dynamics NAV.
 * Aplikace Mobilní skladník UNI, která je instalována 
+
 a)	 na PC a zajišťuje přenos dat mezi terminálem a uložištěm dat odkud si následně přebírá Microsoft Dynamics NAV
+
 b) do terminálu čtečky, kde umožňuje zpracován jednotlivých skladových operací
-* Terminál – fyzické zařízení k vlastnímu provádění skladové čin-nosti pracovníkem ve skladech.
+* Terminál – fyzické zařízení k vlastnímu provádění skladové činnosti pracovníkem ve skladech.
 Add-on umožňuje provádění vybraných skladových operací: 
-* Jednoduché doklady pro příjem, výdej, převod mezi sklady a in-venturu (deníky zboží)
-* Příjem a výdej vytvářený dle objednávky (prodejní a nákupní ob-jednávka, prodejní a nákupní objednávka vratky, objednávka spo-třeba a objednávka transferu)
+* Jednoduché doklady pro příjem, výdej, převod mezi sklady a inventuru (deníky zboží)
+* Příjem a výdej vytvářený dle objednávky (prodejní a nákupní ob-jednávka, prodejní a nákupní objednávka vratky, objednávka spotřeba a objednávka transferu)
 K přenosu dat mezi dtb Microsoft Dynamics NAV a aplikací zpracovávající data z terminálů slouží samostatná dtb SQL.
 
 ## Instalace
@@ -44,7 +46,7 @@ K funkčnosti je nutná granule 4120 Item Cross References.
 
 ## Nastavení
 
-Informační systém poskytuje číselníky skladů (včetně přihrádek pokud jsou použity), karet zboží, čárových kódů ve vazbě na MJ a definici použitelných řad dokladů pro zpracování v terminálu. V případě, že v terminálu probíhá zpracování na základě objednávek, jsou také z informačního sys-tém exportovány řádky příslušných dokladů. 
+Informační systém poskytuje číselníky skladů (včetně přihrádek pokud jsou použity), karet zboží, čárových kódů ve vazbě na MJ a definici použitelných řad dokladů pro zpracování v terminálu. V případě, že v terminálu probíhá zpracování na základě objednávek, jsou také z informačního systému exportovány řádky příslušných dokladů. 
 Data poskytnuta informačním systémem jsou zapsána do odpovídajících tabulek samostatné SQL dtb určené pro Mobilního skladníka UNI.
 Data po zpracování v terminálu jsou zpětně zapisována do SQL dtb odkud jsou přebírána do MBS NAV a zpracována na základě definice příslušné skladové operace (řady). 
 Proces zpracování jednotlivých skladových operací je identifikován pomocí „řad“. Každá řada má v Microsoft Dynamics NAV vlastní nastavení, které specifikuje, jak provedená akce v terminálu, bude zaznamenána v informačním systému.
@@ -57,7 +59,7 @@ Oblasti – proPRODUKTIVITU – Řízení čárových kódů – Nastavení – 
 
 **Aktivace MSU**
 
-Volba, která aktivuje celý modul pro zpracování skladových operací pomocí ter-minálů čteček čárových kódů.
+Volba, která aktivuje celý modul pro zpracování skladových operací pomocí terminálů čteček čárových kódů.
 
 **Logovat zpracování spooleru**
 
@@ -74,39 +76,42 @@ SQL serverem verze 2000, 2005 nebo 2008.
 **Lokace**
 
 V rámci nastavení lze vybrat lokace, které budou použité při zpracování operací pomocí terminály. Výběr lokace pro takové použití je prováděn zaškrtnutím pole MSU Export. 
-Pro jednotlivé lokace lze definovat, zda export karet zboží bude obsahovat ak-tuální stav zásob (i ve vazbě na přihrádky, pokud jsou pro danou lokaci použity) či nikoliv. Pokud informace aktuálního stavu zásob nebude v terminálu využívá-na, doporučuje se vzhledem k časové náročnosti výpočtu parametr MSU počítat množství nepoužít.
+Pro jednotlivé lokace lze definovat, zda export karet zboží bude obsahovat aktuální stav zásob (i ve vazbě na přihrádky, pokud jsou pro danou lokaci použity) či nikoliv. Pokud informace aktuálního stavu zásob nebude v terminálu využívána, doporučuje se vzhledem k časové náročnosti výpočtu parametr MSU počítat množství nepoužít.
 
 **Čárové kódy**
 
-Z Microsoft Dynamics NAV jsou exportovány pouze karty zboží s naplněným čáro-vých kódem v tabulce Křížový odkaz zboží. Zboží bez definovaného čárového kó-du nelze v terminálu zpracovat.
+Z Microsoft Dynamics NAV jsou exportovány pouze karty zboží s naplněným čárových kódem v tabulce Křížový odkaz zboží. Zboží bez definovaného čárového kódu nelze v terminálu zpracovat.
 
 **Karta řady**
 
-Jedná se o číselník definující způsob, jakým bude operace při importu do Micro-soft Dynamics NAV zpracována. Při evidenci každé operace v terminálu čtečky dochází k přiřazení konkrétní řady (buď pracovníkem skladu pokud se jedná o jednoduchý doklad nebo automaticky pokud se jedná o operaci na základě ob-jednávky).
+Jedná se o číselník definující způsob, jakým bude operace při importu do Microsoft Dynamics NAV zpracována. Při evidenci každé operace v terminálu čtečky dochází k přiřazení konkrétní řady (buď pracovníkem skladu pokud se jedná o jednoduchý doklad nebo automaticky pokud se jedná o operaci na základě ob-jednávky).
 * **Kód** – identifikace řady 
-* **Typ** – typ operace. V souladu se členěním aplikace Mobilní skladník jsou možné hodnoty: „Vstupní“, „Výstupní“, „Přeřazení“ a „Inventura“. 
+* **Typ** – typ operace. 
+
+V souladu se členěním aplikace Mobilní skladník jsou možné hodnoty: „Vstupní“, „Výstupní“, „Přeřazení“ a „Inventura“. 
 Typ Přeřazení je specifickým typem zpracování jednokrokového přesunu zboží mezi sklady, které Microsoft Dynamics NAV zpracuje pomocí deníku přeřazení. 
-Typ inventura je určen pouze pro zaznamenání fyzické inventury, která je v Microsoft Dynamics NAV zpracovaná zápisem množství fyzické inventu-ry do předchystaného deníku fyzické inventury. 
-Ostatní operace se dělí na vstupní a výstupní na základě toho, zda se jed-ná o úbytek zboží ze skladu nebo přírůstek.
+Typ inventura je určen pouze pro zaznamenání fyzické inventury, která je v Microsoft Dynamics NAV zpracovaná zápisem množství fyzické inventury do předchystaného deníku fyzické inventury. 
+Ostatní operace se dělí na vstupní a výstupní na základě toho, zda se jedná o úbytek zboží ze skladu nebo přírůstek.
+
 Všechny typy operací pracují s přihrádkami. 
 * **Popis** – popis operace 
 * **Viditelný kód** – slouží pro definici kódu, který se zobrazuje uživateli při výběru řady v terminálu
-* **Oprava** – definuje způsob vložení množství při importu do NAV (je-li hod-nota Ano, vkládá se množství s opačným znaménkem) a skladový záznam bude označen příznakem Oprava  
-* **Účtovat** – parametr, který určuje, zda skladové operace mají být účtovány současně s importem do systému, nebo zda jsou pouze zaznamenány in-formace o zpracovaném množství a zaúčtování skladového pohybu již zů-stává na ručním zpracování uživatelem. 
-* **Doklad tvořit** – rozlišuje, zdali je řada definována pro volné použití (uživa-tel prostřednictvím terminálu naplní deník zboží) nebo zda jsou doklady v terminálu tvořeny na základě objednávek z NAV (v tom případě se impor-tem aktualizují data na příslušných dokladech). Pro Typ "Přeřazení" a "In-ventura" je možná hodnota tohoto pole pouze "Volně"
-* **Způsob zpracování množství** – parametr má význam pouze ve vazbě na typ dokladu vytvářený dle objednávky a určuje, zda zpracované množství na řádku dokladu bude přepisováno vždy s nově zpracovaným skladovým pohybem z terminálu, nebo zda bude množství připočítáváno k již zada-nému množství v polích K příjmu (nákupní objednávka, příjemka transfe-ru), K dodání (prodejní objednávka, dodávka transferu), Množ. vratky dodání (objednávka nákupní vratky), Množ. vratky příjmu (objednávka prodejní vratky) nebo K zaúčtování (objednávka spotřeby)
-* **Šablona deníku zboží**, **List deníku zboží** – lze definovat šablonu a list dení-ku zboží pro doklady vytvářené volně 
-* **Šablona skladového pohybu** – pro vybranou šablonu a list deníku zboží lze předdefinovat použití šablony skladového pohybu s předdefinovaným ty-pem a OOUSZ
+* **Oprava** – definuje způsob vložení množství při importu do NAV (je-li hodnota Ano, vkládá se množství s opačným znaménkem) a skladový záznam bude označen příznakem Oprava  
+* **Účtovat** – parametr, který určuje, zda skladové operace mají být účtovány současně s importem do systému, nebo zda jsou pouze zaznamenány informace o zpracovaném množství a zaúčtování skladového pohybu již zůstává na ručním zpracování uživatelem. 
+* **Doklad tvořit** – rozlišuje, zdali je řada definována pro volné použití (uživatel prostřednictvím terminálu naplní deník zboží) nebo zda jsou doklady v terminálu tvořeny na základě objednávek z NAV (v tom případě se importem aktualizují data na příslušných dokladech). Pro Typ "Přeřazení" a "Inventura" je možná hodnota tohoto pole pouze "Volně"
+* **Způsob zpracování množství** – parametr má význam pouze ve vazbě na typ dokladu vytvářený dle objednávky a určuje, zda zpracované množství na řádku dokladu bude přepisováno vždy s nově zpracovaným skladovým pohybem z terminálu, nebo zda bude množství připočítáváno k již zadanému množství v polích K příjmu (nákupní objednávka, příjemka transfe-ru), K dodání (prodejní objednávka, dodávka transferu), Množ. vratky dodání (objednávka nákupní vratky), Množ. vratky příjmu (objednávka prodejní vratky) nebo K zaúčtování (objednávka spotřeby)
+* **Šablona deníku zboží**, **List deníku zboží** – lze definovat šablonu a list deníku zboží pro doklady vytvářené volně 
+* **Šablona skladového pohybu** – pro vybranou šablonu a list deníku zboží lze předdefinovat použití šablony skladového pohybu s předdefinovaným typem a OOUSZ
 * **Obecná obch. účtoskupina** – parametr je možné využít v případě, že OOUSZ není definována v rámci použité šablony skladového pohybu.
 * **Kód údržby** – parametr je použit ve vazbě na skladové operace spojené s majetkem
-* **Importovat číslo DM** – parametr je použit ve vazbě na skladové operace spojené s majetkem. Číslo DM je přenášeno z terminálu pomocí volitelné položky
-Každá řada s použitým parametrem tvorby dokladu dle objednávky musí mít defi-nován typ dokladu dané operace. 
+* **Importovat číslo DM** – parametr je použit ve vazbě na skladové operace spojené s majetkem. Číslo DM je přenášeno z terminálu pomocí volitelné položky.
+Každá řada s použitým parametrem tvorby dokladu dle objednávky musí mít definován typ dokladu dané operace. 
 V levé části karty řady jsou volby pro typy dokladů implicitně zpracovávající úbytky ze skladu a v pravé části jsou typu dokladů pro přírůstky na sklad.
 Filtry na záložce Obecné lze využít pro řady s typem dokladu dle objednávky, kdy řádky dokladů jsou exportovány z Microsoft Dynamics NAV jako podklad pro zpracování terminálem. Specifické filtry pro jednotlivé typy dokladů jsou uvedené na samostatných záložkách.
 
 **Skladníci**
 
-Přístup do terminálu čtečky a zpracování skladových operací lze svázat s informací o uživateli, který operace v terminálu provádí. Číselník skladníků lze zadat v Microsoft Dynamics NAV a exportovat do terminálu společně s ostatními číselní-ky. Číselník není povinný, záleží na nastavení aplikace Mobilního skladníka UNI.
+Přístup do terminálu čtečky a zpracování skladových operací lze svázat s informací o uživateli, který operace v terminálu provádí. Číselník skladníků lze zadat v Microsoft Dynamics NAV a exportovat do terminálu společně s ostatními číselníky. Číselník není povinný, záleží na nastavení aplikace Mobilního skladníka UNI.
 
 ### Synchronizace dat
 
@@ -118,7 +123,8 @@ Z Microsoft Dynamics NAV lze předávat do terminálu tři skupiny dat
 * čárové kódy karet zboží společně se stavem skladu ve vazbě na MJ a event. přihrádku
 * řádky objednávek, které slouží jako podklad pro zpracování. Může se jednat o řádky prodejních objednávek a objednávek vratek, řádky nákupních objednávek a objednávek vratek, řádky objednávek spotřeby a řádky objednávek dodávek a příjemek transferu.
 * samostatné číselníky (skladníci, řady pohybů, lokace + přihrádky)
-Export dat lze spustit ručně dle potřeby, nebo automatizovaně pomocí Shareplanu. Pro každou skupinu dat lze nastavit samostatnou úlohu sha-replanu a přiřadit periodu spouštění (např. číselníky je možné synchroni-zovat 1x denně a export objednávek každých 15 minut…)
+
+Export dat lze spustit ručně dle potřeby, nebo automatizovaně pomocí Shareplanu. Pro každou skupinu dat lze nastavit samostatnou úlohu shareplanu a přiřadit periodu spouštění (např. číselníky je možné synchronizovat 1x denně a export objednávek každých 15 minut…)
 
 **Importy**
 
@@ -135,7 +141,7 @@ Importy dat lze také spustit ručně dle potřeby, nebo automatizovaně pomocí
 * **Stav zpracování** – Nový (), Zpracováno (skladový pohyb, kterého import proběhl bez chyb), Chyba (při zpracování došlo k chybě), Expirováno (skladový doklad ne-zpracován v IS a trvale vyřazen ze zpracování)
 * **Datum zpracování** – evidence provedení importu skladového pohybu
 * **Stav účtování** – evidence stav účtování skladového pohybu 
-* **Kód pracovníka** – identifikace skladníka, který skladový pohyb v terminálu zazna-menal
+* **Kód pracovníka** – identifikace skladníka, který skladový pohyb v terminálu zaznamenal
 
 ## Použití
 
@@ -148,14 +154,14 @@ Formulář umožňuje hromadné zpracování chybových položek pomocí „vymo
 
 ### Operace pro navýšení množství na skladě
 
-Navýšením množství na skladě (příjem) se v kontextu systému Microsoft Dynamics NAV může jed-nat o příjem, 
+Navýšením množství na skladě (příjem) se v kontextu systému Microsoft Dynamics NAV může jednat o příjem, 
 storno výdeje, nákupní příjemku, prodejní příjemku vratky, příjem transferu, výstup výroby, storno spotřeby výroby, výstup montážního dokladu, storno spotřeby montážního dokladu a storno spotřeby projektu.
 Pomocí terminálů čteček čárových kódů lze zpracovat uvedené doklady vyjma dokladů týkající se výroby a montážního dokladu.
 
 #### Jednoduchý doklad bez objednávky
 
 Tvorba dokladů v terminálu je popsána v dokumentaci k aplikaci MSU
-Jednoduchý doklad bez objednávky je v „řadách“ definován jako doklad zpracovaný v Microsoft Dynamics NAV pomocí deníku zboží. Na kartě příslušné řady je definice použití šablony a listu dení-ku zboží, nastavení šablony skladového pohybu…).
+Jednoduchý doklad bez objednávky je v „řadách“ definován jako doklad zpracovaný v Microsoft Dynamics NAV pomocí deníku zboží. Na kartě příslušné řady je definice použití šablony a listu deníku zboží, nastavení šablony skladového pohybu…).
 Je-li na příslušné řadě pro terminál nastaven parametr Účtovat, bude operace účtována současně s importem. Systém tak zaúčtuje skladový pohyb s ID uživatelem, s jehož přístupovými právy je spuštěn Aplikační server. Informaci o uživateli skladu, který skladovou operaci provedl lze nalézt v položkách MSU. 
 Do řádku deníku je rovněž přebírána Obecná obchodní účto skupina, popř. Šablona skladového pohybu definovaná pro příslušnou řadu.
 Tímto způsobem mohou být zpracovány doklady typu příjem nebo storno výdeje. 
@@ -163,18 +169,15 @@ Příklad definice řady pro skladové doklady typu příjem bez objednávky.
 
 #### Operace pro snížení množství na skladě
 
-Snížením množství na skladě (výdej) se v kontextu systému Microsoft Dynamics NAV může jednat o výdej, storno příjmu, prodejní dodávku, dodávku, nákupní dodávku vratky, dodávku transferu, spo-třebu, storno výroby, spotřebu montážního dokladu, storno výstupu montážního dokladu a spotře-bu projektu.
+Snížením množství na skladě (výdej) se v kontextu systému Microsoft Dynamics NAV může jednat o výdej, storno příjmu, prodejní dodávku, dodávku, nákupní dodávku vratky, dodávku transferu, spotřebu, storno výroby, spotřebu montážního dokladu, storno výstupu montážního dokladu a spotřebu projektu.
 Pomocí terminálů čteček čárových kódů lze zpracovat uvedené doklady vyjma dokladů týkající se výroby a montážního dokladu. 
 Proces zpracování je shodný s navýšením množství na skladě (viz předchozí kapitola).
-Příklad definice řady pro skladové doklady typu výdej bez objednávky
-Příklad definice řady pro skladové doklady typu výdej na základě objednávky
 
 #### Skladové přesuny
 
 Přesunem se v kontextu systému Microsoft Dynamics NAV jedná o přeřazení. To slouží jak k převodu mezi lokacemi, tak i z přihrádky na přihrádku v rámci téže lokace.
 Doklad je vytvářen prostřednictvím terminálu dle aktuálních potřeb uživatele.
 Zadané pohyby jsou importovány do NAV do deníku přeřazení s typem položky Transfer.
-Příklad definice řady pro skladové doklady typu přeřazení
 
 #### Inventury skladu
 
@@ -199,15 +202,15 @@ Po importu skladových pohybů systém doplňuje množství ke zpracování a k�
 #### Omezení funkcionality
 
 Některé funkcionality či vlastnosti NAV nelze v souvislosti s integrací s aplikací Mobilní skladník 
-využí-vat a naopak:
+využívat a naopak:
 * MSU nepodporuje sledování sériových čísel zároveň se sledováním čísel šarží; pokud bude takto nastaveno v NAV, bude se v MSU jevit jako se sledováním SČ (v NAV musí uživatel při příjmu doplnit šarži ručně)
 * NAV umožňuje definovat přihrádky jen pro některé operace. Integrace s MSU podporuje přihrádky pouze u lokací s povinným použitím přihrádek u všech operací (příznak Přihrádka nutná).
 * MSU nepodporuje práci s variantami dle funkcionality NAV.
 * Funkce pro zadávání data výroby při příjmu zboží se SČ či šarží není v NAV podporována (v NAV se sleduje Datum záruky, popř. Datum expirace).
-* Možnost MSU vytvářet nákupní či prodejní operace (tedy se zadáním dodavatele či zákazní-ka) bez objednávky není v NAV podporována. Vždy budou vytvořeny položky zboží s typem Příjem nebo Výdej.
+* Možnost MSU vytvářet nákupní či prodejní operace (tedy se zadáním dodavatele či zákazníka) bez objednávky není v NAV podporována. Vždy budou vytvořeny položky zboží s typem Příjem nebo Výdej.
 * Informace o čísle balíku ani o váze balíku z MSU nebude v NAV zaznamenána. Pouze pole EAN kód balíku se přenáší do pole Sledovací číslo zásilky v prodejní objednávce.
 * V NAV není podporována funkcionalita MSU umožňující definovat různé přístupy pro různé skladníky, tzn. všechna data budou exportována tak, že k nim budou mít stejný přístup všichni uživatelé terminálů.
-* V NAV není podporována funkcionalita MSU umožňující definovat libovolné volitelné para-metry. Vzhledem ke specifickému použití u každého zákazníka může být realizováno jako zá-kaznické řešení.
+* V NAV není podporována funkcionalita MSU umožňující definovat libovolné volitelné parametry. Vzhledem ke specifickému použití u každého zákazníka může být realizováno jako zákaznické řešení.
 * Skladové doklady NAV jako Skladový přesun, Výstup výroby, Spotřeba do výroby, Výstup a storno montáže, Spotřeba a storno spotřeby montáže nejsou podporovány.
 
 

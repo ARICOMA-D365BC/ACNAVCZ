@@ -47,7 +47,7 @@ Obojí se nastavuje na stránce Obecné parametry. Dále se nastavuje:
 * Výchozí hodnota parametru.
 * Nastavení, zda je parametr povinný.
 * Priorita parametru.
-Tyto 3 vlastnosti se nastavují na page Obecné parametry šablony.
+Tyto 3 vlastnosti se nastavují na stránce Obecné parametry šablony.
 
 #### Obecné parametry
 

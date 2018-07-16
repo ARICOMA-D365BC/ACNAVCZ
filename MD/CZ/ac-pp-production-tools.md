@@ -34,7 +34,7 @@ Add-on modul vyžaduje Dynamics NAV Starter Pack a Extended Pack.
 
 **Nastavení modulu**
 
-Základní nastavení se provede v nabídce: Oblasti / proPRODUKTIVITU / Evidence nářadí a pomůcek / Nastavení
+Základní nastavení se provede v nabídce: Oblasti / proPRODUKTIVITU / Evidence nářadí a pomůcek / Nastavení.
 Je nutné nastavit minimálně jednu šablonu deníku evidence nástrojů. V šabloně je možno volit výchozí **Typ položky**, pokud by byla potřeba definovat deník jen pro jeden pohyb např. **Půjčení**. Dále je potřeba nastavit číselnou řadu dokladů, pomocí kterých se budou pohyby sledovat.
 Pro každou šablonu deníku (případně list deníku) je možno definovat kontroly povinných údajů v deníku při účtování pohybu s nářadím v tabulce **Nastavení typů položky evidence nástrojů**.
 
@@ -67,7 +67,7 @@ Evidence nad modulem majetek umožňuje při existenci granule Controlling Fixed
 
 ### Historie
 
-Při účtování deníku vznikají položky, které je možno zobrazit pomocí pomocí klávesové zkratky **Ctrl+F7** z **Karty evidence nářadí** nebo z **Deníku evidence nářadí**, případně Oblasti / proPRODUKTIVITU / Evidence nářadí a pomůcek / Historie
+Při účtování deníku vznikají položky, které je možno zobrazit pomocí klávesové zkratky **Ctrl+F7** z **Karty evidence nářadí** nebo z **Deníku evidence nářadí**, případně Oblasti / proPRODUKTIVITU / Evidence nářadí a pomůcek / Historie
 
 
 

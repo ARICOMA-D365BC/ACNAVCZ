@@ -87,10 +87,12 @@ Vyplním pole **Číslo relační tabulky** – tabulka, kde bude pole pro e-mai
 
 Jsou 2 způsoby, jak definovat obsah e-mailu (předmět a tělo).
 1.	S pevně definovanou naprogramovanou strukturou 
+
 V tomto případě **Typ e-mailu** je **Standard**.  
 **Předmět:** kód šablony události + popis fáze
 **Tělo:** pole primární klíč z položky události
 2.	S dynamickým obsahem 
+
 V tomto případě je obsah definovaný pomocí polí a textů e-mailu. **Typ e-mailu** je **Strukturovaný**. Předmět i tělo se definuje v textech mailu s využitím polí e-mailu. Pole je možné definovat z tabulek – zdrojová tabulka šablony upozornění, 52068220 – Šablona události, 52068221 Fáze pole, 52068224 Položka události.
 
 ## Použití

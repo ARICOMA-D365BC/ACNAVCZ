@@ -30,7 +30,7 @@ Objekty modulu Více úhrad jsou označeny verzí **FP7.20 resp. pouze FP**.
 
 **Další součásti instalace**
 
-Podmínkou provozování je minimálně edice Starte Pack a **modul 4050120 (Více úhrad)**.
+Podmínkou provozování je minimálně edice Starter Pack a **modul 4050120 (Více úhrad)**.
 
 ## Nastavení
 
@@ -74,7 +74,7 @@ Nastavení je v Oblasti/proFINANCE/Více úhrad – Nastavení více způsobů p
 
 ## Použití
 
-### Operace podláhající fiskalizaci
+### Operace podléhající fiskalizaci
 
 Prodej
 Při prodeji z prodejní faktury 
@@ -91,11 +91,11 @@ Modul neřeší případné úpravy standardních tiskových výstupů daňovýc
 **Registrace platby**
 
 Při účtování dokladu s rozpisem plateb , nebo při zaúčtování rozpisu platby na vytvořeném resp. zaúčtovaném dokladu, případně při účtování vkladu nebo výběru hotovosti do registrační pokladny je vytvořen soubor s registrační dávkou a uložen do definovaného adresáře.
-Po zpracování souboru fiskální tiskárnou FT4000 je zpět vrácen soubor s potvrzením (bloček). 
+Po zpracování souboru fiskální tiskárnou FT4000 je zpět vrácen soubor s potvrzením (bloček).
 Během zpracování jsou k fiskální položce doplněny tyto atributy:
-* Datum a čas registrace	
+* Datum a čas registrace
 * Registrační dávka
-* Číslo bločku	
+* Číslo bločku
 * Bloček
 
 
