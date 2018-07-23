@@ -1,0 +1,52 @@
+<html xmlns:xlink="http://www.w3.org/1999/xlink"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="save" content="history"><title>AC Promis - transics</title>
+<link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
+<body><h1>AC Promis - transics</h1>
+<h2 id="transics">TRANSICS</h2>
+<p>Výměna dat s Transics probíhá na bázi webových služeb (web services). Z dostupných webových služeb jsou implementovány:</p>
+<ul>
+<li>Get_Vehicles</li>
+<li>Get_VehicleInfo_On_Date</li>
+<li>Insert_Planning</li>
+<li>Update_Planning</li>
+<li>Get_Planning_Modifications</li>
+<li>Cancel_Planning</li>
+<li>Get_Positions</li>
+<li>Get_ActivityList</li>
+<li>Get_ActivityReportDetail</li>
+<li>Get_RefuelReport</li>
+<li>Get_BorderCrossingReport</li>
+<li>Get_EcoMonitor_Report</li>
+</ul>
+<p>Z výše uvedených služeb jsou získávány následující informace:</p>
+<ul>
+<li>Položky pozic vozidel    - jedná se informativní údaj pro dispečera, je protokolována historie</li>
+<li>Denní pozice        - viz předchozí, ale za celý den, aby se doplnily případné chybějící informace (např. byla služba nějakou dobu nedostupná)</li>
+<li>Položky přechodů hranic    - tyto informace slouží jako pomocný údaj pro vyúčtování cestovních příkazů</li>
+<li>Položky tankování         - jedná se o informativní údaje, jak řidič zaznamenal informace o tom, že natankoval</li>
+<li>Položka Ecomonitorgu     - informace o způsobu jízdy řidiče; slouží jako podklad pro reporting či zákaznické řešení pro hodnocení řidičů</li>
+<li>Položky aktivit Transics    - v kombinaci s Přechody hranic se tvoří data v tabulce Žurnál aktivit řidiče, což je primární výsledek celé integrace. 
+  Jedná se o následující typy aktivit:<ul>
+<li>Konzultace    - v závislosti na konkrétní instrukční, např. že začal vykládat, nakládat, …</li>
+<li>Extra Informace - lze evidovat doplňující informace, které bude řidič zadávat (dle konkrétní instrukční sady, musí být upraveno jako zákaznická úprava</li>
+<li>Anomálie</li>
+<li>Chyby</li>
+</ul>
+</li>
+</ul>
+<h2 id="a-namesee-alsoaviz-také"><a name="see-also"></a>Viz také</h2>
+<p><a href="ac-pm-promis.html">AC ProMIS</a></p>
+
+<hr>
+<div>
+<span id="fb"></span>
+<span id="fbb">
+<p><!-- <a href="http://go.microsoft.com/fwlink/?LinkID=724015" target="_blank">Provide feedback.</a>--></p>
+<script type="text/javascript">FeedBackLink();</script>
+</span><br>
+</div>
+          
+            <p> © 2018 Microsoft. All rights reserved.</p>
+          <p><p><br xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+
+</body></html>

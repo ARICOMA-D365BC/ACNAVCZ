@@ -1,0 +1,34 @@
+<html xmlns:xlink="http://www.w3.org/1999/xlink"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="save" content="history"><title>AC Promis - Integrace Plantour</title>
+<link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
+<body><h1>AC Promis - Integrace Plantour</h1>
+<p>Integrace s aplikací Plantour probíhá na bázi výměnných tabulek v MS SQL.</p>
+<p>Z NAV jsou exportovány následující 4 tabulky: </p>
+<ul>
+<li><strong>Vozidla</strong> – evidují se i parametry vozidel (kód s 12 pozicemi) pro porovnání s omezeními na dodacích místech (viz násl.bod)</li>
+<li><strong>Dodací místa</strong> – z  NAV je tento seznam průběžně aktualizován, jak jsou průběžně na dokladech vytvářena. Evidují se až 2 časová okna pro 7 dní v týdnu, dále se pak evidují omezení pro vozidla (max. hmotnost, sklopná rampa, nakládací ruka,… to je zákaznická implementace)</li>
+<li><strong>Zásilky</strong> – zde se evidují toky na/z dodacích míst (komodity, ale i např. palety); Plantour zohledňuje, aby šlo v každý okamžik na auto vše naložit.</li>
+<li><strong>Řidiči</strong> – jen základní číselník vlastních řidičů Kód, jméno, telefon, Aktivní</li>
+</ul>
+<p>Do NAV jsou importovány následující 2 tabulky:</p>
+<ul>
+<li>T_TRS_O    - vypočtené trasy</li>
+<li>T_ZAST_O    - zastávky na trase</li>
+</ul>
+<p>Stávající způsob výběru zásilek pro odeslání do Plantour se provádí pomocí filtrů, kde lze využít pole jako číslo prvního nebo posledního distr. místa, požadovaný čas nakládky/vykládky, stav plánování, stav Plantour..  Pomocí těchto filtrů lze vybrat zásilky pro rozvoz nakládané v místě, pro které je využíváno plánování pomocí Plantour, zásilky pro zapracování s ohledem na datum, zásilky nezaplánované, zásilky neodeslané do Plantour…</p>
+<h2 id="a-namesee-alsoaviz-také"><a name="see-also"></a>Viz také</h2>
+<p><a href="ac-pm-promis.html">AC ProMIS</a></p>
+
+<hr>
+<div>
+<span id="fb"></span>
+<span id="fbb">
+<p><!-- <a href="http://go.microsoft.com/fwlink/?LinkID=724015" target="_blank">Provide feedback.</a>--></p>
+<script type="text/javascript">FeedBackLink();</script>
+</span><br>
+</div>
+          
+            <p> © 2018 Microsoft. All rights reserved.</p>
+          <p><p><br xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+
+</body></html>
