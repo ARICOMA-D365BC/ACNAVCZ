@@ -379,20 +379,4 @@
     <Node Name="" DisplayName="Podrobnosti návrhu: Sledování zboží" Page="design-details-item-tracking.html"/>
     <Node Name="" DisplayName="Podrobnosti návrhu: Řádek finančního deníku" Page="design-details-general-journal-post-line.html"/>
   </Node>
-  
-
-  <Node Name="LocalFunc" DisplayName="Lokální Funkcionalita" Page="oriCzechRepublicLocalFunctionality.htm">
-	<Node Name="LocalFuncCZ" DisplayName="Česko" Page="oriCzechRepublicLocalFunctionality.htm"></Node>
-	<Node Name="LocalFuncSK" DisplayName="Slovensko" Page="oriSlovakRepublicLocalFunctionality.htm"></Node>
-  </Node>
-
-  <Node Name="ACSolutions" DisplayName="AutoCont řešení" Page="ac-solutions.html">
-    <Node Name="" DisplayName="Financial Pack" Page="ac-fp-financial-pack.html"/>
-	<Node Name="" DisplayName="Productivity Pack" Page="ac-pp-productivity-pack.html"/>
-	<Node Name="" DisplayName="AC ProMIS" Page="ac-pm-promis.html"/>
-	<Node Name="SPASol" DisplayName="AutoCont Lázeňské řešení" Page="ac-spx-general-description-use.html"/>
-	<Node Name="LocalFuncSK" DisplayName="SK Pack" Page="oriSlovakRepublicLocalFunctionality.htm"/>
-  </Node> 
-  
-  
 </Node>
