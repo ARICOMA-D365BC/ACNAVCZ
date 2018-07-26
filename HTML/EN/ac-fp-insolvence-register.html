@@ -1,0 +1,143 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="save" content="history"><title>&lt; and name = &quot;ac-fp-insolvency-register&quot; &gt;  insolvency register</title>
+<link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
+<body><h1>&lt; and name = &quot;ac-fp-insolvency-register&quot; &gt;  insolvency register</h1>
+<p>Add-on insolvency register are used to register the records from the <a href="https://isir.justice.cz">https://isir.justice.cz</a> of the insolvency proceedings of companies. It is an instrument for further action, with the contacts that are in insolvency proceedings, for example. When you enter sales documents, posting them (delivery, billing). Provides to the people of the company the current information on the new records in the insolvency register.</p>
+<h1 id="-set"># Set</h1>
+<h3 id="spooler-settings">Spooler Settings</h3>
+<p> For importing records from a Web portal of the insolvency register is necessary to set:</p>
+<ul>
+<li>Agent-agent to receive records from IR to the NAV database</li>
+<li>Task spooler
+The setting is made in the application settings management &gt; &gt; Spooler &gt; Agents.
+Communication with the public is through IR databases public Web services at:
+<a href="https://isir.justice.cz:8443/isir_ws/services/IsirPub001">https://isir.justice.cz:8443/isir_ws/services/IsirPub001</a>
+This address is specified as a parameter to the agent for the receipt of communications IR record.
+Manage application settings &gt; &gt; Spooler spooler &gt; Jobs</li>
+</ul>
+<h3 id="set-the-insolvency-register">Set the insolvency register</h3>
+<p>In the insolvency register Settings are available the following items:
+** The number of the last action **-last used ID of table Action insolvency register.</p>
+<ul>
+<li>Update the status control ins. ** register-defines whether the workagent will automatically complement the table (dial) &quot;insolvency register control status&quot; when receiving IR events.
+** Update type of event an insolvent register-defines whether the workagent will automatically complement the table (dial) &quot;insolvency register event type&quot; when receiving IR events.</li>
+</ul>
+<h1 id="work-with-insolvency-index">Work with insolvency index</h1>
+<h3 id="general">General</h3>
+<p>The functionality of the insolvency register is available in the main menu, the sales and marketing.
+Evidence of ongoing IR is available on your system:</p>
+<ul>
+<li>The things insolvency register</li>
+<li>The contact card</li>
+<li>The vendor card</li>
+<li>The customer card</li>
+<li>The company settings tab</li>
+</ul>
+<h3 id="card-case-insolvency-register">Card case insolvency register</h3>
+<p>Card case insolvency register provides the user with an overview of all current events of one of the insolvency proceedings. The data are also included information about the names of the borrowers, the caretakers, the control state, dates and times of publication, etc. </p>
+<ul>
+<li>Tab * General * * includes manually editable item ** &quot;State of things&quot; [option = open, closed]. The responsible person in the company, therefore, will be able to after own discretion to decide whether some of the insolvency proceedings shall conclude by setting the field Status = closed Case.
+In addition, the card contains a field ** Reviewed ** where the user manually selects, that carried out the inspection. 
+Bookmark * administrator * provides information about IR Manager (such as name, address, company registration number, VAT NUMBER, social security number).
+The lines of the card case insolvency register displays data from a table 4003802 Event of insolvency register. The values in the rows are grouped according to the values of a section (A, B, C, D, P) field in the Event of insolvency register. A number that indicates the order in line means a specific tab.
+On the things you can ** IR button Thing * * display the following data:</li>
+<li>Overview Of F5 </li>
+<li>** **-Contains information on persons involved in the management of a specific case of insolvency proceedings. For persons who can view their address. 
+We distinguish 2 types of roles in the proceedings: </li>
+<li>Administrator
+The debtor
+** Button * Line * contains * a * &quot;view document&quot; attached to a particular line. Its location is specified in the ID column of the document. Documents are not stored in the system. In the lines is only a link to a file in a public database. </li>
+</ul>
+<h3 id="register-of-insolvency-proceedings-for-a-contact">Register of insolvency proceedings for a contact</h3>
+<p>The contact card is on the button Contact &gt; insolvency register complemented by the ability to view the registration of insolvency proceedings relating to the company or person. The identification is based on the IDENTIFICATION NUMBER or social security number information. 
+Contact card also includes the indicator of the number of records in the table Thing. The indicator is located next to the icon of the notes (pencil) and allows you to view the records of IR for the contact. 
+The indicator shows the 3 possible States:</p>
+<ul>
+<li>No record (not displayed)</li>
+<li>There are closed records in IR (&quot;(0)&quot;)</li>
+<li>There are active (to be finalised) records in the IR (e.g. appears. &quot;(2)&quot; — a number representing the number of open records IR)</li>
+</ul>
+<h3 id="register-of-insolvency-proceedings-for-customer-card">Register of insolvency proceedings for customer card</h3>
+<p>The customer card is on the button Customer &gt; insolvency register complemented by the ability to view the registration of insolvency proceedings. The identification is based on the IDENTIFICATION NUMBER or social security number information. 
+The card also contains the same number of records in the table indicator Thing such as IR on the contact card.</p>
+<h3 id="register-of-insolvency-proceedings-in-the-vendor-card">Register of insolvency proceedings in the vendor card</h3>
+<p>The Vendor tab is on the button Customer &gt; insolvency register complemented by the ability to view the registration of insolvency proceedings. The identification is based on the IDENTIFICATION NUMBER or social security number information. 
+The card also contains the same number of records in the table indicator Thing such as IR on the contact card.</p>
+<h3 id="register-of-insolvency-for-company-information">Register of insolvency for company information</h3>
+<p>The company information tab is on the button Company &gt; insolvency register complemented by the ability to view the registration of insolvency proceedings relating to the own company. The identification is based on data of the IDN.
+The card also contains the same number of records in the table indicator Thing such as IR on the contact card.</p>
+<h3 id="test-the-shut-down-option-on-the-insolvency">Test the shut down option on the insolvency</h3>
+<p>For performance reasons, it is possible to control the insolvency register for selected contacts (e.g. foreign) off. For these purposes, you can use a boolean &quot;Disable test on insolvency&quot;.
+Boolean is placed on the foreign trade tab on the contact card, the customer card, a vendor card.
+The value of the booleanu shall be validated from the contact card for the customer card and/or to the vendor card, and vice versa. 
+In the process of checking the insolvency register for contact cards not NAV to browse those cards that have a boolean &quot;Disable test on insolvency&quot;--YES. In that case, ignoring things card occurs in insolvency proceedings, it is not an indicator of the number of insolvency proceedings, posting takes place normally. </p>
+<h1 id="work-with-ir-in-sales-documents">Work with IR in sales documents</h1>
+<h3 id="sales-amp-receivables-setup">Sales &amp; Receivables Setup</h3>
+<p>In the sales &amp; Receivables Setup it is possible to define the behavior of the system with respect to the records in the insolvency register.</p>
+<ul>
+<li>&quot;Check box when the insolvency&quot; ** [option = &quot;empty&quot; Warning, Blocking], together with the &quot;block post insolvency&quot; determines the behavior of the system as follows:
+** the &quot;empty&quot; ** – the check is turned off 
+** Please note **-when you post form is shown with a warning that &quot;a customer&#39;s record in the IR, asking whether the user wants to continue yes/no&quot;. Form displays the number of open/closed records.
+** Block ** – it is not possible to post delivery, invoice, or both, according to &quot;field settings to block posting of insolvency *. 
+The field &quot;block the posting of insolvency&quot; ** [option = &quot;empty&quot;, add to invoice all] – associated with the selected option in the &quot;insolvency&quot; Review
+** the &quot;empty&quot; ** – blocking is turned off 
+** Add ** – the document is not possible to post the delivery if the customer has an open record in IR. </li>
+<li>Invoice * – the document is not possible to post the invoice if the customer has an open record in IR. 
+** All ** – on the sales document, it is not possible to post the delivery invoice if the customer has an open record in IR. </li>
+</ul>
+<h3 id="warning-on-sales-documents">Warning on sales documents</h3>
+<p>When you insert a customer on a sales document (an order, invoice, bid) will be in the event that the customer has a record in the insolvency register, the form is displayed with information about the number of open and closed records in IR. 
+A warning message is displayed for customers with status IR open as well as closed. </p>
+<h3 id="posting-sales-documents">Posting sales documents</h3>
+<p>According to the sales &amp; Receivables Setup, the system will, in the case of the existence of open records the customer&#39;s insolvency register alert or completely block the posting of delivery and billing.
+It is possible to block the document release through the box &quot;enable posting of insolvency&quot;. The field is located in the Prodejní objednávka form on the Shipping tab and in the form of a sales invoice on the General tab.
+The field &quot;Enable posting of insolvency&quot; may only place a user in user controls &quot;field set to enable the insolvency exclusion&quot;. </p>
+<h2 id="warning-reports-on-insolvency-proceedings">Warning Reports on insolvency proceedings</h2>
+<h3 id="general-1">General</h3>
+<p>In connection with the IR are available 2 basic reports for notifying users of the existence of the IR for partners in the database at the same time also for the NAV and case submission IR on their own company.</p>
+<ul>
+<li>Check the insolvency register </li>
+<li>An overview of sales documents in insolvency</li>
+</ul>
+<h2 id="-set-shareplanu"># Set SharePlanu</h2>
+<p>Both reports can be accessed through the Task Scheduler on the application server and automatically send the responsible persons by email. To do this, it is necessary to create a Tasks tab, SharePlanu, intervals in the planning tab and set the parameters of the report. 
+On the button ** Task ** &gt; Action can be defined for the sending of report data by email. </p>
+<h3 id="report-checking-the-insolvency-register">Report checking the insolvency register</h3>
+<p>Report automatically draws attention to the input of the business partner (contact/customer/vendor) into insolvency proceedings, or to the submission of the application for insolvency proceedings against your company
+The data source is a table Thing insolvency register. In the report it is possible to set these parameters:</p>
+<ul>
+<li>Reverse-field is used to enter time/date interval from when the user requests the report start backwards. (it is possible to enter a date, or a value in the form of a flag, e.g. 3D 5 h = 3 days 5 hours ago. For the needs of more detailed monitoring of the insolvency proceedings, too, M = minutes, S = seconds)</li>
+<li>Do not print their own company-report will not contain the record of the IR that started at his own company.</li>
+<li>Do not print contact-report will not contain the contact lines</li>
+<li>Do not print the customer report will not contain the customer&#39;s lines.</li>
+<li>Do not print the vendor-report will not contain the lines for the vendor.</li>
+</ul>
+<h3 id="report-an-overview-of-sales-documents-in-insolvency">Report an overview of sales documents in insolvency</h3>
+<p>Report automatically draws attention to the existence of sales documents on the system, in which a customer record in the insolvency register and:</p>
+<ul>
+<li>Unposted orders
+Open customer ledger entries of all types (invoice, payment, credit memo, finance charge memo, reminder)</li>
+<li>Reminders</li>
+<li>Finance charges
+The data source is a table of the sales header and customer ledger entry. In the report it is possible to set these parameters:</li>
+<li>the filter according to the data from the customer card</li>
+<li>According to data from the header filter sales documents</li>
+<li>filter according to data from customer ledger entries </li>
+<li>Including concluded proceedings – if checked, displays and documents for customers who have closed records in IR.</li>
+</ul>
+<h2 id="-and-name--see-also--a-see-also">&lt; and name = &quot;see-also&quot; &gt;  see also</h2>
+<p><a href="ac-fp-financial-pack.html">AC Financial Pack</a></p>
+
+<hr>
+<div>
+<span id="fb"></span>
+<span id="fbb">
+<p><!-- <a href="http://go.microsoft.com/fwlink/?LinkID=724015" target="_blank">Provide feedback.</a>--></p>
+<script type="text/javascript">FeedBackLink();</script>
+</span><br>
+</div>
+          
+            <p> © 2018 Microsoft. All rights reserved.</p>
+          <p><p><br xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+
+</body></html>
