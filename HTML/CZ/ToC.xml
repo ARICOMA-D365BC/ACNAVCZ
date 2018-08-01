@@ -385,7 +385,7 @@
 	<Node Name="" DisplayName="proProduktivitu" Page="ac-pp-productivity-pack.html"/>
 	<Node Name="" DisplayName="ProMIS" Page="ac-pm-promis.html"/>
 	<Node Name="SPASol" DisplayName="Lázeňské řešení" Page="ac-spa-solution.html"/>
-	<Node Name="LocalFuncSK" DisplayName="Slovenská legislativa" Page="oriSlovakRepublicLocalFunctionality.html"/>
+	<Node Name="LocalFuncSK" DisplayName="Slovenská legislativa" Page="oriSlovakRepublicLocalFunctionality.htm"/>
   </Node> 
   
 </Node>

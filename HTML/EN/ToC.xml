@@ -406,7 +406,7 @@
 	<Node Name="" DisplayName="Productivity Pack" Page="ac-pp-productivity-pack.html"/>
 	<Node Name="" DisplayName="ProMIS" Page="ac-pm-promis.html"/>
 	<Node Name="SPASol" DisplayName="SPA Solution" Page="ac-spa-solution.html"/>
-	<Node Name="LocalFuncSK" DisplayName="Slovak legislation" Page="oriSlovakRepublicLocalFunctionality.html"/>
+	<Node Name="LocalFuncSK" DisplayName="Slovak legislation" Page="oriSlovakRepublicLocalFunctionality.htm"/>
   </Node> 
   
 </Node>
