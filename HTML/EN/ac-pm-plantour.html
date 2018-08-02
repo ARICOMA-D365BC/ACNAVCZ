@@ -1,0 +1,34 @@
+<html xmlns:xlink="http://www.w3.org/1999/xlink"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="save" content="history"><title>AC Promis - Integration Plantour</title>
+<link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
+<body><h1>AC Promis - Integration Plantour</h1>
+<p>Integration with Plantour is based on MS SQL exchange tables.</p>
+<p>The following 4 tables are exported from the NAV:</p>
+<ul>
+<li><strong>Vehicles</strong> - Vehicle parameters (12-digit code) are also recorded for comparison with delivery point restrictions (see next point)</li>
+<li><strong>Delivery points</strong> - This list is continuously updated from the NAV as they are created on a regular basis on the documents. There are up to 2 time windows for 7 days a week, followed by vehicle restrictions (maximum weight, folding ramp, loading hand, ... this is customer implementation)</li>
+<li><strong>Consignments</strong> - there are flows to / from delivery points (commodities but also pallets); Plantour takes care of everything to be done at every moment.</li>
+<li><strong>Drivers</strong> - only basic codebook for own drivers Code, name, phone, Active</li>
+</ul>
+<p>The following 2 tables are imported into the NAV:</p>
+<ul>
+<li>T_TRS_O - calculated routes</li>
+<li>T_ZAST_O - stops on the route</li>
+</ul>
+<p>The current way of picking shipments to Plantour is done through filters where the field can be used as the first or last distr number. location, required loading / unloading time, planting status, Plantour status. These filters can be used to select delivery shipments at Plantour scheduling, shipments to date, shipments unplanned, shipments not sent to Plantour.</p>
+<h2 id="a-namesee-alsoasee-also"><a name="see-also"></a>See Also</h2>
+<p><a href="ac-pm-promis.html">AC ProMIS</a></p>
+
+<hr>
+<div>
+<span id="fb"></span>
+<span id="fbb">
+<p><!-- <a href="http://go.microsoft.com/fwlink/?LinkID=724015" target="_blank">Provide feedback.</a>--></p>
+<script type="text/javascript">FeedBackLink();</script>
+</span><br>
+</div>
+          
+            <p> © 2018 Microsoft. All rights reserved.</p>
+          <p><p><br xmlns:maml="http://ddue.schemas.microsoft.com/authoring/2003/5">
+
+</body></html>
