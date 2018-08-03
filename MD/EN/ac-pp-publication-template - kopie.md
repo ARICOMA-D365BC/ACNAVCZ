@@ -16,7 +16,7 @@ Ms. lasthandoff: 02/26/2018
 
 ---
 
-# < and name = "ac-pp-publication-template.md" > </a> Publication templates
+# ## <a name = "ac-pp-publication-template.md" > </a> Publication templates
 
 Add-on module on the publication template is the expansion module to publish Sharepoint. Extends the capabilities of publishing tools for greater control and management of the publication of the documents. In addition, allows you to:
 -define the metadata (parameters) of published documents from multiple sources
@@ -28,5 +28,5 @@ Add-on module on the publication template is the expansion module to publish Sha
 -public records-more links in one publication
 
 
-## < and name = "see-also" > </a> see also  
+## <a name = "see-also" > </a>See Also  
 [AC Productivity pack] (ac-pp-productivity-pack.md)  

@@ -15,7 +15,7 @@ Ms. contentlocale: cs-cz
 Ms. lasthandoff: 03/27/2018
 ---
 
-# < and name = "ac-fp-insolvency-register" > </a> insolvency register
+# ## <a name = "ac-fp-insolvency-register" > </a> insolvency register
 Add-on insolvency register are used to register the records from the https://isir.justice.cz of the insolvency proceedings of companies. It is an instrument for further action, with the contacts that are in insolvency proceedings, for example. When you enter sales documents, posting them (delivery, billing). Provides to the people of the company the current information on the new records in the insolvency register.
 
 # # Set
@@ -142,6 +142,6 @@ The data source is a table of the sales header and customer ledger entry. In the
 * filter according to data from customer ledger entries 
 * Including concluded proceedings – if checked, displays and documents for customers who have closed records in IR.
 
-## < and name = "see-also" > </a> see also   
+## <a name = "see-also" > </a>See Also   
 
 [AC Financial Pack] (ac-fp-financial-pack.md)

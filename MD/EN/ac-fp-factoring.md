@@ -15,7 +15,7 @@ Ms. contentlocale: cs-cz
 Ms. lasthandoff: 03/27/2018
 ---
 
-# < and name = "ac-fp-factoring" > </a> Factoring
+# ## <a name = "ac-fp-factoring" > </a> Factoring
 The Factoring area extends financial management system Microsoft Dynamics NAV by the possibility of registration and accounting of the assignment of receivables and the creation of factoring contracts.
 
 # # Set

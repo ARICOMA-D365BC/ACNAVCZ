@@ -16,7 +16,7 @@ Ms. lasthandoff: 02/26/2018
 
 ---
 
-# < and name = "ac-pp-elektronic-dokuments.md" > </a> electronic invoicing 
+# ## <a name = "ac-pp-elektronic-dokuments.md" > </a> electronic invoicing 
 
 Module electronic invoicing is used for a modern paperless exchange of tax documents with the customer. 
 The module allows you to automatically generate both structured documents in XML format, or create electronic documents for printing in other formats (PDF-modules "e-invoicing-pdf preview" and "electronic invoicing – PDFXChange", DOC- the "electronic invoicing – ISDOC"). 
@@ -24,5 +24,5 @@ To meet legislative requirements is an XML file electronically signed and unique
 To disseminate in electronic billing can be attached to any electronic attachments (delivery notes, certificates, etc.) without limit the type of file. 
 
 
-## < and name = "see-also" > </a> see also  
+## <a name = "see-also" > </a>See Also  
 [AC Productivity pack] (ac-pp-productivity-pack.md)  

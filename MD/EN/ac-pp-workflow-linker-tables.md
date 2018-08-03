@@ -16,7 +16,7 @@ Ms. lasthandoff: 02/26/2018
 
 ---
 
-# < and name = "ac-pp-workflow-linker-tables.md" > </a> WorkFlow-Controlled table
+# ## <a name = "ac-pp-workflow-linker-tables.md" > </a> WorkFlow-Controlled table
 
 The add-on module, Workflow-controlled table extends the functionality of the add-on module for option Workflow checks on records or fields in tables that are bound to a table that is controlled by a workflow.
 The State of the workflow is then allowed to change only if all the checks in the context of controlled tables match. Practical use can be, for example, this:
@@ -26,5 +26,5 @@ The State of the workflow is then allowed to change only if all the checks in th
 
 
 
-## < and name = "see-also" > </a> see also  
+## <a name = "see-also" > </a>See Also  
 [AC Productivity pack] (ac-pp-productivity-pack.md)  

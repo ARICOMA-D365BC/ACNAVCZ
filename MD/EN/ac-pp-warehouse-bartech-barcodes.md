@@ -16,7 +16,7 @@ Ms. lasthandoff: 02/26/2018
 
 ---
 
-# < and name = "ac-pp-warehouse-bartech-barcodes.md" > </a> barcode Control
+# ## <a name = "ac-pp-warehouse-bartech-barcodes.md" > </a> barcode Control
 
 This Idol is used to handle warehouse operations warehouse workers use barcode readers. A prerequisite for using the definition of functional numbers bar codes in a cross-reference to the item card.
 Allows you to perform selected warehouse operations: 
@@ -29,5 +29,5 @@ The whole solution consists of:
 Terminal-a physical device to a custom implementation of the inventory activities worker in warehouses.
 
 
-## < and name = "see-also" > </a> see also  
+## <a name = "see-also" > </a>See Also  
 [AC Productivity pack] (ac-pp-productivity-pack.md)  

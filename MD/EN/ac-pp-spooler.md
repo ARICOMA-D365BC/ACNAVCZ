@@ -16,9 +16,9 @@ Ms. lasthandoff: 02/26/2018
 
 ---
 
-# < and name = "ac-pp-spooler.md" > </a> Spooler
+# ## <a name = "ac-pp-spooler.md" > </a> Spooler
 
 Spooler module extends the capabilities of Microsoft Dynamics NAV system in the field of electronic communication with other systems. This is a generally applicable component for secure online or regular or periodic bi-directional communication data synchronization between Microsoft Dynamics NAV and other systems through a variety of communication channels, in different formats and for any purpose. The practical application of such as. for business integration solutions portals, electronic invoicing, data synchronization, etc.
 
-## < and name = "see-also" > </a> see also  
+## <a name = "see-also" > </a>See Also  
 [AC Productivity pack] (ac-pp-productivity-pack.md)  

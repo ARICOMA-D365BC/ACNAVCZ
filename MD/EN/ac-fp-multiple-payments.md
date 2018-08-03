@@ -16,7 +16,7 @@ Ms. lasthandoff: 02/26/2018
 
 ---
 
-# < and name = "ac-fp-multiple-payments" > </a> more remittances
+# ## <a name = "ac-fp-multiple-payments" > </a> more remittances
 
 Add-on module extends the standard more remittances of sales documents, when instead of one payment method it is possible to define multiple ways e.g., part of the sales paid for by credit card, and a portion of the cash.
 
@@ -29,5 +29,5 @@ On the primary documents (invoice, order, credit memo) is in the schedule of pay
 -Number series for documents of payment.
 
 
-## < and name = "see-also" > </a> see also  
+## <a name = "see-also" > </a>See Also  
 [AC Financial Pack] (ac-fp-financial-pack.md) 

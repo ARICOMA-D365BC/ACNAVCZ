@@ -16,7 +16,7 @@ Ms. lasthandoff: 03/27/2018
 
 ---
 
-# < and name = "ac-fp-pack-tracking-basic" > </a> Registration packages
+# ## <a name = "ac-fp-pack-tracking-basic" > </a> Registration packages
 
 Add-on module Registration packages allows you to automatically register and report the quantity of the packaging material or other quantitative data in connection with movements of goods in the system. You can use it to track packaging balance business partners with the binding on the relevant business transaction (purchase, sale, receipt, Transfer, distribution, consumption and production) and then check the current price of packaging. Extends the standard functionality of the stocks on the definition of packaging, e.g., statements. for the purposes of reporting in the system EKO-KOM.
 
@@ -33,5 +33,5 @@ For correct function of returnable packaging is necessary to make the following 
 
 
 
-## < and name = "see-also" > </a> see also  
+## <a name = "see-also" > </a>See Also  
 [AC Financial Pack] (ac-fp-financial-pack.md)

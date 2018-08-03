@@ -16,9 +16,9 @@ Ms. lasthandoff: 02/26/2018
 
 ---
 
-# < and name = "pp-production-tools.md" > </a> Registration tools and AIDS
+# ## <a name = "pp-production-tools.md" > </a> Registration tools and AIDS
 
 Add-on module Registration tools and AIDS examines the evidence of tools, AIDS, tools, molds and other needs usually registered by using the inventory system. This module is built over the foundations of property records, with a view to the unification of the registration for the purposes of tracking fixed assets and recording production, IE. lending tools and gadgets.
 
-## < and name = "see-also" > </a> see also  
+## <a name = "see-also" > </a>See Also  
 [AC Productivity pack] (ac-pp-productivity-pack.md)  

@@ -16,7 +16,7 @@ Ms. lasthandoff: 02/26/2018
 
 ---
 
-# < and name = "ac-fp-controlling-basic" > </a> SET of EXTENSIONS for FINANCE 
+# ## <a name = "ac-fp-controlling-basic" > </a> SET of EXTENSIONS for FINANCE 
 
 A set of extensions for Finance granules contains the common functionality to support the functioning of the other add-on modules extension package finance and at the same time provides some additional features such as:
 
@@ -28,5 +28,5 @@ A set of extensions for Finance granules contains the common functionality to su
 * the last archived document
 * debt recovery-recovery of long-term support for claims that have not yet been paid. Such claims need to be primarily information about the status of the claim and have the option to attach documents.
 
-## < and name = "see-also" > </a> see also  
+## <a name = "see-also" > </a> See Also  
 [AC Financial Pack] (ac-fp-financial-pack.md)  

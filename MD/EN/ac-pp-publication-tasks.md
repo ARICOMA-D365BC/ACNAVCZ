@@ -16,7 +16,7 @@ Ms. lasthandoff: 02/26/2018
 
 ---
 
-# < and name = "ac-pp-publication-tasks.md" > </a> Publishing tasks
+# ## <a name = "ac-pp-publication-tasks.md" > </a> Publishing tasks
 
 Add-on module Publication tasks is to publish a Sharepoint extension module. Extends the capabilities of publishing at two levels:
 -Basic publishing tasks and their parameters
@@ -24,5 +24,5 @@ Add-on module Publication tasks is to publish a Sharepoint extension module. Ext
 Allows you to directly from the environment of Microsoft Dynamics NAV to publish the tasks to the SharePoint system, link them with records in the tables of information system and add user-defined parameters (metadata).
 
 
-## < and name = "see-also" > </a> see also  
+## <a name = "see-also" > </a>See Also  
 [AC Productivity pack] (ac-pp-productivity-pack.md)  
