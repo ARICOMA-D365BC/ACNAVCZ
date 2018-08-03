@@ -1,14 +1,14 @@
 ﻿---
-Title: "Disambiguation"
+Title: "AutoCont Solutions"
 Author: Autocont
 Date: 07/31/2018
 Product: dynamics-nav-2018
 Contentlocale: en
 ---
 
-# <a name = "ac-addons" ></a>AutoCont Addons
+# <a name = "ac-addons" ></a>AutoCont Solutions
 
-AutoCont solution complements Microsoft Dynamics NAV with the following extension modules and vertical solutions.
+AutoCont solutions complements Microsoft Dynamics NAV with the following extension modules and vertical solutions.
 
 | See | Also |
 |-------------------|----------------------------------------------------|
