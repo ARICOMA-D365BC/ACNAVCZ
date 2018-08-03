@@ -1,26 +1,16 @@
 ﻿---
-Title: "Register"
+Title: "Pack Tracking"
 Author: Autocont
-Ms. custom: on
-Ms date: 02/26/2018
-reviewer: Ms.
-Ms. suite:
-Ms. _pltfrm tgt:
-Ms. topic: article
-MS Sales: dynamics-nav-2018
-Ms. translationtype: Human Translation
-Ms. sourcegitcommit: 
-Ms. openlocfilehash: 
-Ms. contentlocale: cs-cz
-Ms. lasthandoff: 03/27/2018
-
+Date: 07/31/2018
+Product: dynamics-nav-2018
+Contentlocale: en
 ---
 
-# ## <a name = "ac-fp-pack-tracking-basic" > </a> Registration packages
+# <a name = "ac-fp-pack-tracking-basic" > </a> Pack Tracking
 
-Add-on module Registration packages allows you to automatically register and report the quantity of the packaging material or other quantitative data in connection with movements of goods in the system. You can use it to track packaging balance business partners with the binding on the relevant business transaction (purchase, sale, receipt, Transfer, distribution, consumption and production) and then check the current price of packaging. Extends the standard functionality of the stocks on the definition of packaging, e.g., statements. for the purposes of reporting in the system EKO-KOM.
+Add-on module Pack Tracking allows you to automatically register and report the quantity of the packaging material or other quantitative data in connection with movements of goods in the system. You can use it to track packaging balance business partners with the binding on the relevant business transaction (purchase, sale, receipt, Transfer, distribution, consumption and production) and then check the current price of packaging. Extends the standard functionality of the stocks on the definition of packaging, e.g., statements. for the purposes of reporting in the system EKO-KOM.
 
-# # Set
+## Setup
 
 For correct function of returnable packaging is necessary to make the following settings:
 
@@ -34,4 +24,4 @@ For correct function of returnable packaging is necessary to make the following 
 
 
 ## <a name = "see-also" > </a>See Also  
-[AC Financial Pack] (ac-fp-financial-pack.md)
+[AC Financial Pack](ac-fp-financial-pack.md)

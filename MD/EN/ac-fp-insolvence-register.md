@@ -1,24 +1,15 @@
 ﻿--- 
-Title: "insolvency register"
+Title: "Insolvency Register"
 Author: Autocont
-Ms. custom: on
-Ms date: 04/13/2018
-reviewer: Ms.
-Ms. suite:
-Ms. _pltfrm tgt:
-Ms. topic: article
-MS Sales: dynamics-nav-2018
-Ms. translationtype: Human Translation
-Ms. sourcegitcommit:
-Ms. openlocfilehash:
-Ms. contentlocale: cs-cz
-Ms. lasthandoff: 03/27/2018
+Date: 07/31/2018
+Product: dynamics-nav-2018
+Contentlocale: en
 ---
 
-# ## <a name = "ac-fp-insolvency-register" > </a> insolvency register
+# <a name = "ac-fp-insolvency-register" > </a> Insolvency Register
 Add-on insolvency register are used to register the records from the https://isir.justice.cz of the insolvency proceedings of companies. It is an instrument for further action, with the contacts that are in insolvency proceedings, for example. When you enter sales documents, posting them (delivery, billing). Provides to the people of the company the current information on the new records in the insolvency register.
 
-# # Set
+## Setup
 
 ### Spooler Settings
  For importing records from a Web portal of the insolvency register is necessary to set:
@@ -36,7 +27,7 @@ In the insolvency register Settings are available the following items:
 * Update the status control ins. ** register-defines whether the workagent will automatically complement the table (dial) "insolvency register control status" when receiving IR events.
 ** Update type of event an insolvent register-defines whether the workagent will automatically complement the table (dial) "insolvency register event type" when receiving IR events.
 
-# Work with insolvency index
+## Work with insolvency index
 
 ### General
 The functionality of the insolvency register is available in the main menu, the sales and marketing.
@@ -87,7 +78,7 @@ Boolean is placed on the foreign trade tab on the contact card, the customer car
 The value of the booleanu shall be validated from the contact card for the customer card and/or to the vendor card, and vice versa. 
 In the process of checking the insolvency register for contact cards not NAV to browse those cards that have a boolean "Disable test on insolvency"--YES. In that case, ignoring things card occurs in insolvency proceedings, it is not an indicator of the number of insolvency proceedings, posting takes place normally. 
 
-# Work with IR in sales documents
+## Work with IR in sales documents
 
 ### Sales &amp; Receivables Setup
 In the sales &amp; Receivables Setup it is possible to define the behavior of the system with respect to the records in the insolvency register.
@@ -117,7 +108,7 @@ In connection with the IR are available 2 basic reports for notifying users of t
 * Check the insolvency register 
 * An overview of sales documents in insolvency
 
-## # Set SharePlanu
+### Setup of SharePlan
 Both reports can be accessed through the Task Scheduler on the application server and automatically send the responsible persons by email. To do this, it is necessary to create a Tasks tab, SharePlanu, intervals in the planning tab and set the parameters of the report. 
 On the button ** Task ** > Action can be defined for the sending of report data by email. 
 
@@ -143,5 +134,4 @@ The data source is a table of the sales header and customer ledger entry. In the
 * Including concluded proceedings – if checked, displays and documents for customers who have closed records in IR.
 
 ## <a name = "see-also" > </a>See Also   
-
 [AC Financial Pack] (ac-fp-financial-pack.md)

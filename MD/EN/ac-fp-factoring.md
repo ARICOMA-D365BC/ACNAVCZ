@@ -1,24 +1,15 @@
 ﻿---
 Title: "Factoring"
 Author: Autocont
-Ms. custom: on
-Ms date: 04/13/2018
-reviewer: Ms.
-Ms. suite:
-Ms. _pltfrm tgt:
-Ms. topic: article
-MS Sales: dynamics-nav-2018
-Ms. translationtype: Human Translation
-Ms. sourcegitcommit:
-Ms. openlocfilehash:
-Ms. contentlocale: cs-cz
-Ms. lasthandoff: 03/27/2018
+Date: 07/31/2018
+Product: dynamics-nav-2018
+Contentlocale: en
 ---
 
-# ## <a name = "ac-fp-factoring" > </a> Factoring
+# <a name = "ac-fp-factoring" > </a> Factoring
 The Factoring area extends financial management system Microsoft Dynamics NAV by the possibility of registration and accounting of the assignment of receivables and the creation of factoring contracts.
 
-# # Set
+## Setup
 
 ### General
 After you import the objects, you must complete the setup of the factoring. Basic Setup is done in the/proFINACE/Factoring.

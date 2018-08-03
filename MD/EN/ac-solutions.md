@@ -1,19 +1,9 @@
 ﻿---
 Title: "Disambiguation"
 Author: Autocont
-Ms. custom: on
-Ms date: 03/27/2018
-reviewer: Ms.
-Ms. suite:
-Ms. _pltfrm tgt:
-Ms. topic: article
-MS Sales: dynamics-nav-2018
-Ms. translationtype: Human Translation
-Ms. sourcegitcommit: 
-Ms. openlocfilehash: 
-Ms. contentlocale: cs-cz
-Ms. lasthandoff: 03/27/2018
-
+Date: 07/31/2018
+Product: dynamics-nav-2018
+Contentlocale: en
 ---
 
 # <a name = "ac-addons" ></a>AutoCont Addons
