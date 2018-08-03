@@ -18,10 +18,12 @@ Ms. lasthandoff: 03/27/2018
 
 # < and name = "ac-addons" > </a> AutoCont Addons
 
+AutoCont solution complements Microsoft Dynamics NAV with the following extension modules and vertical solutions.
+
 | See | Also |
 |-------------------|----------------------------------------------------|
-| Financial Pack | [AC Financial Pack] (ac-pp-elektronic-dokuments.md) |
-| Productivity Pack | [AC Productivity Pack] (ac-pp-data-boxes.md) |
-| SK Addon | SK Addon |
-| ProMIS | AC ProMIS |
-| SPA | AC SPA |
+| Financial Pack | [AC Financial Pack](ac-fp-financial-pack.md) |
+| Productivity Pack | [AC Productivity Pack](ac-pp-productivity-pack.md) 
+| Slovak Legislation Pack | [AC SK Legislation Pack](oriSlovakRepublicLocalFunctionality.md)                                           |
+| ProMIS            | [AC ProMIS](ac-pm-promis.md)                                          |
+| SPA               | [AC SPA Solution - solution for spa and wellness](ac-spa-solution.md)|

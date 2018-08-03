@@ -18,10 +18,13 @@ ms.lasthandoff: 03/27/2018
 
 # <a name="ac-addons"></a>AutoCont řešení
 
+AutoCont řešení doplňuje systém Microsoft Dynamics NAV o níže uvedené rozšiřující moduly a vertikální řešení.
+
 | Viz               | Také                                               |
 |-------------------|----------------------------------------------------|
-| Financial Pack    | [AC Financial Pack](ac-pp-elektronic-dokuments.md) |
-| Productivity Pack | [AC Productivity Pack](ac-pp-data-boxes.md)        |
-| SK Addon          | SK Addon                                           |
-| ProMIS            | AC ProMIS                                          |
-| SPA               | [AC Pramen - řešení pro lázně a wellness](ac-spa-solution.md)|
+| Financial Pack    | [AC Financial Pack](ac-fp-financial-pack.md) |
+| Productivity Pack | [AC Productivity Pack](ac-pp-productivity-pack.md)        |
+| SK Pack          | [AC SK Pack - Slovenská Legislativa a lokalizace](oriSlovakRepublicLocalFunctionality.md)                                           |
+| ProMIS            | [AC ProMIS](ac-pm-promis.md)                                          |
+| PRAMEN               | [AC Pramen - řešení pro lázně a wellness](ac-spa-solution.md)|
+
