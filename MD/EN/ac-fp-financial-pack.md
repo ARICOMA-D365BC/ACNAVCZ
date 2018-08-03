@@ -17,8 +17,8 @@ Extensions for Finance.
 | Factoring | [Factoring](ac-fp-factoring.md) |
 | Multiple Payments | [Multiple Payments](ac-fp-multiple-payments.md) |
 | Fiscal printer | [Fiscal printers](ac-fp-fiscal-printers.md) |
-| Evidence packaging base | [Evidence packaging base](ac-fp-pack-tracking-basic.md) |
-| Registration of returnable packaging | [Registration of returnable packaging](ac-fp-pack-tracking-return-packing.md) |
+| Pack Tracking base | [Pack Tracking base](ac-fp-pack-tracking-basic.md) |
+| Pack Tracking - Return Packing | [Pack Tracking - Return Packing](ac-fp-pack-tracking-return-packing.md) |
 
 
 ## <a name = "see-also" > </a> See Also  
