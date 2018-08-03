@@ -27,4 +27,3 @@ AutoCont řešení doplňuje systém Microsoft Dynamics NAV o níže uvedené ro
 | SK Pack          | [AC SK Pack - Slovenská Legislativa a lokalizace](oriSlovakRepublicLocalFunctionality.md)                                           |
 | ProMIS            | [AC ProMIS](ac-pm-promis.md)                                          |
 | PRAMEN               | [AC Pramen - řešení pro lázně a wellness](ac-spa-solution.md)|
-

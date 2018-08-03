@@ -16,7 +16,7 @@ Ms. lasthandoff: 03/27/2018
 
 ---
 
-# < and name = "ac-addons" > </a> AutoCont Addons
+# <a name = "ac-addons" ></a>AutoCont Addons
 
 AutoCont solution complements Microsoft Dynamics NAV with the following extension modules and vertical solutions.
 
