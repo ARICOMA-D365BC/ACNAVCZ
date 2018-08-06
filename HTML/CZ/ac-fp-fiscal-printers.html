@@ -2,8 +2,69 @@
         <meta name="save" content="history"><title>Fiscal Printers - VAROS</title>
 <link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
 <body><h1>Fiscal Printers - VAROS</h1>
-<p>Modul Fiskální tiskárny – VAROS slouží k vytvoření a tisku pokladního dokladu na fiskální tiskárně FT4000 firmy VAROS. Při účtování primárních dokladů (faktura, objednávka, dobropis) s rozpisem platby (jedním či více typy úhrad) jsou automaticky vytvářeny fiskální položky a tyto jsou pak odeslány k tisku na fiskální tiskárnu. K tisku na fiskální tiskárně dochází také při zaúčtování rozpisu platby na vytvořeném resp. zaúčtovaném dokladu (faktura, dobropis, záloha).
+<p>Add-on modul Fiskální tiskárny – VAROS slouží k vytvoření a tisku pokladního dokladu na fiskální tiskárně FT4000 firmy VAROS.
+Při účtování primárních dokladů (faktura, objednávka, dobropis) s rozpisem platby (jedním či více typy úhrad) jsou automaticky vytvářeny fiskální položky a tyto jsou pak odeslány k tisku na fiskální tiskárnu. Předávané soubory jsou uloženy do složky na disku, odkud si je SW k tiskárně VAROS převezme a zpět vrátí soubor s potvrzením. 
+K tisku na fiskální tiskárně dochází také při zaúčtování rozpisu platby na vytvořeném resp. zaúčtovaném dokladu (faktura, dobropis, záloha).
 Rovněž všechny vklady a výběry hotovosti do registrační pokladny jsou evidovány a vytištěny na fiskální tiskárně.</p>
+<h2 id="instalace">Instalace</h2>
+<p><strong>Objekty modulu</strong></p>
+<p>Objekty modulu Více úhrad jsou označeny verzí <strong>FP7.20 resp. pouze FP</strong>.</p>
+<p><strong>Další součásti instalace</strong></p>
+<p>Podmínkou provozování je minimálně edice Starter Pack a <strong>modul 4050120 (Více úhrad)</strong>.</p>
+<h2 id="nastavení">Nastavení</h2>
+<h3 id="nastavení-více-úhrad">Nastavení více úhrad</h3>
+<p><strong>Seznam platebních míst</strong></p>
+<p>Nastavení je v Oblasti/proFINANCE/Fiskální tiskárny – Platební místa.
+Zde je možné definovat seznam používaných platebních míst, přičemž jedno platební místo může zahrnovat více fiskálních tiskáren: </p>
+<p><strong>Seznam fiskálních tiskáren</strong></p>
+<p>Nastavení je v Oblasti/proFINANCE/Fiskální tiskárny – Fiskální tiskárny
+Zde je možné definovat používané fiskální tiskárny včetně jejich parametrů: 
+Většina uvedených parametrů musí být shodně nastavena také v konfiguraci fiskální tiskárny. Jedná se o:</p>
+<ul>
+<li>Nastavení % DPH</li>
+<li>Text měny</li>
+<li>Umístění předávaných souborů pro registrační dávku, potvrzení a bloček.</li>
+<li>Prodlevu registrace</li>
+<li>Kód platebního místa</li>
+<li>Kód způsobu platby (hotovost) – tento kód je použit pro zadanou částku hotovosti v lokální měně na formuláři Rozpis platby.</li>
+<li>Čísla dokladů platby – není-li zadáno, použije se číselná řada z Nastavení více způsobů platby.</li>
+</ul>
+<p><strong>Protiúčet pro vyrovnání</strong></p>
+<p>Pro evidenci veškerých fiskalizovaných transakcí slouží Položky bankovních účtů. Nastavením takového účtu 
+pro každou fiskální tiskárnu a typ platidla je pak možné provádět vzájemné odsouhlasení evidence z NAV a přímo z fiskálního modulu.
+Nastavení je v Oblasti/Správa financí/Bankovní správa – Bankovní účty.
+Zde je třeba vytvořit karty „bankovních účtů“ přináležející k fiskální tiskárně:
+Vyplněním kódu fiskální tiskárny uživatel provede propojení, díky kterému částky.
+Definice hodnot Typů platidel pro fiskální tisk:</p>
+<ol>
+<li>Hotovost</li>
+<li>Platební karta</li>
+<li>Stravenky</li>
+<li>Šeky</li>
+<li>Slovenská koruna</li>
+</ol>
+<p><strong>Nastavení více způsobů platby</strong></p>
+<p>Nastavení je v Oblasti/proFINANCE/Více úhrad – Nastavení více způsobů platby.</p>
+<h2 id="použití">Použití</h2>
+<h3 id="operace-podléhající-fiskalizaci">Operace podléhající fiskalizaci</h3>
+<p>Prodej
+Při prodeji z prodejní faktury 
+Prodej
+Vklad/Výběr</p>
+<h3 id="tisk">Tisk</h3>
+<p><strong>Daňový doklad</strong></p>
+<p>Bloček vytištění fiskální tiskárnou je sám o sobě daňovým dokladem, popř. dokladem o úhradě faktury.
+Modul neřeší případné úpravy standardních tiskových výstupů daňových dokladů (např. účtovaná prodejní faktura).</p>
+<p><strong>Registrace platby</strong></p>
+<p>Při účtování dokladu s rozpisem plateb , nebo při zaúčtování rozpisu platby na vytvořeném resp. zaúčtovaném dokladu, případně při účtování vkladu nebo výběru hotovosti do registrační pokladny je vytvořen soubor s registrační dávkou a uložen do definovaného adresáře.
+Po zpracování souboru fiskální tiskárnou FT4000 je zpět vrácen soubor s potvrzením (bloček).
+Během zpracování jsou k fiskální položce doplněny tyto atributy:</p>
+<ul>
+<li>Datum a čas registrace</li>
+<li>Registrační dávka</li>
+<li>Číslo bločku</li>
+<li>Bloček</li>
+</ul>
 <h2 id="see-also">Viz také</h2>
 <p><a href="ac-fp-financial-pack.html">AC Financial Pack</a>  </p>
 

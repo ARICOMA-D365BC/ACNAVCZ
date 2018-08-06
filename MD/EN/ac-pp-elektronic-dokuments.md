@@ -1,22 +1,12 @@
 ﻿---
-Title: "Electronic invoice"
-Author: Autocont
-Ms. custom: on
-Ms date: 02/26/2018
-reviewer: Ms.
-Ms. suite:
-Ms. _pltfrm tgt:
-Ms. topic: article
-MS Sales: dynamics-nav-2018
-Ms. translationtype: Human Translation
-Ms. sourcegitcommit: 
-Ms. openlocfilehash: 
-Ms. contentlocale: cs-cz
-Ms. lasthandoff: 02/26/2018
-
+Title: "Electronic Invoicing"
+Author: AutoCont
+Date: 07/31/2018
+Product: dynamics-nav-2018
+Contentlocale: en
 ---
 
-# ## <a name = "ac-pp-elektronic-dokuments.md" > </a> electronic invoicing 
+# <a name = "ac-pp-elektronic-dokuments.md" > </a> Electronic Invoicing 
 
 Module electronic invoicing is used for a modern paperless exchange of tax documents with the customer. 
 The module allows you to automatically generate both structured documents in XML format, or create electronic documents for printing in other formats (PDF-modules "e-invoicing-pdf preview" and "electronic invoicing – PDFXChange", DOC- the "electronic invoicing – ISDOC"). 
@@ -25,4 +15,4 @@ To disseminate in electronic billing can be attached to any electronic attachmen
 
 
 ## <a name = "see-also" > </a>See Also  
-[AC Productivity pack] (ac-pp-productivity-pack.md)  
+[AC Productivity Pack](ac-pp-productivity-pack.md)  

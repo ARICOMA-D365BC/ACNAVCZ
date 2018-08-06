@@ -4,12 +4,12 @@
 <body><h1>HelpDesk</h1>
 <p>Modul  Helpdesk slouží k centralizovanému zadávání, evidenci, zpracování a vyhodnocování různých požadavků uživatelů v systému Microsoft Dynamics NAV. Uživatelé zde mohou zadávat požadavky na servisní úkony, na poskytnutí podpory, úpravu nebo doplnění funkcionality, evidovat reklamace a podobně. Umožňuje také kategorizaci požadavků, nastavení priorit a řízené zpracování přiřazenými řešiteli. K dispozici je i historie uzavřených požadavků HelpDesku.</p>
 <h2 id="instalace">Instalace</h2>
-<p><strong>Objekty modulu</strong>
-Objekty modulu HelpDesk jsou označeny verzí HK.
-<strong>Workflow helpdesk požadavků</strong>
-V případě požadavku na řízení procesu zpracování HelpDesk požadavků prostřednictvím modulu Workflow je potřeba mít zakoupený a nakonfigurovaný modul Workflow – řízení stavů.
-<strong>Publikování dokumentů SharePoint k helpdesk požadavkům</strong>
-Pokud je požadováno publikování elektronických dokumentů k Helpdesk požadavkům, je nutné mít zakoupen a anastaven modul Publikování SharePoint.</p>
+<p><strong>Objekty modulu</strong></p>
+<p>Objekty modulu HelpDesk jsou označeny verzí HK.</p>
+<p><strong>Workflow helpdesk požadavků</strong></p>
+<p>V případě požadavku na řízení procesu zpracování HelpDesk požadavků prostřednictvím modulu Workflow je potřeba mít zakoupený a nakonfigurovaný modul Workflow – řízení stavů.</p>
+<p><strong>Publikování dokumentů SharePoint k helpdesk požadavkům</strong></p>
+<p>Pokud je požadováno publikování elektronických dokumentů k Helpdesk požadavkům, je nutné mít zakoupen a nastaven modul Publikování SharePoint.</p>
 <h2 id="nastavení">Nastavení</h2>
 <h4 id="obecné">Obecné</h4>
 <p>Po importu objektů je třeba provést nastavení HelpDesku.
@@ -27,30 +27,32 @@ Nastavení se provede v Oblasti/proPRODUKTIVITU/HelpDesk – Nastavení helpdesk
 <li>Vytvořit šablonu workflow pro Helpdesk.</li>
 <li>Nastavit workflow pro HelpDesk.
 V nastavení helpdesku lze na záložce Obecné zvolit, zda bude při zadání požadavků povinné vyplňovat kategorii požadavků 1-3, výchozí prioritu a zda je nutné nové požadavky zadávat pomocí průvodce.
-Na záložce Číslování se přiřadí číselná řada vytvářeným požadavkům Helpdesku. Definice číselné řady se tvoří stejným způsobem jako pro jiné agendy (v Oblasti/Správa/Nastavení aplikace/Obecné/Číselná řada).
-#### Kategorie uživatelů
-Kategorie uživatele obsahuje pole Kód, Popis a Váha. Kategorie uživatelů představují skupiny uživatelů. Skupinám uživatelů se přiřadí určitá váha (stupeň důležitosti), která je jedním z faktorů při automatickém výpočtu priority požadavku.
-#### Oprávněné osoby
-V dalším kroku se nastaví seznam oprávněných osob, které budou s HelpDeskem pracovat. Pro každou oprávněnou osobu se zvolí příslušná Kategorie uživatele, podle které program automaticky předvyplní Váhu požadavku pro danou osobu. Předvyplněnou hodnotu pole Váha lze pro každou osobu individuálně upravit. Pro výpočet celkové priority požadavku, pak program použije tuto hodnotu. 
+Na záložce Číslování se přiřadí číselná řada vytvářeným požadavkům Helpdesku. Definice číselné řady se tvoří stejným způsobem jako pro jiné agendy (v Oblasti/Správa/Nastavení aplikace/Obecné/Číselná řada).</li>
+</ul>
+<h4 id="kategorie-uživatelů">Kategorie uživatelů</h4>
+<p>Kategorie uživatele obsahuje pole Kód, Popis a Váha. Kategorie uživatelů představují skupiny uživatelů. Skupinám uživatelů se přiřadí určitá váha (stupeň důležitosti), která je jedním z faktorů při automatickém výpočtu priority požadavku.</p>
+<h4 id="oprávněné-osoby">Oprávněné osoby</h4>
+<p>V dalším kroku se nastaví seznam oprávněných osob, které budou s HelpDeskem pracovat. Pro každou oprávněnou osobu se zvolí příslušná Kategorie uživatele, podle které program automaticky předvyplní Váhu požadavku pro danou osobu. Předvyplněnou hodnotu pole Váha lze pro každou osobu individuálně upravit. Pro výpočet celkové priority požadavku, pak program použije tuto hodnotu. 
 Údaje k oprávněným osobám se zadávají přímo do karty. Na záložce Spojení lze doplnit podrobnější kontaktní údaje k dané osobě (Adresa, Telefon, Fax, Mobil, E-mail).
-Když se do pole ID Uživatele vyplní odpovídající přihlašovací jméno dané oprávněné osoby, bude se při pořizování požadavku do HelpDesku automaticky nabízet kód oprávněné osoby, která požadavek zadává. Povolena změna uživatele opravňuje  ke změně Oprávněné osoby (poIe Identifikace helpdesk) při zadávání nového požadavku do HelpDesku. Zvolená Výchozí priorita se bude automaticky nabízet v nově pořizovaném požadavku.
-#### Priority požadavků
-Aby bylo možné vyhodnocovat požadavky podle jejich naléhavosti, je nutné vyplnit Priority požadavků v Oblasti/proPRODUKTIVITU/HelpDesk – priority požadavků. Kromě polí <strong>Kód</strong> a <strong>Popis</strong> priority je důležité zadat pole:</li>
+Když se do pole ID Uživatele vyplní odpovídající přihlašovací jméno dané oprávněné osoby, bude se při pořizování požadavku do HelpDesku automaticky nabízet kód oprávněné osoby, která požadavek zadává. Povolená změna uživatele opravňuje  ke změně Oprávněné osoby (poIe Identifikace helpdesk) při zadávání nového požadavku do HelpDesku. Zvolená Výchozí priorita se bude automaticky nabízet v nově pořizovaném požadavku.</p>
+<h4 id="priority-požadavků">Priority požadavků</h4>
+<p>Aby bylo možné vyhodnocovat požadavky podle jejich naléhavosti, je nutné vyplnit Priority požadavků v Oblasti/proPRODUKTIVITU/HelpDesk – priority požadavků. Kromě polí <strong>Kód</strong> a <strong>Popis</strong> priority je důležité zadat pole:</p>
+<ul>
 <li><strong>Váha</strong> – pro výpočet výsledné priority požadavku. Váhy lze stanovit libovolně, záleží na místních podmínkách a zvyklostech (zpravidla čím závažnější je požadavek, tím vyšší váha)
-<strong>Výpočet data odezvy, Výpočet data řešení</strong> – vzorce pro výpočet. Do polí lze zadat celá čísla se zkratkou jednotky času (např. D = den, M = měsíc, K = kvartál, R = rok). Výsledné datum se vypočte z data, kdy byl požadavek zadán (datum lze následně upravit).
-#### Kategorie požadavků
-Pro sledování požadavků z jiných hledisek než podle závažnosti je možné nadefinovat kategorie požadavků, a to až ve 3 úrovních, pro které platí stromový rozpad (tzn. jsou ve vztahu hierarchické podřízenosti, tj. volba Kategorie 1 určí, jaké se budou nabízet Kategorie 2, a ty zase ovlivní nabídku Kategorií 3).
-U kategorií se vždy zadává <strong>Kód</strong> (max. 10 znaků) a <strong>Popis</strong> (max. 50 znaků). Na další (podřízenou) úroveň kategorií se přejde stiskem tlačítka <strong>Kategorie požadavku</strong>.
-#### Řešení
-V této tabulce je možné nadefinovat <strong>Kód</strong> (max. 10 znaků) a <strong>Popis</strong> (max. 30 znaků) jednotlivých způsobů řešení požadavků.
-#### Založení šablony workflow
-V Oblasti/proPRODUKTIVITU/WorkFlow – Šablony workflow je nutné založit šablonu workflow pro Helpdesk, ve které se zadá číslo tabulky 52068298 – HelpDesk požadavek. Pod tlačítkem <strong>Stavy workflow</strong> se definují jednotlivé stavy.
+<strong>Výpočet data odezvy, Výpočet data řešení</strong> – vzorce pro výpočet. Do polí lze zadat celá čísla se zkratkou jednotky času (např. D = den, M = měsíc, K = kvartál, R = rok). Výsledné datum se vypočte z data, kdy byl požadavek zadán (datum lze následně upravit).</li>
+</ul>
+<h4 id="kategorie-požadavků">Kategorie požadavků</h4>
+<p>Pro sledování požadavků z jiných hledisek než podle závažnosti je možné nadefinovat kategorie požadavků, a to až ve 3 úrovních, pro které platí stromový rozpad (tzn. jsou ve vztahu hierarchické podřízenosti, tj. volba Kategorie 1 určí, jaké se budou nabízet Kategorie 2, a ty zase ovlivní nabídku Kategorií 3).
+U kategorií se vždy zadává <strong>Kód</strong> (max. 10 znaků) a <strong>Popis</strong> (max. 50 znaků). Na další (podřízenou) úroveň kategorií se přejde stiskem tlačítka <strong>Kategorie požadavku</strong>.</p>
+<h4 id="řešení">Řešení</h4>
+<p>V této tabulce je možné nadefinovat <strong>Kód</strong> (max. 10 znaků) a <strong>Popis</strong> (max. 30 znaků) jednotlivých způsobů řešení požadavků.</p>
+<h4 id="založení-šablony-workflow">Založení šablony workflow</h4>
+<p>V Oblasti/proPRODUKTIVITU/WorkFlow – Šablony workflow je nutné založit šablonu workflow pro Helpdesk, ve které se zadá číslo tabulky 52068298 – HelpDesk požadavek. Pod tlačítkem <strong>Stavy workflow</strong> se definují jednotlivé stavy.
 Pro stav workflow je třeba nadefinovat <strong>Kód, Popis</strong> a <strong>Filtr dalšího stavu</strong>, který určuje, do jakých dalších stavů je možné z daného stavu přejít. Jeden ze stavů musí být označen jako <strong>Výchozí stav</strong> – ten se vyplní při založení nového helpdesk požadavku. Některé stavy mohou být označeny jako <strong>Konečný stav</strong>, z něhož se už nepokračuje do dalšího stavu.
 Pro aktivní řádek lze specifikovat <strong>Akce workflow, Kontrolovaná pole</strong> a <strong>Nastavovaná pole</strong>. V Akcích se definují Codeunity, Reporty či XMLporty, které se automaticky spustí při přechodu do daného stavu (např. odeslání e-mailové zprávy). U kontrolovaných resp. nastavovaných polí se určí, co a kde se má kontrolovat nebo nastavit při přechodu do daného stavu.
-Detailní popis nastavování workflow je předmětem samostatného manuálu.
-#### Nastavení workflow pro HelpDesk
-Kód šablony pro HelpDesk se vyplní na záložce <strong>Obecné</strong> v <strong>Nastavení workflow</strong> v poli <strong>Šablona worflow helpdesku</strong> (v Oblasti/proPRODUKTIVITU/WorkFlow – Nastavení workflow).</li>
-</ul>
+Detailní popis nastavování workflow je předmětem samostatného manuálu.</p>
+<h4 id="nastavení-workflow-pro-helpdesk">Nastavení workflow pro HelpDesk</h4>
+<p>Kód šablony pro HelpDesk se vyplní na záložce <strong>Obecné</strong> v <strong>Nastavení workflow</strong> v poli <strong>Šablona worflow helpdesku</strong> (v Oblasti/proPRODUKTIVITU/WorkFlow – Nastavení workflow).</p>
 <h2 id="použití">Použití</h2>
 <h3 id="vytvoření-požadavku">Vytvoření požadavku</h3>
 <h4 id="obecné-1">Obecné</h4>
@@ -69,25 +71,26 @@ Publikování dokumentů vyžaduje modul Publikování SharePoint a je podrobně
 <h4 id="obecné-2">Obecné</h4>
 <p>Karta helpdesk požadavku zobrazuje relevantní informace vztahující se ke zvolenému požadavku. Údaje v bílých polích lze editovat (např. je možné doplnit prioritu dispečera, upravit data odezvy či řešení, event. změnit zařazení do kategorií na záložce Kategorie). 
 Požadavek lze také přidělit k určitému projektu. Pokud příslušný projekt ještě neexistuje je možné jej vytvořit přímo z karty požadavku na záložce Akce pomocí tlačítka <strong>Vytvoř projekt</strong>. Touto operací je založen nový projekt se stejným kódem jako je číslo požadavku (i se stejným popisem) a tento kód se automaticky doplní do pole <strong>Číslo projektu</strong>. Kartu přiřazeného projektu a jeho položky lze pak zobrazit pomocí tlačítka <strong>Karta projektu</strong>.
-Na záložce <strong>Řádky</strong> se po založení objeví nový záznam s výchozím stavem podle definice v šabloně workflow pro helpdesk. Při každé další změně stavu workflow požadavku se, v případě že máte pro tento stav nastavenu Akci Workflow logování (52068291 WriteStatusChangeHlpDesk), vygeneruje další řádek s odpovídajícími hodnotami (viz podrobnější popis níže u zpracování požadavku).
-<strong>Přehled helpdesk požadavků</strong>
-Přehled helpdesk požadavků lze zobrazit v Oblasti/proPRODUKTIVITU/HelpDesk/Helpdesk požadavky.
-<strong>Poznámky k požadavku</strong>
-Ke každému vytvořenému požadavku je možné doplnit poznámky. První vstup do poznámek je možný už při vytváření požadavku v Průvodci, jak bylo popsáno výše.
+Na záložce <strong>Řádky</strong> se po založení objeví nový záznam s výchozím stavem podle definice v šabloně workflow pro helpdesk. Při každé další změně stavu workflow požadavku se, v případě že máte pro tento stav nastavenu Akci Workflow logování (52068291 WriteStatusChangeHlpDesk), vygeneruje další řádek s odpovídajícími hodnotami (viz podrobnější popis níže u zpracování požadavku).</p>
+<p><strong>Přehled helpdesk požadavků</strong></p>
+<p>Přehled helpdesk požadavků lze zobrazit v Oblasti/proPRODUKTIVITU/HelpDesk/Helpdesk požadavky.</p>
+<p><strong>Poznámky k požadavku</strong></p>
+<p>Ke každému vytvořenému požadavku je možné doplnit poznámky. První vstup do poznámek je možný už při 
+vytváření požadavku v Průvodci, jak bylo popsáno výše.
 Uživatelé mohou využívat 2 formy poznámek: </p>
 <ul>
 <li>řádkové poznámky dostupné na záložce <strong>Řádky poznámek</strong> – tyto strukturované poznámky obsahují pole Datum, Poznámka (100 znaků) a Kód. </li>
 <li>volné poznámky dostupné na záložce <strong>Detailní údaje</strong> – tyto poznámky umožňují zadávat libovolný text, který může být navíc zobrazen v informačním okně <strong>Náhled obsahu</strong>.
-Je na rozhodnutí správce, která forma poznámek bude v rámci celé firmy využívána. 
-#### Dokumenty
-Pokud je instalován modul Publikování SharePoint, pak je možné u každého požadavku v Přehledu helpdesk požadavků na záložce Akce pomocí tlačítka Publikovat publikovat dokument a pomocí tlačítka Zobrazit zobrazit publikovaný dokument. Podrobnější popis postupu nastavení a práce při publikování a zobrazování dokumentů je v manuálu k modulu Publikování SharePoint.
-#### Tisk
-Pomocí tlačítka <strong>Tisk</strong> v Přehledu helpdesk požadavků se spustí sestava <strong>Helpdesk požadavky</strong> (do vstupního filtru se nabídne číslo aktuálně zobrazeného požadavku, rozsah tisku lze pak blíže specifikovat prostřednictvím filtrů a parametrů.</li>
+Je na rozhodnutí správce, která forma poznámek bude v rámci celé firmy využívána. </li>
 </ul>
+<h4 id="dokumenty">Dokumenty</h4>
+<p>Pokud je instalován modul Publikování SharePoint, pak je možné u každého požadavku v Přehledu helpdesk požadavků na záložce Akce pomocí tlačítka Publikovat publikovat dokument a pomocí tlačítka Zobrazit zobrazit publikovaný dokument. Podrobnější popis postupu nastavení a práce při publikování a zobrazování dokumentů je v manuálu k modulu Publikování SharePoint.</p>
+<h4 id="tisk">Tisk</h4>
+<p>Pomocí tlačítka <strong>Tisk</strong> v Přehledu helpdesk požadavků se spustí sestava <strong>Helpdesk požadavky</strong> (do vstupního filtru se nabídne číslo aktuálně zobrazeného požadavku, rozsah tisku lze pak blíže specifikovat prostřednictvím filtrů a parametrů.</p>
 <h3 id="zpracování-požadavku">Zpracování požadavku</h3>
 <h4 id="obecné-3">Obecné</h4>
 <p>Po vytvoření požadavku je možné jej dále zpracovávat. K tomu se na Kartě helpdesk požadavku využívá především záložka <strong>Řešení</strong>.</p>
-<h4 id="řešení">Řešení</h4>
+<h4 id="řešení-1">Řešení</h4>
 <p>Při zpracování HelpDesk požadavku se na kartě požadavku na záložce <strong>Řešení</strong> vyplní příslušné údaje, především <strong>Kód řešení, Trvání, Popis řešení</strong> (max. 250 znaků) a <strong>Kód dalšího řešitele</strong>. Kód řešení se vybírá z předdefinované tabulky možných způsobů řešení.
 Délka <strong>Trvání</strong> se zadává ve dnech, hodinách, minutách, sekundách, příp. milisekundách, a to buď přímo vypsáním čísla a jednotky (lze použít zkratku počátku slova – např. d=den, m=minuta, mil=milisekunda apod.) nebo zadáním pouze čísla, které je interpretováno jako údaj v hodinách. Např. údaj 28,35 je převeden na 1 den 4 hodiny 21 minuty.</p>
 <h4 id="změna-stavu">Změna stavu</h4>

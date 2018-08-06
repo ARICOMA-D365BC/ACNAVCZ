@@ -2,14 +2,31 @@
         <meta name="save" content="history"><title>V&#237;ce &#250;hrad</title>
 <link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
 <body><h1>V&#237;ce &#250;hrad</h1>
-<p>Add-on modul Více úhrad rozšiřuje standard prodejních dokladů, kdy namísto jednoho způsobu platby je možné definovat více způsobů např. část prodejního dokladu uhradit platební kartou a část hotově.</p>
-<p>Na primárních dokladech (faktura, objednávka, dobropis) je v rozpisu platby možné definovat jeden či více typů úhrad (kódů způsobu platby) a tyto následně zaúčtovat (tzn. zaplatit doklad). Obdobně lze provést zaúčtování rozpisu platby na vytvořeném resp. zaúčtovaném dokladu (faktura, dobropis, záloha). Modul tvoří základ pro podporu maloobchodního prodeje formou Cash&amp;Carry a lze jej využívat spolu s modulem Fiskální tiskárny.</p>
-<h2 id="možnosti-nastavení">Možnosti nastavení:</h2>
-<ul>
-<li>Možnost definování automatického generování Kódu způsobu polatby.</li>
-<li>Kontrola přiřazení fiskální tiskárny k bankovnímu účtu.</li>
-<li>Číslená řada pro doklady platby.</li>
-</ul>
+<p>Modul Více úhrad rozšiřuje standard prodejních dokladů, kdy namísto jednoho způsobu platby je možné jich definovat více (např. část prodejního dokladu uhradit platební kartou a část hotově).
+Na primárních dokladech (faktura, objednávka, dobropis) je v rozpisu platby možné definovat jeden či více typů úhrad (kódů způsobu platby) a tyto následně zaúčtovat (tzn. zaplatit doklad).
+Obdobně lze provést zaúčtování rozpisu platby na vytvořeném resp. zaúčtovaném dokladu (faktura, dobropis, záloha).
+Modul tvoří základ pro podporu maloobchodního prodeje formou Cash&amp;Carry.</p>
+<h2 id="instalace">Instalace</h2>
+<p><strong>Objekty modulu</strong></p>
+<p>Objekty modulu Více úhrad jsou označeny verzí <strong>FP</strong>.</p>
+<p><strong>Další součásti instalace</strong></p>
+<p>Modul nevyžaduje pro instalaci žádné další součásti.</p>
+<h2 id="nastavení">Nastavení</h2>
+<h3 id="nastavení-více-úhrad">Nastavení více úhrad</h3>
+<p><strong>Nastavení více způsobů platby</strong></p>
+<p>Nastavení je v Oblasti/proFINANCE/Více úhrad – Nastavení více způsobů platby.
+V nastavení je možné definovat automaticky generovaný Kód způsoby platby (hotovost).
+Dále je možné nastavit, zda má být kontrolováno přiřazení fiskální tiskárny k bankovnímu účtu (má význam při použití modulu Fiskální tiskárny).
+Na záložce <strong>Číslování</strong> lze nastavit číselnou řadu pro doklady platby.</p>
+<h2 id="použití">Použití</h2>
+<h3 id="použití-více-úhrad">Použití více úhrad</h3>
+<p><strong>Rozpis platby</strong></p>
+<p>Na nezaúčtovaných dokladech – Prodejní objednávka, Prodejní faktura, Prodejní dobropis je tlačítko Rozpis platby. Také na zaúčtovaných dokladech – Účtované faktury, Účtované dobropisy. Dále na Prodejní zálohové faktuře.
+V rozpisu platby lze definovat více kódů způsobu platby a uhradit tak celou částku dokladu.</p>
+<p><strong>Kód fiskální tiskárny</strong> slouží k odfiltrování kódů způsobů platby příslušné fiskální tiskárně.
+Do pole <strong>Částka hotovosti (LM)</strong> vloží uživatel částku hotovosti, kterou od zákazníka obdržel.
+Pole <strong>Vrátit hotovost (LM)</strong> obsahuje částku, kterou má pokladní vrátit zákazníkovi.
+Tlačítko Účtovat umožní zaúčtovat doklad a spárovat platbu s primárním dokladem.</p>
 <h2 id="see-also">Viz také</h2>
 <p><a href="ac-fp-financial-pack.html">AC Financial Pack</a> </p>
 

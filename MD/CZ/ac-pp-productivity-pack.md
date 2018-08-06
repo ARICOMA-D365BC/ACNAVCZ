@@ -1,22 +1,12 @@
----
+﻿---
 title: "Productivity Extension"
-author: Autocont
-ms.custom: na
-ms.date: 02/26/2018
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.prod: dynamics-nav-2018
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 
-ms.openlocfilehash: 
-ms.contentlocale: cs-cz
-ms.lasthandoff: 02/26/2018
-
+Author: Autocont
+Date: 07/31/2018
+Product: dynamics-nav-2018
+Contentlocale: en
 ---
 
-# <a name="ac-fp-financial-pack"></a>Autocont - Productivity Pack
+# <a name="ac-pp-productivity-pack"></a>Autocont - Productivity Pack
 
 Přehled Autocont - Productivity Pack
 
@@ -46,4 +36,4 @@ Přehled Autocont - Productivity Pack
 
 
 ## Viz také
-
+[AutoCont Řešení](ac-solutions.md) 

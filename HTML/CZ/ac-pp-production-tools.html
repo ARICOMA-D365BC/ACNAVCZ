@@ -2,7 +2,38 @@
         <meta name="save" content="history"><title>Evidence n&#225;&#345;ad&#237; a pom&#367;cek</title>
 <link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
 <body><h1>Evidence n&#225;&#345;ad&#237; a pom&#367;cek</h1>
-<p>Add-on modul Evidence nářadí a pomůcek řeší problematiku evidence nářadí, pomůcek, nástrojů, forem a jiných potřeb obvykle evidovaných pomocí skladové evidence systému. Tento modul je postaven nad základy evidence majetku, s ohledem na sjednocení evidence pro potřeby sledování dlouhodobého majetku a evidence výrobní, tj. půjčování nářadí a pomůcek.</p>
+<p>Modul Evidence nářadí a pomůcek řeší problematiku evidence nářadí, pomůcek, forem a jiných potřeb obvykle evidovaných pomocí skladové evidence systému. Tento modul je postaven nad základy evidence majetku, s ohledem na sjednocení evidence pro potřeby sledování dlouhodobého majetku a evidence výrobní, tj. půjčování nářadí a pomůcek.</p>
+<h2 id="instalace">Instalace</h2>
+<p><strong>Objekty modulu</strong></p>
+<p>Objekty add-on modulu Evidence nářadí a pomůcek jsou označeny verzí <strong>PT</strong>.</p>
+<p><strong>Další součásti instalace</strong></p>
+<p>Add-on modul vyžaduje Dynamics NAV Starter Pack a Extended Pack. </p>
+<h2 id="nastavení">Nastavení</h2>
+<p><strong>Nastavení modulu</strong></p>
+<p>Základní nastavení se provede v nabídce: Oblasti / proPRODUKTIVITU / Evidence nářadí a pomůcek / Nastavení.
+Je nutné nastavit minimálně jednu šablonu deníku evidence nástrojů. V šabloně je možno volit výchozí <strong>Typ položky</strong>, pokud by byla potřeba definovat deník jen pro jeden pohyb např. <strong>Půjčení</strong>. Dále je potřeba nastavit číselnou řadu dokladů, pomocí kterých se budou pohyby sledovat.
+Pro každou šablonu deníku (případně list deníku) je možno definovat kontroly povinných údajů v deníku při účtování pohybu s nářadím v tabulce <strong>Nastavení typů položky evidence nástrojů</strong>.</p>
+<p><strong>Typy poškození</strong></p>
+<p>Nastavení typů poškození slouží pro rozlišení poškozených evidovaných kusů, ať s ohledem na pozdější statistické vyhodnocování, tak pro případné náhrady ze stran zaměstnanců, kteří poškozené nářadí či pomůcky vrací.
+Pro zadání typu poškození jsou k dispozici pole <strong>Kód</strong>, <strong>Popis</strong> a <strong>EAN</strong>, ve kterém je možno definovat čárový kód pro případné využití čteček čárových kódů.</p>
+<p><strong>Karta evidence nástrojů</strong></p>
+<p>Karta kusové evidence dostupná v nabídce Oblasti / proPRODUKTIVITU / Evidence nářadí a pomůcek / Evidence nástrojů se používá pro sledování a evidenci všech informací o používaných pomůckách, přípravcích a nářadí.
+Na záložce Evidence nástrojů je možno nastavit a sledovat údaje spojené s vlastní evidencí. V poli <strong>EAN</strong> je možno nastavit čárový kód pro umožnění použití čteček čárových kódů, v poli <strong>Číslo police</strong> je možno evidovat přesné místo uložení a dále zde jsou kalkulovaná pole s napočtenými hodnotami celkového množství a množství nářadí volného k zapůjčení.</p>
+<h2 id="použití">Použití</h2>
+<h3 id="evidence-nářadí-a-pomůcek">Evidence nářadí a pomůcek</h3>
+<p>V nabídce Oblasti / proPRODUKTIVITU / Evidence nářadí a pomůcek je možno vybrat z přednastavených deníků evidence.
+V deníku je možno volit mezi 4 typy pohybů:</p>
+<ul>
+<li>Příjem – slouží k zařazení evidovaného množství nářadí</li>
+<li>Výdej – slouží k vyřazení nářadí z evidence</li>
+<li>Půjčení</li>
+<li>Vrácení</li>
+</ul>
+<p>Při účtování deníků lze evidovat množství, číslo pracovníka, který si nářadí půjčuje či vrací. Dále je obvykle požadováno sledovat kód poškození, kterým lze vyjádřit stav vraceného nářadí a následně je možné řešit nápravu či výměnu nákupem či výrobou nové položky. Pole Evidenční číslo slouží ke sledování půjčování kusových položek s unikátním evidenčním číslem pro přesnější rozlišení evidovaných pomůcek. Tato evidence vyžaduje účtovat množství pouze po 1 kusu.</p>
+<h3 id="údržba">Údržba</h3>
+<p>Evidence nad modulem majetek umožňuje při existenci granule Controlling Fixed Assets sledovat údržbu evidovaných nářadí a pomůcek pomocí položek údržby. A to údržbu vznikající ze standardních nákupních dokladů, např. nákupní objednávka, nebo položky údržby vznikající interní spotřebou v denících zboží.</p>
+<h3 id="historie">Historie</h3>
+<p>Při účtování deníku vznikají položky, které je možno zobrazit pomocí klávesové zkratky <strong>Ctrl+F7</strong> z <strong>Karty evidence nářadí</strong> nebo z <strong>Deníku evidence nářadí</strong>, případně Oblasti / proPRODUKTIVITU / Evidence nářadí a pomůcek / Historie</p>
 <h2 id="see-also">Viz také</h2>
 <p><a href="ac-pp-productivity-pack.html">AC Productivity pack</a>  </p>
 

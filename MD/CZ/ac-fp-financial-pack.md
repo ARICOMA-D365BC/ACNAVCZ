@@ -32,4 +32,4 @@ Rozšíření pro Finance
 
 
 ## Viz také
-
+[AutoCont Řešení](ac-solutions.md) 

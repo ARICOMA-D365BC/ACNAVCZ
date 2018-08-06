@@ -7,19 +7,18 @@ Z hlediska informačního systému Microsoft Dynamics NAV je tento modul vhodný
 WorkFlow – řízení stavů, WorkFlow – sledování polí či Evidence doručené pošty. Dohromady tvoří tyto moduly sadu pro řízení a kontrolu procesů a událostí v organizaci.
 Základem použití modulu je definování sledovaných stavů a událostí v systému, na které je třeba upozornit uživatele nebo na ně určitým způsobem reagovat. Kromě sledování aktuální události lze sledovat i vývoj události v čase. 
 Modul je vyvinut jako off-line pracující nástroj, který nereaguje na okamžitou změnu v datech, ale poskytuje a zasílá informace o stavu dat v naplánovaných intervalech.
-Modul Správa upozornění slouží např. k hlídání termínů na dokladech (datum dodání, splatnosti). Je možno informovat mailem zaměstnance o aktuálnosti termínu (kontroly, plnění, splnění, …). Tento modul je postaven samostatně a nezasahuje do ostatních modulů.
-<strong>Princip funkce modulu</strong>
-Modul Správa upozornění vytváří, aktualizuje a uchovává k záznamům v určených tabulkách systému Microsoft Dynamics NAV další doprovodné informace o jejich vzniku či stavu zpracování, tzv. Položky událostí. Další využití těchto položek pak závisí na konkrétním řešení, ve které má být Správa upozornění použita, v modulu samotném není nijak řešeno.
+Modul Správa upozornění slouží např. k hlídání termínů na dokladech (datum dodání, splatnosti). Je možno informovat mailem zaměstnance o aktuálnosti termínu (kontroly, plnění, splnění, …). Tento modul je postaven samostatně a nezasahuje do ostatních modulů.</p>
+<p><strong>Princip funkce modulu</strong></p>
+<p>Modul Správa upozornění vytváří, aktualizuje a uchovává k záznamům v určených tabulkách systému Microsoft Dynamics NAV další doprovodné informace o jejich vzniku či stavu zpracování, tzv. Položky událostí. Další využití těchto položek pak závisí na konkrétním řešení, ve které má být Správa upozornění použita, v modulu samotném není nijak řešeno.
 Pro každou tabulku v systému, která má být sledována funkcionalitou Správa upozornění, je nastavena tzv. Karta šablony události. Na této kartě jsou specifikovány další omezující podmínky, tzn. Modul Správa upozornění nemusí pracovat se všemi záznamy z dané tabulky, ale pouze s vybranou podmnožinou.
 Ke každé šabloně jsou dále definovány Fáze událostí, tj. stavy, ve kterých se může konkrétní Položka události nacházet. U fází jsou uvedena i pravidla jejich použití odkazující se např. na vznik záznamu nebo určité datumové pole.
 Vlastní hromadné vytvoření a aktualizace Položek upozornění je řešeno spuštěním reportu (ručně či plánovačem). Je možná i ruční změna přímo v Položkách událostí.</p>
 <h2 id="instalace">Instalace</h2>
-<p><strong>Objekty modulu</strong>
-Objekty modulu Správa upozornění jsou označeny verzí
- <strong>EN7.00, EN7.20</strong>
-Seznam konkrétních objektů modulu je uveden v dokumentaci k aktuálnímu buildu add-on modulů.
-<strong>Další součásti instalace</strong>
-Pro automatické upozorňování formou zaslaných e-mailů je potřeba aplikační server a modul Rozšíření plánovače úloh (Job Queue).</p>
+<p><strong>Objekty modulu</strong></p>
+<p>Objekty modulu Správa upozornění jsou označeny verzí <strong>EN7.00, EN7.20</strong>
+Seznam konkrétních objektů modulu je uveden v dokumentaci k aktuálnímu buildu add-on modulů.</p>
+<p><strong>Další součásti instalace</strong></p>
+<p>Pro automatické upozorňování formou zaslaných e-mailů je potřeba aplikační server a modul Rozšíření plánovače úloh (Job Queue).</p>
 <h2 id="nastavení">Nastavení</h2>
 <h4 id="karta-šablony-události">Karta šablony události</h4>
 <p>V Oblasti/proPRODUKTIVITU/Správa upozornění zvolte Šablony událostí a tlačítko <strong>Nový</strong>. Otevře se <strong>Karta šablony událostí</strong>.  Karta šablony události se používá pro zadání sledované události. 
@@ -45,22 +44,27 @@ Pole <strong>Priorita</strong> je pouze evidenční a propisuje do položek upoz
 Pole <strong>Filtr ID uživatele</strong> – hodnota tohoto pole se doplňuje do položek upozornění a slouží k filtrování položek dle ID uživatele.
 Každé fázi lze přiřadit e-mailovou adresu určující komu danou událost odeslat, koho upozornit. </p>
 <h4 id="e-maily--zadání-adresáta">E-maily – zadání adresáta</h4>
-<p>E-maily se nastavují na stránce Fáze polí přes tlačítko <strong>E-maily</strong>. Jsou 3 způsoby, jak zadat adresáta e-mailu. (Tyto způsoby se dají kombinovat, tj. e-mail může odejít na všechny 3 definice pro jednu položku.)</p>
+<p>E-maily se nastavují na stránce Fáze polí přes tlačítko <strong>E-maily</strong>. Jsou 3 způsoby, jak zadat adresáta 
+e-mailu. (Tyto způsoby se dají kombinovat, tj. e-mail může odejít na všechny 3 definice pro jednu položku.)</p>
 <ol>
 <li>Ručně definovaný e-mail
 Vyplním pole <strong>e-mail</strong>. Použiji, pokud chci poslat upozornění vždy na tento e-mail.</li>
 <li>Dynamický e-mail z pole v záznamu, který je zdrojem upozornění
 Vyplním pole <strong>Číslo pole e-mailu</strong>. Jde o textové pole z tabulky definované šablonou události. Použiji, pokud chci poslat upozornění na e-mail, který je přímo uložen v záznamu ve zdrojové tabulce šablony upozornění, který je zdrojem upozornění. (např. upozornění nad kartou zaměstnance, která obsahuje i jeho e-mail)</li>
 <li>Dynamický e-mail z pole relační tabulky, která má vazbu s tabulkou šablony upozornění přes jedno pole dle záznamu, který je zdrojem upozornění. 
-Vyplním pole <strong>Číslo relační tabulky</strong> – tabulka, kde bude pole pro e-mail, pole <strong>Číslo relačního pole e-mailu</strong> – pole s e-mailem v relační tabulce, pole <strong>Číslo pole relace z</strong> – pole z tabulky šablony události, které definuje vazbu do relační tabulky, pole <strong>Číslo pole relace do</strong> – pole z relační tabulky, na které je definována vazba. Použiji, pokud chci poslat upozornění na e-mail, který je uložen v relační tabulce ke zdrojové tabulce šablony upozornění s vazbou přes jedno pole (např. upozornění nad prodejním dokladem, kdy chci e-mail poslat na prodejce dokladu – e-mail je uložen v poli E-mail v tabulce Prodejce/nákupčí, která má z prodejní hlavičky vazbu přes jedno pole Kód prodejce – Kód. 
-#### E-maily – obsah
-Jsou 2 způsoby, jak definovat obsah e-mailu (předmět a tělo).</li>
-<li>S pevně definovanou naprogramovanou strukturou 
-V tomto případě <strong>Typ e-mailu</strong> je <strong>Standard</strong>.<br><strong>Předmět:</strong> kód šablony události + popis fáze
-<strong>Tělo:</strong> pole primární klíč z položky události</li>
-<li>S dynamickým obsahem 
-V tomto případě je obsah definovaný pomocí polí a textů e-mailu. <strong>Typ e-mailu</strong> je <strong>Strukturovaný</strong>. Předmět i tělo se definuje v textech mailu s využitím polí e-mailu. Pole je možné definovat z tabulek – zdrojová tabulka šablony upozornění, 52068220 – Šablona události, 52068221 Fáze pole, 52068224 Položka události.</li>
+Vyplním pole <strong>Číslo relační tabulky</strong> – tabulka, kde bude pole pro e-mail, pole <strong>Číslo relačního pole e-mailu</strong> – pole s e-mailem v relační tabulce, pole <strong>Číslo pole relace z</strong> – pole z tabulky šablony události, které definuje vazbu do relační tabulky, pole <strong>Číslo pole relace do</strong> – pole z relační tabulky, na které je definována vazba. Použiji, pokud chci poslat upozornění na e-mail, který je uložen v relační tabulce ke zdrojové tabulce šablony upozornění s vazbou přes jedno pole (např. upozornění nad prodejním dokladem, kdy chci e-mail poslat na prodejce dokladu – e-mail je uložen v poli E-mail v tabulce Prodejce/nákupčí, která má z prodejní hlavičky vazbu přes jedno pole Kód prodejce – Kód. </li>
 </ol>
+<h4 id="e-maily--obsah">E-maily – obsah</h4>
+<p>Jsou 2 způsoby, jak definovat obsah e-mailu (předmět a tělo).</p>
+<ol>
+<li>S pevně definovanou naprogramovanou strukturou </li>
+</ol>
+<p>V tomto případě <strong>Typ e-mailu</strong> je <strong>Standard</strong>.<br><strong>Předmět:</strong> kód šablony události + popis fáze
+<strong>Tělo:</strong> pole primární klíč z položky události</p>
+<ol>
+<li>S dynamickým obsahem </li>
+</ol>
+<p>V tomto případě je obsah definovaný pomocí polí a textů e-mailu. <strong>Typ e-mailu</strong> je <strong>Strukturovaný</strong>. Předmět i tělo se definuje v textech mailu s využitím polí e-mailu. Pole je možné definovat z tabulek – zdrojová tabulka šablony upozornění, 52068220 – Šablona události, 52068221 Fáze pole, 52068224 Položka události.</p>
 <h2 id="použití">Použití</h2>
 <h4 id="vytvoření-a-aktualizace-položek-událostí">Vytvoření a aktualizace položek událostí</h4>
 <p>Vytvoření a aktualizace položek upozornění se provádí reportem 52068221 Vytvoření a aktualizace položek událostí. 

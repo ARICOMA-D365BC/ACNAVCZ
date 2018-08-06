@@ -2,7 +2,117 @@
         <meta name="save" content="history"><title>Doprava z&#225;klad</title>
 <link rel="stylesheet" type="text/css" href="../local/Classic.css"><script language="JScript" src="../Feedback.js"></script><style type="text/css"> h1 { font: 2.57em "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;  } </style></head>
 <body><h1>Doprava z&#225;klad</h1>
-<p>Modul Doprava – základ řeší problematiku evidence vozidel, plánování údržby vozidel, evidence řidičů, evidence knih jízd a evidenci spotřeby pohonných hmot (včetně možnosti importu souborů o nákupech na palivové karty, např. CCS).</p>
+<p>Modul Doprava – základ řeší problematiku evidence vozidel, plánování údržby vozidel. Evidence řidičů, evidence knih jízd a evidenci spotřeby pohonných hmot (včetně možnosti importu souborů o nákupech na palivové karty, např. CCS). 
+Tento modul je nutnou podmínkou pro používání rozšiřujícího modulu Doprava – plánování.</p>
+<h2 id="instalace">Instalace</h2>
+<p><strong>Objekty modulu</strong></p>
+<p>Objekty modulu Doprava – základ jsou označeny verzí DO7.10 resp. pouze DO.</p>
+<p><strong>Další součásti instalace</strong></p>
+<p>Modul nevyžaduje pro instalaci žádné další součásti.</p>
+<h2 id="nastavení">Nastavení</h2>
+<h3 id="nastavení-dopravy">Nastavení dopravy</h3>
+<p><strong>Obecné</strong></p>
+<p>Základní nastavení se provede v Oblasti/proPRODUKTIVITU/Doprava – Nastavení dopravy.
+Na záložce <strong>Obecné</strong> zadáte volby:</p>
+<p><strong>Nutné ID původu požadavku</strong> – viz popis modul Doprava – plánování</p>
+<p><strong>Nutné ID PSČ požadavků</strong> – viz popis modul Doprava plánování</p>
+<p>Na záložce <strong>Číslování</strong> musíte zadat číselné řady:
+<strong>Čísla vozidel</strong> – číselná řada pro karty vozidel,
+<strong>Čísla řidičů</strong> – číselná řada pro karty řidičů.</p>
+<p>Ostatní pole jsou připravena pro modul Doprava – plánování a není nutné je pro potřeby základního modulu vyplňovat.</p>
+<p><strong>Typ vozidel</strong></p>
+<p>Nastavení typů vozidel slouží k členění automobilového parku dle vašich potřeb a provede se v Oblasti/proPRODUKTIVITU/Doprava – Typy vozidel.
+Pro zadání Typu vozidla jsou k dispozici pole Kód a Popis.</p>
+<p><strong>Typy provozu</strong></p>
+<p>Typy provozu je možné použít ke stanovování různých nákladů a normovaných spotřeb u vozidel v závislosti na typu vozidla. Jejich nastavení se provede v Oblasti/proPRODUKTIVITU/Doprava – Typy provozu. 
+Typy provozu označují různé druhy pracovního nasazení jaké je dané vozidlo schopné vykonávat, jako např. stojné.
+Typy provozu je možné následně v modulu použít ke stanovení různých nákladů a normovaných spotřeb u vozidel v závislosti na typu provozu, který má být vykonáván.
+Každý typ provozu má svoji vlastní jednotku množství. Toto umožňuje přiřadit ke každému vozidlu více než jednu jednotku množství.</p>
+<p>Pro každý typ provozu lze specifikovat:</p>
+<ul>
+<li>Kód</li>
+<li>Popis</li>
+<li>Kód měrné jednotky – výběrem ze standardního číselníku Měrné jednotky</li>
+</ul>
+<p><strong>Vybavení vozidla</strong></p>
+<p>Vybavení vozidla můžete použít pro specifikaci vybavení vozidel. Nastavení se provede v Oblasti/proPRODUKTIVITU/Doprava – Vybavení. 
+Jakmile kód vybavení v číselníku vytvoříte, můžete evidovat množství tohoto vybavení přiděleného k jednotlivým vozidlům.</p>
+<p><strong>Typy údržby</strong></p>
+<p>Typy údržby můžete použít pro členění údržby vozidel dle vašich potřeb. Nastavení se provede v Oblasti/proPRODUKTIVITU/Doprava – Typy údržby.
+Jakmile typ údržby vytvoříte, můžete evidovat provedenou či plánovanou údržbu pro jednotlivá vozidla.</p>
+<p><strong>Kódy PHM</strong></p>
+<p>Tabulka Kódy PHM slouží k definování nakupovaných položek, které jsou vám fakturovány jejich dodavateli (např. různé druhy pohonných hmot, poplatky,…). Nastavení Kódů PHM se provede v Oblasti/proPRODUKTIVITU/Doprava – Kódy PHM.
+Kódy PHM je nutné zadávat v podobě, v jaké je dodavatel uvádí v elektronickém vyúčtování (má-li být tato funkcionalita používána). 
+Pro identifikaci kódu PHM slouží pole Kód a Popis. 
+Pro automatické vytváření nákupních faktur je nutné nastavit v poli Typ a Číslo, jakým způsobem má být o daném kódu PHM účtováno:</p>
+<ul>
+<li>Prázdný – výchozí hodnota</li>
+<li>Účet – do řádku nákupní faktury je vložen účet zadaný v poli Číslo</li>
+<li>Zboží – do řádku nákupní faktury je vloženo zboží zadané v poli Číslo</li>
+<li>Údržba DM – do řádku nákupní faktury je vložen dlouhodobý majetek s kódem údržby zadaným v poli Číslo</li>
+</ul>
+<p><strong>Platební karty</strong></p>
+<p>Platební karty použijete k zadání čísel platebních karet, popř. jejich popisu. Nastavení se provede v 
+Oblasti/proPRODUKTIVITU/Doprava – Platební karty.</p>
+<p><strong>Odborné způsobilosti</strong></p>
+<p>Odborné způsobilosti můžete použít pro specifikaci znalostí, dovedností evidovaných řidičů. Nastavení číselníku odborných způsobilostí se provede v nabídce Oblasti/proPRODUKTIVITU/Doprava – Odborné způsobilosti. </p>
+<p><strong>Šablony knihy jízd</strong></p>
+<p>Šablony knihy jízd jsou určeny k vytváření šablon deníků. Nastavení šablon se provede v Oblasti/proPRODUKTIVITU/Doprava – Šablony knihy jízd. 
+Šablony umožnují pracovat v okně deníku pro specifický účel, např. dle vozidel.
+Šablona knihy jízd obsahuje jeden řádek pro každou šablonu.
+Pole <strong>Vynutit návaznost stavu</strong> – řádky musí být zadávány v pořadí, v jaké byly jízdy uskutečněny.
+Pole <strong>Čas jízdy nutný</strong> – uživatel musí zadat dobu trvání jízdy.</p>
+<p><strong>Šablony deníku PHM</strong></p>
+<p>Šablony deníku PHM slouží k vytváření a sledování šablon deníků. Nastavení šablon se provede v 
+Oblasti/proPRODUKTIVITU/Doprava – Šablony deníku PHM.
+Okno Šablony deníku PHM obsahuje jeden řádek pro každou šablonu. Význam jednotlivých polí je obdobný jako u šablon jiných deníků.</p>
+<p><strong>Šablony výpisu čerpání</strong></p>
+<p>Šablony výpisu čerpání slouží k vytváření a sledování jednotlivých šablon výpisů. Nastavení šablon se provede v Oblasti/proPRODUKTIVITU/Doprava/Šablony výpisů čerpání PHM.
+V Šabloně výpisu čerpání PHM se definují:</p>
+<ul>
+<li>Název a Popis</li>
+<li>Čísla výpisů – číselná řada pro výpisy čerpání PHM</li>
+<li>Čísla vydaných výpisů – číselná řada pro vydané výpisy čerpání PHM</li>
+<li>Parametry pro elektronické zpracování vyúčtování Cesta pro import, Typ souboru pro import, Typ objektu pro import, ID objektu pro import, Název objektu pro import</li>
+<li>Číslo dodavatele – je nutné vyplnit, budou-li z výpisů generovány nákupní faktury</li>
+<li>Číslo dodavatele PHM – needitovatelné, je zkopírováno ze stejného pole na kartě dodavatele (jedná se o číslo dodavatele PHM, které uvádí v elektronických výpisech, a které je kontrolováno při jejich importu).</li>
+<li>Šablona deníku PHM – je nutné vyplnit, budou-li z výpisů generovány deníky PHM</li>
+<li>List deníku PHM – je nutné vyplnit, budou-li z výpisů generovány deníky PHM</li>
+</ul>
+<p>Dále je možné určit Šablonu a List deníku PHM kam budou položky vydaného výpisu exportovány po konečném zaúčtování a Číslo dodavatele pro automatické vytváření nákupních faktur.
+Šablony výpisů čerpání PHM lze zobrazit ve dvou rozdílných oknech:</p>
+<ul>
+<li>Přehled šablon výpisů čerpání PHM zobrazuje veškeré šablony, každá na jednom řádku.</li>
+<li>Karta šablony výpisů čerpání PHM má pro každý řádek v přehledu šablon výpisů čerpání PHM k dispozici kartu s podrobnějším zobrazením polí pro zadání.</li>
+</ul>
+<p>Obě tato okna zobrazují stejná pole a obě okna také poskytují stejné možnosti pro úpravy obsahů polí.</p>
+<p><strong>Karta vozidla</strong></p>
+<p>Karta vozidla je dostupná v Oblasti/proPRODUKTIVITU/Doprava - Vozidla. Používá se pro evidenci všech informací o používaných dopravních prostředcích. 
+Vedení evidence vozidel je důležitou součástí modulu Doprava. Tabulka Vozidlo obsahuje informace využívané celou řadu funkcí tohoto modulu, např. Kniha jízd, Deník PHM atd. Kromě toho je možné napojit vozidlo na funkcionalitu dlouhodobého majetku a zdrojů.
+Tabulka Vozidlo obsahuje pro každé vozidlo kartu, na kterou zadáváte základní informace jako je Číslo, Název, Typ, Normovaná spotřeba apod.</p>
+<p><strong>Karta řidiče</strong></p>
+<p>Karta řidiče se používá pro evidenci informací o řidičích. Je dostupná v Oblasti/proPRODUKTIVITU/Doprava – Řidiči.
+Kartu řidiče je možné prostřednictvím pole <strong>Číslo zdroje</strong> napojit řidiče na funkcionalitu zdrojů. Pole <strong>Číslo zaměstnance</strong> zatím využito není.
+Pomocí tlačítka <strong>Odborná způsobilost</strong> lze zadat či upravit přiřazení odborností k řidičům. Zadáním počátečního, resp. koncového data je možné hlídat vypršení platnosti určité odbornosti.</p>
+<p><strong>Katalog zboží dodavatele</strong></p>
+<p>Katalog zboží dodavatele slouží k napárování kódu zboží dodavatele s interním kódem PHM definujícím zaúčtování (viz výše). </p>
+<h2 id="použití">Použití</h2>
+<h3 id="použití-dopravy">Použití dopravy</h3>
+<p><strong>Evidence údržby vozidla</strong></p>
+<p>Na Kartě vozidla pomocí tlačítka <strong>Evidence údržby</strong> se zobrazí evidence údržby provedené na určitém vozidle.</p>
+<p><strong>Práce s výpisy čerpání PHM</strong></p>
+<p>Přehled výpisů čerpání najdeme v Oblasti/proPRODUKTIVITU/Doprava – Výpisy čerpání PHM. Zvolíme Přehled výpisů čerpání a zvolíme Nový. Po zadání dodavatele je možné importovat soubor od dodavatele pohonných hmot pomocí tlačítka Import výpisu. Následně je nutné doklad Vydat, čímž se doklad přesune do Vydaných výpisů čerpání PHM. (Oblasti/proPRODUKTIVITU/Doprava – Výpisy vydaných čerpání PHM).</p>
+<p>Pro vytvoření nákupní faktury spustí uživatel na Vydaném výpisu čerpání PHM funkci <strong>Vytvoření nák. faktury</strong>. Funkce po skončení zobrazí číslo právě vytvořené nákupní faktury.
+Pro návrh deníku PHM slouží funkce <strong>Vytvoření deníku PHM</strong>.</p>
+<p><strong>Deník PHM</strong></p>
+<p>Deník PHM slouží k evidenci čerpání pohonných hmot (Oblasti/proPRODUKTIVITU/Doprava – Deník PHM).
+Deník PHM je možné vyplňovat ručně nebo jej plnit funkcí z Vydaného výpisu čerpání PHM (viz výše).
+Zaúčtováním Deníku PHM se vytvoří Položky PHM, které je možné zobrazit z karty vozidla pomocí tlačítka Položky PHM.</p>
+<p><strong>Kniha jízd</strong></p>
+<p>Kniha jízd (Oblasti/proPRODUKTIVITU/Doprava – Knihy jízd) slouží k evidenci ujetých kilometrů a koncového stavu nádrže pro sledované období.
+Zaúčtováním Knihy jízd se vytvoří <strong>Položky knihy jízd</strong>, které je možné zobrazit z karty Vozidla. </p>
+<p><strong>Sestavy</strong></p>
+<p>Položky PHM a Položky knihy jízd slouží mimo jiné k vyhodnocování provozu vozidla, např. pro zjištění, zda je spotřeba v limitu či nikoli. K tomu slouží sestavy <strong>Provoz vozidla – analýza</strong> a <strong>Provoz vozidla – fin. analýza</strong> dostupné v Oblasti/proPRODUKTIVITU/Doprava.</p>
 <h2 id="see-also">Viz také</h2>
 <p><a href="ac-pp-productivity-pack.html">AC Productivity pack</a>  </p>
 

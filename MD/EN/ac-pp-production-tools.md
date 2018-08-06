@@ -1,24 +1,14 @@
 ﻿---
-Title: "Evidence of tools and utilities"
-Author: Autocont
-Ms. custom: on
-Ms date: 02/26/2018
-reviewer: Ms.
-Ms. suite:
-Ms. _pltfrm tgt:
-Ms. topic: article
-MS Sales: dynamics-nav-2018
-Ms. translationtype: Human Translation
-Ms. sourcegitcommit: 
-Ms. openlocfilehash: 
-Ms. contentlocale: cs-cz
-Ms. lasthandoff: 02/26/2018
-
+Title: "Registration of tools and aids"
+Author: AutoCont
+Date: 07/31/2018
+Product: dynamics-nav-2018
+Contentlocale: en
 ---
 
-# ## <a name = "pp-production-tools.md" > </a> Registration tools and AIDS
+# <a name = "pp-production-tools.md" > </a> Registration of tools and aids
 
-Add-on module Registration tools and AIDS examines the evidence of tools, AIDS, tools, molds and other needs usually registered by using the inventory system. This module is built over the foundations of property records, with a view to the unification of the registration for the purposes of tracking fixed assets and recording production, IE. lending tools and gadgets.
+Add-on module Registration of tools and aids examines the evidence of tools, aids, utilities, molds and other needs usually registered by using the inventory system. This module is based on Fixed Asset, with a view to the unification of the registration for the purposes of tracking fixed assets and production registration, ie. lending tools and gadgets.
 
 ## <a name = "see-also" > </a>See Also  
-[AC Productivity pack] (ac-pp-productivity-pack.md)  
+[AC Productivity Pack](ac-pp-productivity-pack.md)  
