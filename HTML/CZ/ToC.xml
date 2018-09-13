@@ -15,7 +15,7 @@
     <Node Name="" DisplayName="Použití funkce Hledat stránku nebo sestavu" Page="ui-search.html"/>
     <Node Name="" DisplayName="Změna základních nastavení" Page="ui-change-basic-settings.html"/>
     <Node Name="" DisplayName="Návod: Změna centra rolí" Page="change-role.html"/>
-    <Node Name="" DisplayName="Přizpůsobení Dynamics NAV" Page="ui-customizing-overview.md.html"/>
+    <Node Name="" DisplayName="Přizpůsobení Dynamics NAV" Page="ui-customizing-overview.html"/>
     <Node Name="" DisplayName="Povolení navrhování hodnot aplikací" Page="ui-let-system-suggest-values.html"/>
     <Node Name="" DisplayName="Tisk a sestavy" Page="ui-work-report.html"/>
     <Node Name="" DisplayName="Videa běžných úloh" Page="across-videos.html"/>
