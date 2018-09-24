@@ -16,17 +16,61 @@ ms.lasthandoff: 02/26/2018
 
 ---
 
-# <a name="ac-fp-controling-basic"></a>SADA ROZŠÍŘENÍ PRO FINANCE 
+# <a name="ac-fp-controling-basic"></a>Sada rozšíření pro finance 
 
-Granule Sada rozšíření pro Finance obsahuje společné funkce pro podporu fungování ostatních add-on modulů balíčku rozšíření financí a současně obsahuje některé doplňující funkce jako:
+AddOn modul Controlling Basic – Sada Rozšíření aplikace obsahuje tyto funkcionality:
+* Kontrola CreditCheck
+* Úpravy v archivaci nákupních a prodejních dokladů - poslední archivovaný dokument
+* Hierarchický návrh cen
+* Splátkové kalendáře
+* Spotřební daň
+* Viditelný poplatek
+* Vytváření webových zdrojů kontaktu
+* Drobné úpravy běžně používaných reportů (finanční, účetní, bankovní, pokladní, majetek, nákupní, prodejní, skladové apod.)
+* Úpravy pro nastavení parametrů plánovače úloh
+* A řada dalších menších úprav, vylepšení a rozšíření
 
-*	Viditelný poplatek - Možnost ke zboží přiřadit tzv. "viditelný poplatek", který se automaticky vkládá do nákupních/prodejních dokladů. Využívá se např. pro účtování poplatku za recyklaci el. odpadu, apod.
-*	Spotřební daň - Povinnost přiznat spotřební daň vzniká výdejem z daňového skladu – prodej v rámci ČR, interní transfer v rámci ČR. Jednou měsíčně je třeba vykázat splatnou spotřební daň. Na položkách zboží je informace o spotřební dani a o povinnosti daň přiznat. Je k dispozici report, který uzavírá otevřené položky spotřební daně. Dále je k dispozici report z žurnálu poskytující podklad pro Prohlášení o spotřební dani.
-*	Credit Check – napojení na externí databázi Credit Check a kontrola kredibility firem
-*	Splátkové kalendáře – rozložení splátek pohledávek a závazků do dílčích plateb
-*	Hierarchický návrh cen – možnost vypnutí standardního návrhu nejnižších cen
-*	Poslední archivovaný dokument
-*	Vymáhání pohledávek - podpora pro vymáhání dlouhodobých pohledávek, které dosud nebyly uhrazeny. U takových pohledávek je potřeba mít především informaci o stavu pohledávky a mít možnost připojit dokumenty.
+## Instalace
+
+**Objekty modulu**
+
+Objekty add-on modulu Evidence obalů jsou označeny verzí CO.
+
+## Funkcionality modulu controlling basic
+
+### Splátkové kalendáře
+
+Funkcionalita Splátkových kalendářů je k dispozici v prodeji i v nákupu a její fungování je v obou oblastech obdobné. 
+Ve splátkovém kalendáři můžeme použít funkci Navrhnout splátkový kalendář. 
+Vyplníme pole:
+* Počet splátek,
+* Datum splatnosti první splátky,
+* Periodu splátek.
+Ve splátkovém kalendáři se automaticky vytvoří řádky.
+Zaúčtovaná prodejní faktura: 
+* Na zaúčtované prodejní faktuře lze také použít funkci Splátkového kalendáře
+
+### Creditcheck
+
+Funkcionalita umožňuje získat důležité informace o partnerech. Informace jsou importovány přes webovou službu Creditcheck ERP. V databázi Creditcheck lze tedy prověřovat partnera bez přihlášení.
+V Nastavení elektronické komunikace na záložce Kontrola CreditCheck je třeba vyplnit následující pole:
+HTTP služby CreditCheck – webová adresa služby CrediCheck pro stažení dat:
+http://creditwebservices.creditcheck.cz/CreditCheckAktualizace.asmx?op=GetCreditChecks
+Nepoužívat kontakty pro CreditCheck - pokud firma nepoužívá kontakty je třeba zaškrtnout tento boolean. Pak se při stažení dat z CrediChecku budou plnit přímo pole Stav CreditCheck na kartě zákazníka, dodavatele.
+Datum aktualizace Credit Check – poslední datum, kdy byla provedena aktualizace stavu CreditCheck
+V Nastavení uživatelů na záložce Obecné je nový boolean Povolit změnu stavu CreditCheck, který pokud jej má uživatel zaškrtnut, pak mu umožní zrušit naimportovaný stav.
+
+### Kontroly směnných kurzů
+
+Pro eliminaci rizika nesprávného zadání směnného kurzu a tudíž zaúčtování dokladu s nesprávným kurzem, byly do systému doplněny 2 nové kontroly.
+Kontrola správnosti směnného kurzu
+Na kartě Měna lze definovat 2 nová pole 
+* Dolní limit částky vzt. sm.kurzu
+* Horní limit částky vzt. sm.kurzu
+
+Je-li některé z nich vyplněno, pak systém provádí kontrolu:
+* při vkládání hodnoty do Směnných kurzů, 
+* při vkládání kurzu na nákupních, prodejních nebo servisních dokladech
 
 ## <a name="see-also"></a>Viz také  
 [AC Financial Pack](ac-fp-financial-pack.md)  
