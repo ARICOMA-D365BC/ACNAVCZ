@@ -69,13 +69,13 @@ V Nastavení uživatelů na záložce Obecné je nový boolean Povolit změnu st
 Pro eliminaci rizika nesprávného zadání směnného kurzu a tudíž zaúčtování dokladu s nesprávným kurzem, byly do systému doplněny 2 nové kontroly.
 Kontrola správnosti směnného kurzu.
 
-Na kartě Měna lze definovat 2 nová pole 
+Na kartě Měna lze definovat 2 nová pole: 
 * Dolní limit částky vzt. sm.kurzu
 * Horní limit částky vzt. sm.kurzu
 
 Je-li některé z nich vyplněno, pak systém provádí kontrolu:
 * při vkládání hodnoty do Směnných kurzů, 
-* při vkládání kurzu na nákupních, prodejních nebo servisních dokladech
+* při vkládání kurzu na nákupních, prodejních nebo servisních dokladech.
 
 ## <a name="see-also"></a>Viz také  
 [AC Financial Pack](ac-fp-financial-pack.md)
