@@ -34,9 +34,9 @@ AddOn modul Controlling Basic – Sada Rozšíření aplikace obsahuje tyto funk
 
 **Objekty modulu**
 
-Objekty add-on modulu Evidence obalů jsou označeny verzí CO.
+Objekty add-on modulu jsou označeny verzí CO.
 
-## Funkcionality modulu controlling basic
+## Funkcionality modulu
 
 ### Splátkové kalendáře
 
@@ -46,8 +46,10 @@ Vyplníme pole:
 * Počet splátek,
 * Datum splatnosti první splátky,
 * Periodu splátek.
+
 Ve splátkovém kalendáři se automaticky vytvoří řádky.
-Zaúčtovaná prodejní faktura: 
+Zaúčtovaná prodejní faktura:
+
 * Na zaúčtované prodejní faktuře lze také použít funkci Splátkového kalendáře
 
 ### Creditcheck
@@ -56,14 +58,17 @@ Funkcionalita umožňuje získat důležité informace o partnerech. Informace j
 V Nastavení elektronické komunikace na záložce Kontrola CreditCheck je třeba vyplnit následující pole:
 HTTP služby CreditCheck – webová adresa služby CrediCheck pro stažení dat:
 http://creditwebservices.creditcheck.cz/CreditCheckAktualizace.asmx?op=GetCreditChecks
+
 Nepoužívat kontakty pro CreditCheck - pokud firma nepoužívá kontakty je třeba zaškrtnout tento boolean. Pak se při stažení dat z CrediChecku budou plnit přímo pole Stav CreditCheck na kartě zákazníka, dodavatele.
-Datum aktualizace Credit Check – poslední datum, kdy byla provedena aktualizace stavu CreditCheck
+Datum aktualizace Credit Check – poslední datum, kdy byla provedena aktualizace stavu CreditCheck.
+
 V Nastavení uživatelů na záložce Obecné je nový boolean Povolit změnu stavu CreditCheck, který pokud jej má uživatel zaškrtnut, pak mu umožní zrušit naimportovaný stav.
 
 ### Kontroly směnných kurzů
 
 Pro eliminaci rizika nesprávného zadání směnného kurzu a tudíž zaúčtování dokladu s nesprávným kurzem, byly do systému doplněny 2 nové kontroly.
-Kontrola správnosti směnného kurzu
+Kontrola správnosti směnného kurzu.
+
 Na kartě Měna lze definovat 2 nová pole 
 * Dolní limit částky vzt. sm.kurzu
 * Horní limit částky vzt. sm.kurzu
@@ -73,4 +78,4 @@ Je-li některé z nich vyplněno, pak systém provádí kontrolu:
 * při vkládání kurzu na nákupních, prodejních nebo servisních dokladech
 
 ## <a name="see-also"></a>Viz také  
-[AC Financial Pack](ac-fp-financial-pack.md)  
+[AC Financial Pack](ac-fp-financial-pack.md)
