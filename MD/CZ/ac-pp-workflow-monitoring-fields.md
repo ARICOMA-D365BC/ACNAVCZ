@@ -51,6 +51,7 @@ Typ změny určuje, jaká změna bude pro sledování relevantní:
 * Naplnění
 * Přepsání
 * Vymazání
+
 V poli Nutno potvrdit nový stav se nastaví, zda uživatel musí potvrdit změnu stavu.
 V poli Spustit akce nového stavu se určuje, zda se mají provést akce definované na novém stavu (např. zaslání e-mailu).
 V poli Kontrolovat pole v novém stavu se stanoví, zda se provedou kontroly na testovaná pole definovaná v novém stavu.

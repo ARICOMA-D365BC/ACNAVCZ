@@ -83,7 +83,7 @@ Slouží pro evidenci jak nezaúčtovaných tak zaúčtovaných dokladů. Došl�
 
 **Vytvořit doklad**
 
-Tato funkce se nachází na záložce Akce pod tlačítkem Vytvořit doklad:
+Tato funkce se nachází na záložce Akce pod tlačítkem Vytvořit doklad.
 
 Po úspěšném vytvoření dokladu se uživateli zobrazí hláška s číslem vytvořeného dokladu.
 Do hlavičky vytvořeného dokladu se přenesou údaje z hlavičky Karty evidence pošty. Údaje z řádků Karty evidence pošty se nepřenáší.
@@ -96,7 +96,7 @@ Pomocí modulu Publikování SharePoint lze v Kartě evidence pošty Publikovat 
 
 **Pult evidence pošty**
 
-V menu Oblasti/proPRODUKTIVITU/Evidence pošty – Pult evidence pošty je možné pracovat s Pultem evidence pošty, tj. řádkové zobrazení Karet evidence pošty:
+V menu Oblasti/proPRODUKTIVITU/Evidence pošty – Pult evidence pošty je možné pracovat s Pultem evidence pošty, tj. řádkové zobrazení Karet evidence pošty.
 
 Standardním způsobem je možné karty evidence pošty filtrovat. Pomocí tlačítek Změna stavu, Navigovat nebo Vytvořit interakci lze pracovat s poštou shodným způsobem jako z Karty evidence pošty. 
 Pult evidence pošty zobrazuje pouze neuzavřené Karty evidence pošty.
