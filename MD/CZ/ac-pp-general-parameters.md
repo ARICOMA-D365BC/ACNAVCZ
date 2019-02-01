@@ -9,7 +9,7 @@ Contentlocale: cs-cz
 
 # <a name="ac-pp-general-parameters.md"></a>Obecné parametry
 
-Modul Obecné parametry umožňuje pro kartu zboží, kartu majetku a kartu zaměstnance či obecně pro jakoukoliv jinou kartu definovat další „obecné parametry“. Jsou to parametrizovatelné vlastnosti a jejich hodnoty, které rozšiřují možnosti evidence zboží, dlouhodobého majetku, zaměstnanců příp. jiných entit systému Microsoft Dynamics NAV.
+Modul Obecné parametry umožňuje pro kartu zboží, kartu majetku a kartu zaměstnance či obecně pro jakoukoliv jinou kartu definovat další „obecné parametry“. Jsou to parametrizovatelné vlastnosti a jejich hodnoty, které rozšiřují možnosti evidence zboží, dlouhodobého majetku, zaměstnanců příp. jiných entit systému [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 Parametry lze nastavit uživatelsky, lze jim nastavit předdefinované hodnoty anebo je možné hodnoty parametrů zadávat ručně. Parametry lze seskupovat do šablon.
 K dané kartě se přiřazují parametry přes šablony parametrů. Lze tak nadefinovat určitou strukturu (např. šablony „Parametry nemovitosti“, „Parametry automobilů“ apod.). Jedna karta (zboží, majetku apod.) může mít přiřazeno více šablon.
 Parametry mohou být povinné a nepovinné a lze jim nastavit prioritu.
