@@ -1,4 +1,13 @@
 ---
+
+Title: "Obecné parametry"
+Description: Add-on module general parameters allows you to add to the cards an unlimited number of new parameters.
+Author: AUTOCONT
+Date: 02/26/2018
+Product: dynamics365-business-central
+Contentlocale: cs-cz
+
+
 title: "Obecné parametry"
 author: Autocont
 ms.custom: na

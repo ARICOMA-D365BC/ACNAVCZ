@@ -1,8 +1,9 @@
 ﻿---
 Title: "General Parameters"
-Author: AutoCont
+Description: Add-on module general parameters allows you to add to the cards an unlimited number of new parameters.
+Author: AUTOCONT
 Date: 07/31/2018
-Product: dynamics-nav-2018
+Product: dynamics365-business-central
 Contentlocale: en
 ---
 
