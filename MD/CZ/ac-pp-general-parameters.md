@@ -32,7 +32,7 @@ Tyto 3 vlastnosti se nastavují na stránce Obecné parametry šablony.
 
 #### Obecné parametry
 
-Pomocí klávesové zkratky Alt+Q nebo ikony žárovky na horní liště se Vám zobrazí okno **Řekněte mi, co chcete udělat**, zadejte hledaný řetězec Obecné parametry - v Obecné parametry se definuje seznam parametrů (**Kód, Popis**) a dále **Datový typ hodnot** a **Metoda zadávání** hodnot.
+Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat** (Alt + Q) vyhledejte Obecné parametry - v Obecné parametry se definuje seznam parametrů (**Kód, Popis**) a dále **Datový typ hodnot** a **Metoda zadávání** hodnot.
 
 **Datové typy**
 
