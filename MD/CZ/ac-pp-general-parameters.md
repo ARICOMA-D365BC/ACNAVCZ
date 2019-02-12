@@ -32,7 +32,7 @@ Tyto 3 vlastnosti se nastavují na stránce Obecné parametry šablony.
 
 #### Obecné parametry
 
-Pomocí klávesové zkratky Alt+Q nebo ikony žárovky na horní liště se Vám zobrazí okno **Řekněte mi, co chcete udělat**, zadejte hledaný řetězec Obecné parametry - v Obecné parametry se definuje seznam parametrů (**Kód, Popis**) a dále **Datový typ hodnot** a **Metoda zadávání** hodnot.
+Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat** (Alt + Q) vyhledejte **Obecné parametry** - v Obecné parametry se definuje seznam parametrů (**Kód, Popis**) a dále **Datový typ hodnot** a **Metoda zadávání** hodnot.
 
 **Datové typy**
 
@@ -53,18 +53,18 @@ Program nabízí více možností, ale pro obecné parametry jsou vhodné násle
 
 #### Hodnoty
 
-Řekněte mi, co chete udělat/Obecné parametry/Navigace/Parametry/**Hodnoty** - Hodnoty obecného parametru (**Kód hodnoty**, **Popis hodnoty** a samotná **Hodnota**).
+Na stránce zvolíte v nabídce Navigace/Parametry/**Hodnoty** - Hodnoty obecného parametru (**Kód hodnoty**, **Popis hodnoty** a samotná **Hodnota**).
 
 Nastavení hodnot parametru je nezbytné zejména u parametrů s **Metodou zadávání** – Výběr. Je však možné hodnoty definovat i u parametrů zadávaných Ručním vstupem. Zde je kromě takto zadaných hodnot možné při vložení obecných parametrů zadat i libovolné jiné hodnoty. Hodnoty zadané v nastavení pak slouží pro zjednodušení zadávání.
 
 ### Šablony parametrů
 
 Šablony parametrů usnadňují orientaci v parametrech, fungují jako filtry parametrů při zadávání.
-Šablony najdete pomoci Řekněte mi, co chcete udělat/**Šablony obecných parametrů**. Nastavuje se **Název šablony**, její **Popis** a **ID tabulky**, pro kterou se daná šablona bude používat. Standardně lze zvolit tabulky 27 (zboží), 5200 (zaměstnanec) a 5600 (dlouhodobý majetek). 
+Pomocí vyhledávací funkce Řekněte mi, co chcete udělat (Alt + Q) vyhledejte **Šablony obecných parametrů**. Nastavuje se **Název šablony**, její **Popis** a **ID tabulky**, pro kterou se daná šablona bude používat. Standardně lze zvolit tabulky 27 (zboží), 5200 (zaměstnanec) a 5600 (dlouhodobý majetek). 
 
 #### Obecné parametry šablony
 
-Z Šablony obecných parametrů pomocí tlačítka Navigace (případně …)/Šablona/**Parametry** lze otevřít Obecné parametry šablony a zde nastavit obecné parametry, které budou figurovat pod danou šablonou. 
+Z Šablony obecných parametrů pomocí tlačítka Navigace (případně …)/Šablona/**Parametry** lze otevřít **Obecné parametry šablony** a zde nastavit obecné parametry, které budou figurovat pod danou šablonou. 
 Nastavuje se:
 * **Výchozí hodnota** parametru,
 * **Povinný** – povinnost zadání parametru,
@@ -76,7 +76,7 @@ Nastavuje se:
 
 #### Vložení a změna obecných parametrů ke kartě
 
-Pro vložení se na všech kartách používá tlačítko **Vložit obecné parametry** na kartě Akce/Funkce. Objeví se průvodce Vložení obecných parametrů, pomocí kterého se ke konkrétní kartě (zboží, majetku aj.) vybere šablona, parametry a nastaví se hodnoty těchto parametrů.
+Pro vložení se na všech kartách používá tlačítko **Vložit obecné parametry** na kartě zvolte v nabídce Akce/Funkce. Objeví se průvodce Vložení obecných parametrů, pomocí kterého se ke konkrétní kartě (zboží, majetku aj.) vybere šablona, parametry a nastaví se hodnoty těchto parametrů.
 Kroky průvodce vložením parametrů jsou:
 * volba šablony v poli **Název šablony**,
 * nastavení hodnot povinných parametrů dané šablony,
@@ -88,7 +88,7 @@ Stejný postup se použije při změně parametrů nebo hodnot obecných paramet
 #### Prohlížení obecných parametrů karty
 
 Na kartě zboží (resp. dlouhodobého majetku atd.) je tlačítko Navigace/Dlouhodobý majetek/**Obecné parametry**, které zobrazí parametry dané karty pro jednu šablonu parametrů. 
-Náhled všech parametrů dané karty lze zobrazit na stránce **Přehled obecných parametrů karty**, na tu se dostanete přes Navigace/Obecné parametry. 
+Náhled všech parametrů dané karty lze zobrazit na stránce **Přehled obecných parametrů karty**, na tu se dostanete v nabídce přes Navigace/Obecné parametry. 
 
 ### Vyhledávání podle obecných parametrů
 
