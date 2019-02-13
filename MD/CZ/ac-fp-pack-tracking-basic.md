@@ -1,19 +1,10 @@
 ---
-title: "Evidence obalů"
-author: Autocont
-ms.custom: na
-ms.date: 13/02/2019
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.prod: dynamics365-business-central
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 
-ms.openlocfilehash: 
-ms.contentlocale: cs-cz
-ms.lasthandoff: 13/02/2019
-
+Title: "Evidence obalů"
+Description: Add-on module pack tracking basic allows you to manage packs.
+Author: AUTOCONT
+Date: 13/02/2019
+Product: dynamics365-business-central
+Contentlocale: cs-cz
 ---
 
 # <a name="ac-fp-pack-tracking-basic"></a>Evidence obalů
@@ -47,7 +38,7 @@ Pole formuláře Definice prvků výkazu obalů:
 * Popis – popis prvku výkazu
 * Umístění ve výkazu – textová popisná informace
 
-Definice vlastního Výkazu se provádí založením prvků výkazu obalů. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Prvky výkazu obalů**. Ve formuláři se definují jednotlivé řádky výkazu tak, že se vybírají z dříve definovaných Prvků pro jednotlivé pozice výkazu. 
+Definice vlastního Výkazu se provádí založením prvků výkazu obalů. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Prvky výkazu obalů**. Ve formuláři se definují jednotlivé řádky výkazu tak, že se vybírají z dříve definovaných Prvků pro jednotlivé pozice výkazu. Pole Kód je systémem dopočítáváno v závislosti na plnění polí Kód pozice.
 
 V každém založeném Výkazu obalů lze definovat výjimky, které nebudou do Výkazu zahrnuty. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Výjimky prvku výkazu obalů**.   Výjimka je definována údaji zadanými do polí **Číslo pole**, **Hodnota pole**, Pozice (ve výkazu) a **Kód prvku**.
 
