@@ -47,7 +47,7 @@ Pole formuláře Definice prvků výkazu obalů:
 * Popis – popis prvku výkazu
 * Umístění ve výkazu – textová popisná informace
 
-Definice vlastního Výkazu se provádí založením prvků výkazu obalů. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Prvky výkazu obalů**. Ve formuláři se definují jednotlivé řádky výkazu tak, že se vybírají z dříve definovaných Prvků pro jednotlivé pozice výkazu. Pole Kód je systémem dopočítáváno v závislosti na plnění polí Kód pozice.
+Definice vlastního Výkazu se provádí založením prvků výkazu obalů. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Prvky výkazu obalů**. Ve formuláři se definují jednotlivé řádky výkazu tak, že se vybírají z dříve definovaných Prvků pro jednotlivé pozice výkazu. 
 
 V každém založeném Výkazu obalů lze definovat výjimky, které nebudou do Výkazu zahrnuty. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Výjimky prvku výkazu obalů**.   Výjimka je definována údaji zadanými do polí **Číslo pole**, **Hodnota pole**, Pozice (ve výkazu) a **Kód prvku**.
 
