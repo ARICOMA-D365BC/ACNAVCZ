@@ -44,7 +44,7 @@ V každém založeném Výkazu obalů lze definovat výjimky, které nebudou do 
 
 ### Vzorová parametrizace výkazu EKO-KOM
 
-Součástí distribuce modulu je TXT soubor obsahující parametrizaci pro Výkaz obalů EKO-KOM. Textový souboru s parametrizací lze do systému nahrát standardním postupem dataportem 4003500.
+Součástí distribuce modulu jsou excelové soubory obsahující parametrizaci pro Výkaz obalů EKO-KOM. Soubory s parametrizací lze do systému nahrát pomocí služby RapidStart.
 
 ### Nastavení karet zboží
 
